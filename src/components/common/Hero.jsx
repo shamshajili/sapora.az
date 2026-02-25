@@ -25,16 +25,18 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-black/75" />
 
+      {/* TOP RIGHT */}
       <div className="absolute top-6 right-6 z-30 flex items-center gap-4">
+        {/* LANGUAGE */}
         <div className="relative">
           <button
             onClick={() => setLangOpen(!langOpen)}
             className="
-              px-5 py-2
+              px-3 py-1.5 text-xs
+              md:px-5 md:py-2 md:text-sm
               border border-[#c9a46a]
               text-[#c9a46a]
               bg-transparent
-              text-sm
               tracking-wide
               flex items-center gap-2
               transition-all duration-300
@@ -43,7 +45,7 @@ const Hero = () => {
             "
           >
             {lang}
-            <span className="text-xs">▼</span>
+            <span className="text-[10px] md:text-xs">▼</span>
           </button>
 
           {langOpen && (
@@ -55,7 +57,7 @@ const Hero = () => {
                 bg-black/90
                 backdrop-blur-md
                 text-[#c9a46a]
-                text-sm
+                text-xs md:text-sm
                 overflow-hidden
               "
             >
@@ -67,7 +69,9 @@ const Hero = () => {
                     setLangOpen(false);
                   }}
                   className="
-                    w-full px-4 py-2 text-left
+                    w-full px-3 py-1.5
+                    md:px-4 md:py-2
+                    text-left
                     hover:bg-[#c9a46a]
                     hover:text-black
                     transition
@@ -80,13 +84,14 @@ const Hero = () => {
           )}
         </div>
 
+        {/* REVIEW */}
         <button
           className="
-            px-6 py-2
+            px-4 py-1.5 text-xs
+            md:px-6 md:py-2 md:text-sm
             border border-[#c9a46a]
             text-[#c9a46a]
             bg-transparent
-            text-sm
             tracking-wide
             transition-all duration-300
             hover:bg-[#c9a46a]
@@ -98,6 +103,7 @@ const Hero = () => {
         </button>
       </div>
 
+      {/* CENTER CONTENT – TOXUNULMAYIB */}
       <div className="relative z-10 flex h-full flex-col mb-26 items-center justify-center text-center text-white">
         <img
           src={logo}
@@ -116,7 +122,7 @@ const Hero = () => {
           Check out our
         </p>
 
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif tracking-widest">
+        <h1 className="text-4xl text-[#c9a46a] md:text-5xl lg:text-6xl font-serif tracking-widest">
           MENU
         </h1>
       </div>
