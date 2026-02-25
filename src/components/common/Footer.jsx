@@ -17,13 +17,15 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="
             inline-block
-            px-10 py-3
+            px-8 py-2
             border border-[#c9a46a]
             text-[#c9a46a]
-            text-sm tracking-wide
+            text-xs tracking-wide
             transition
             hover:bg-[#c9a46a]
             hover:text-[#123a3d]
+            mt-[-12px]
+            ml-2
           "
         >
           Follow us on Instagram
