@@ -81,7 +81,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://wa.me/994105551050"
+                href="https://"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
