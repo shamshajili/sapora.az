@@ -16,7 +16,6 @@ const Hero = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* BACKGROUND */}
       <div
         className="absolute inset-0 bg-cover bg-center will-change-transform"
         style={{
@@ -26,7 +25,6 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-black/75" />
 
-      {/* LEFT BURGER */}
       <button
         onClick={() => setSideOpen(true)}
         className="absolute top-6 left-6 z-30 flex flex-col gap-1"
@@ -36,7 +34,6 @@ const Hero = () => {
         <span className="w-5 h-[2px] bg-[#c9a46a]" />
       </button>
 
-      {/* SIDE PANEL */}
       <div
         className={`
           fixed top-0 left-0 h-full w-[300px] md:w-[360px]
@@ -46,7 +43,6 @@ const Hero = () => {
           ${sideOpen ? "translate-x-0" : "-translate-x-full"}
         `}
       >
-        {/* CLOSE */}
         <button
           onClick={() => setSideOpen(false)}
           className="absolute top-5 right-5 text-[#c9a46a] text-2xl"
@@ -54,7 +50,6 @@ const Hero = () => {
           ✕
         </button>
 
-        {/* SCROLLABLE CONTENT */}
         <div className="h-full overflow-y-auto px-8 pt-10 pb-8 text-[#c9a46a]">
           <img
             src={logo}
@@ -74,21 +69,24 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-4 mb-10">
-            <a
-              href="#"
-              className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
-            >
-              Ig
-            </a>
-            <a
-              href="#"
-              className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
-            >
-              Wa
-            </a>
-          </div>
+              <a
+                href="https://www.instagram.com/sapora.az/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
+              >
+                IG
+              </a>
 
-          {/* LANGUAGE */}
+              <a
+                href="https://wa.me/994105551050"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
+              >
+                WA
+              </a>
+            </div>
           <button
             onClick={() => setLang(lang === "AZ" ? "EN" : "AZ")}
             className="
@@ -103,14 +101,12 @@ const Hero = () => {
             {lang}
           </button>
 
-          {/* FOOTER TEXT */}
           <p className="mt-10 text-xs opacity-70">
             Sapora of taste
           </p>
         </div>
       </div>
 
-      {/* TOP RIGHT (dəyişməyib) */}
       <div className="absolute top-6 right-6 z-30 flex items-center gap-4">
         <div className="relative">
           <button
@@ -167,7 +163,6 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* CENTER CONTENT */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
         <img
           src={logo}
