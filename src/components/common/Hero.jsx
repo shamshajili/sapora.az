@@ -167,7 +167,7 @@ const Hero = () => {
         <img
           src={logo}
           alt="Sapora Logo"
-          className="mb-10 w-[300px] md:w-[360px] lg:w-[440px]"
+          className="mb-12 w-[300px] md:w-[360px] lg:w-[440px]"
         />
 
         <p className="mt-[-16px] text-xs italic tracking-wide opacity-90">
@@ -177,9 +177,22 @@ const Hero = () => {
         <h1 className="text-4xl text-[#c9a46a] md:text-5xl lg:text-6xl font-serif tracking-widest">
           MENU
         </h1>
+
+        <div
+          onClick={() =>
+            window.scrollTo({
+              top: window.innerHeight,
+              behavior: "smooth",
+            })
+          }
+          className="mt-18 flex justify-center cursor-pointer"
+        >
+          <div className="w-4 h-8 border-2 border-[#c9a46a] rounded-full flex justify-center">
+            <span className="w-1 h-2 bg-[#c9a46a] rounded-full mt-2 animate-scrollDot" />
+          </div>
+        </div>
       </div>
     </section>
   );
 };
-
 export default Hero;
