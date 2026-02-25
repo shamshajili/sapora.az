@@ -8,7 +8,7 @@ const Footer = () => {
         <img
           src={logo}
           alt="Sapora Logo"
-          className="w-72 mx-auto mb-10"
+          className="w-72 mx-auto mb-10 mr-1"
         />
 
         <a
