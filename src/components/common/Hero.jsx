@@ -6,6 +6,7 @@ const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
   const [langOpen, setLangOpen] = useState(false);
   const [lang, setLang] = useState("AZ");
+  const [sideOpen, setSideOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -15,6 +16,7 @@ const Hero = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
+      {/* BACKGROUND */}
       <div
         className="absolute inset-0 bg-cover bg-center will-change-transform"
         style={{
@@ -22,12 +24,94 @@ const Hero = () => {
           transform: `translateY(${scrollY * 0.35}px) scale(1.1)`,
         }}
       />
-
       <div className="absolute inset-0 bg-black/75" />
 
-      {/* TOP RIGHT */}
+      {/* LEFT BURGER */}
+      <button
+        onClick={() => setSideOpen(true)}
+        className="absolute top-6 left-6 z-30 flex flex-col gap-1"
+      >
+        <span className="w-6 h-[2px] bg-[#c9a46a]" />
+        <span className="w-4 h-[2px] bg-[#c9a46a]" />
+        <span className="w-5 h-[2px] bg-[#c9a46a]" />
+      </button>
+
+      {/* SIDE PANEL */}
+      <div
+        className={`
+          fixed top-0 left-0 h-full w-[300px] md:w-[360px]
+          bg-[#123a3d]
+          z-40
+          transition-transform duration-500
+          ${sideOpen ? "translate-x-0" : "-translate-x-full"}
+        `}
+      >
+        {/* CLOSE */}
+        <button
+          onClick={() => setSideOpen(false)}
+          className="absolute top-5 right-5 text-[#c9a46a] text-2xl"
+        >
+          ✕
+        </button>
+
+        {/* SCROLLABLE CONTENT */}
+        <div className="h-full overflow-y-auto px-8 pt-10 pb-8 text-[#c9a46a]">
+          <img
+            src={logo}
+            alt="Sapora"
+            className="w-56 mx-auto mb-4"
+          />
+
+          <div className="space-y-2 text-sm mb-10">
+            <p>Bazar ertəsi – Cümə</p>
+            <p className="font-semibold">11:00 – 00:00</p>
+
+            <p className="mt-4">Şənbə – Bazar</p>
+            <p className="font-semibold">10:00 – 00:00</p>
+
+            <p className="mt-6">Rashid Behbudov str. 41</p>
+            <p>+994 xx xxx xx xx</p>
+          </div>
+
+          <div className="flex gap-4 mb-10">
+            <a
+              href="#"
+              className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
+            >
+              Ig
+            </a>
+            <a
+              href="#"
+              className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
+            >
+              Wa
+            </a>
+          </div>
+
+          {/* LANGUAGE */}
+          <button
+            onClick={() => setLang(lang === "AZ" ? "EN" : "AZ")}
+            className="
+              px-4 py-2
+              border border-[#c9a46a]
+              text-xs tracking-wide
+              hover:bg-[#c9a46a]
+              hover:text-black
+              transition
+            "
+          >
+            {lang}
+          </button>
+
+          {/* FOOTER TEXT */}
+          <p className="mt-10 text-xs opacity-70">
+            Sapora of taste
+          </p>
+        </div>
+      </div>
+
+      {/* TOP RIGHT (dəyişməyib) */}
       <div className="absolute top-6 right-6 z-30 flex items-center gap-4">
-        {/* LANGUAGE */}
         <div className="relative">
           <button
             onClick={() => setLangOpen(!langOpen)}
@@ -39,7 +123,7 @@ const Hero = () => {
               bg-transparent
               tracking-wide
               flex items-center gap-2
-              transition-all duration-300
+              transition
               hover:bg-[#c9a46a]
               hover:text-black
             "
@@ -49,18 +133,7 @@ const Hero = () => {
           </button>
 
           {langOpen && (
-            <div
-              className="
-                absolute right-0 mt-2
-                w-full
-                border border-[#c9a46a]
-                bg-black/90
-                backdrop-blur-md
-                text-[#c9a46a]
-                text-xs md:text-sm
-                overflow-hidden
-              "
-            >
+            <div className="absolute right-0 mt-2 w-full border border-[#c9a46a] bg-black/90 text-[#c9a46a] text-xs md:text-sm">
               {["EN", "RU"].map((item) => (
                 <button
                   key={item}
@@ -68,14 +141,7 @@ const Hero = () => {
                     setLang(item);
                     setLangOpen(false);
                   }}
-                  className="
-                    w-full px-3 py-1.5
-                    md:px-4 md:py-2
-                    text-left
-                    hover:bg-[#c9a46a]
-                    hover:text-black
-                    transition
-                  "
+                  className="w-full px-3 py-1.5 hover:bg-[#c9a46a] hover:text-black"
                 >
                   {item}
                 </button>
@@ -84,7 +150,6 @@ const Hero = () => {
           )}
         </div>
 
-        {/* REVIEW */}
         <button
           className="
             px-4 py-1.5 text-xs
@@ -93,29 +158,21 @@ const Hero = () => {
             text-[#c9a46a]
             bg-transparent
             tracking-wide
-            transition-all duration-300
+            transition
             hover:bg-[#c9a46a]
             hover:text-black
-            hover:shadow-lg
           "
         >
           Rəy bildirin
         </button>
       </div>
 
-      {/* CENTER CONTENT – TOXUNULMAYIB */}
-      <div className="relative z-10 flex h-full flex-col mb-26 items-center justify-center text-center text-white">
+      {/* CENTER CONTENT */}
+      <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
         <img
           src={logo}
           alt="Sapora Logo"
-          className="
-            mb-10
-            w-[300px]
-            md:w-[360px]
-            lg:w-[440px]
-            left-1/2
-            ml-[18px]
-          "
+          className="mb-10 w-[300px] md:w-[360px] lg:w-[440px]"
         />
 
         <p className="mt-[-16px] text-xs italic tracking-wide opacity-90">
