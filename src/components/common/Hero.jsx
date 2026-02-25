@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import interier from "../../assets/images/interier.jpeg";
 import logo from "../../assets/images/saporalogo.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
   const [langOpen, setLangOpen] = useState(false);
   const [lang, setLang] = useState("AZ");
   const [sideOpen, setSideOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -147,7 +149,8 @@ const Hero = () => {
         </div>
 
         <button
-          className="
+        onClick={() => navigate("/review")}
+        className="
             px-4 py-1.5 text-xs
             md:px-6 md:py-2 md:text-sm
             border border-[#c9a46a]
