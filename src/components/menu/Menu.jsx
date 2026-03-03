@@ -211,9 +211,10 @@ const Menu = () => {
         />
       )}
 
-      <FloatingCartButton
-        setOpen={setCartOpen}
-      />
+     <FloatingCartButton
+      setOpen={setCartOpen}
+      hidden={cartOpen}
+    />
       <ScrollToTop />
       <CartDrawer
         open={cartOpen}
