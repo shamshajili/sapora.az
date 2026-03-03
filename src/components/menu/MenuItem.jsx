@@ -1,40 +1,56 @@
 import React from "react";
 import { Plus } from "lucide-react";
+import { motion } from "framer-motion";
 import { useCart } from "../../context/CartContext";
 
 const MenuItem = ({ id, image, title, price }) => {
   const { addToCart } = useCart();
 
   return (
-    <div className="relative flex gap-6 items-center group">
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3 }}
+      className="relative flex gap-6 items-center group"
+    >
+      {/* IMAGE WRAPPER */}
       <div className="relative">
-        <img
+        <motion.img
           src={image}
           alt={title}
-          className="w-20 h-20 rounded-xl object-cover transition-transform duration-300 group-hover:scale-105"
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.3 }}
+          className="w-20 h-20 rounded-xl object-cover shadow-md"
         />
 
         {/* ADD BUTTON */}
-        <button
-          onClick={() => addToCart({ id, title, price, image })}
+        <motion.button
+          onClick={() =>
+            addToCart({ id, title, price, image })
+          }
+          whileHover={{ scale: 1.15 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 15 }}
           className="
             absolute -bottom-2 -right-2
-            w-7 h-7
+            w-8 h-8
             rounded-full
             bg-[#c9a46a]
             text-white
             flex items-center justify-center
-            shadow-md
-            hover:scale-110
-            transition
+            shadow-lg
+            hover:shadow-xl
           "
         >
-          <Plus size={14} />
-        </button>
+          <Plus size={15} />
+        </motion.button>
       </div>
 
+      {/* TEXT + PRICE */}
       <div className="flex-1 flex items-center">
-        <p className="text-[#123a3d] text-lg font-medium">{title}</p>
+        <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
+          {title}
+        </p>
 
         <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
 
@@ -42,7 +58,7 @@ const MenuItem = ({ id, image, title, price }) => {
           {price}
         </span>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
