@@ -16,6 +16,20 @@ const Hero = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Prevent background page from scrolling when sidebar is open
+  useEffect(() => {
+    if (sideOpen) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = prev || "";
+      };
+    }
+    // ensure it's reset when sideOpen is false
+    document.body.style.overflow = "";
+    return () => {};
+  }, [sideOpen]);
+
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div
