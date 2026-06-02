@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import interier from "../../assets/images/interier.jpeg";
+// import interier from "../../assets/images/interier.jpeg"; 
+import sapora from "../../assets/images/sapora.jpeg";
 import logo from "../../assets/images/saporalogo.png";
 import { useNavigate } from "react-router-dom";
 
@@ -35,7 +36,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center will-change-transform"
         style={{
-          backgroundImage: `url(${interier})`,
+          backgroundImage: `url(${sapora})`,
           transform: `translateY(${scrollY * 0.35}px) scale(1.1)`,
         }}
       />
