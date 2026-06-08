@@ -1,10 +1,10 @@
 import bruschetta1 from "../../assets/images/baliqbruscetta.jpeg";
 import bruschetta2 from "../../assets/images/brucettaet.jpeg";
 import bruschetta3 from "../../assets/images/etbruscetta.jpeg";
-import sorba1 from "../../assets/images/merci.jpg";   
-import sorba2 from "../../assets/images//dushbere.jpg";
-import sorba3 from "../../assets/images/mashroom.jpg";
-import sorba4 from "../../assets/images/tomato.jpg";
+import sorba1 from "../../assets/images/lentilsoup.jpeg";   
+import sorba2 from "../../assets/images//brocolisoup.jpeg";
+import sorba3 from "../../assets/images/mashroomsoup.jpeg";
+import sorba4 from "../../assets/images/tomatosoup.jpeg";
 import kofe1 from "../../assets/images/americano.jpeg";
 import kofe2 from "../../assets/images/latte.jpeg"; 
 import kofe3 from "../../assets/images/espresso.jpeg";
@@ -41,7 +41,7 @@ export const menuData = {
     },
     {
       id: 2,
-      title: "Düşbərə",
+      title: "Krem brokoli",
       price: 10,
       image: sorba2,
     },
