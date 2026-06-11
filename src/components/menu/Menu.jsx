@@ -20,13 +20,13 @@ import FloatingCartButton from "../FloatingCartButton";
 import ScrollToTop from "../ScrollToTop";
 
 const categories = [
-  { id: "bruskettalar", label: "Bruskettalar", icon: Utensils },
   { id: "sorbalar", label: "Şorbalar", icon: Soup },
-  { id: "kofe", label: "Kofe", icon: Coffee },
+  { id: "noodles", label: "Noodles", icon: Utensils },
+  { id: "Pizza", label: "Pizza", icon: Coffee },
 ];
 
 const Menu = () => {
-  const [active, setActive] = useState("bruskettalar");
+  const [active, setActive] = useState("noodles");
   const [cartOpen, setCartOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [search, setSearch] = useState("");
@@ -76,16 +76,16 @@ const Menu = () => {
       );
 
     return {
-      bruskettalar: filterItems(menuData.bruskettalar),
+      noodles: filterItems(menuData.noodles),
       sorbalar: filterItems(menuData.sorbalar),
-      kofe: filterItems(menuData.kofe),
+      Pizza: filterItems(menuData.Pizza),
     };
   }, [search]);
 
   const hasResults =
-    filteredData.bruskettalar.length > 0 ||
+    filteredData.noodles.length > 0 ||
     filteredData.sorbalar.length > 0 ||
-    filteredData.kofe.length > 0;
+    filteredData.Pizza.length > 0;
 
   return (
     <>
@@ -187,27 +187,27 @@ const Menu = () => {
       )}
 
       {/* SECTIONS */}
-      {filteredData.bruskettalar.length > 0 && (
-        <MenuSection
-          id="bruskettalar"
-          title="Bruskettalar"
-          items={filteredData.bruskettalar}
-        />
-      )}
 
-      {filteredData.sorbalar.length > 0 && (
+            {filteredData.sorbalar.length > 0 && (
         <MenuSection
           id="sorbalar"
           title="Şorbalar"
           items={filteredData.sorbalar}
         />
       )}
-
-      {filteredData.kofe.length > 0 && (
+      {filteredData.noodles.length > 0 && (
         <MenuSection
-          id="kofe"
-          title="Kofe"
-          items={filteredData.kofe}
+          id="noodles"
+          title="Noodles"
+          items={filteredData.noodles }
+        />
+      )}
+
+      {filteredData.Pizza.length > 0 && (
+        <MenuSection
+          id="Pizza"
+          title="Pizza"
+          items={filteredData.Pizza}
         />
       )}
 

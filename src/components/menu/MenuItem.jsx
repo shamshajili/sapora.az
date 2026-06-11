@@ -3,7 +3,7 @@ import { Plus } from "lucide-react";
 import { motion } from "framer-motion";
 import { useCart } from "../../context/CartContext";
 
-const MenuItem = ({ id, image, title, price }) => {
+const MenuItem = ({ id, image, title,description, price }) => {
   const { addToCart } = useCart();
 
   return (
@@ -20,7 +20,7 @@ const MenuItem = ({ id, image, title, price }) => {
           alt={title}
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
-          className="w-20 h-20 rounded-xl object-cover shadow-md"
+          className="w-28 h-28 rounded-2xl object-cover shadow-md"
         />
 
         {/* ADD BUTTON */}
@@ -47,16 +47,22 @@ const MenuItem = ({ id, image, title, price }) => {
       </div>
 
       {/* TEXT + PRICE */}
-      <div className="flex-1 flex items-center">
-        <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
-          {title}
+      <div className="flex-1">
+        <div className="flex items-center">
+          <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
+            {title}
+          </p>
+              
+          <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
+              
+          <span className="text-[#123a3d] text-lg font-semibold">
+            {price}
+          </span>
+        </div>
+              
+        <p className="text-[#123a3d] text-sm opacity-75 mt-1">
+          {description}
         </p>
-
-        <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
-
-        <span className="text-[#123a3d] text-lg font-semibold">
-          {price}
-        </span>
       </div>
     </motion.div>
   );
