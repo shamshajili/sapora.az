@@ -21,12 +21,12 @@ import ScrollToTop from "../ScrollToTop";
 
 const categories = [
   { id: "sorbalar", label: "Şorbalar", icon: Soup },
-  { id: "noodles", label: "Noodles", icon: Utensils },
+  { id: "Pasta və Noodle", label: "Pasta və Noodle", icon: Utensils },
   { id: "Pizza", label: "Pizza", icon: Coffee },
 ];
 
 const Menu = () => {
-  const [active, setActive] = useState("noodles");
+  const [active, setActive] = useState("Pasta və Noodle");
   const [cartOpen, setCartOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [search, setSearch] = useState("");
@@ -198,7 +198,7 @@ const Menu = () => {
       {filteredData.noodles.length > 0 && (
         <MenuSection
           id="noodles"
-          title="Noodles"
+          title="Pasta və Noodle"
           items={filteredData.noodles }
         />
       )}
