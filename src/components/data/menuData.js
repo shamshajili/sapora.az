@@ -60,7 +60,7 @@ import fri from "../../assets/images/fries.jpeg";
 import ratatoulli from "../../assets/images/ratatoulli.jpeg";
 
 import turkBreakfast from "../../assets/images/turkbreakfast.jpeg";
-import milliBreakfast from "../../assets/images/millibreakfast.jpeg";
+import milliBreakfast from "../../assets/images/milli-breakfast.jpeg";
 import saporaBreakfast from "../../assets/images/saporabreakfast.jpeg";
 import englishBreakfast from "../../assets/images/englishbreakfast.jpeg";
 
