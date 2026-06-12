@@ -68,7 +68,7 @@ export const menuData = {
  breakfasts: [
   {
     id: 1,
-    title: "Türk Sərpmə Səhər Yeməyi",
+    title: "Türk Sərpmə Səhər Yeməyi", 
     image: turkBreakfast,
     price: 35,
 
