@@ -61,7 +61,7 @@ import ratatoulli from "../../assets/images/ratatoulli.jpeg";
 
 import turkBreakfast from "../../assets/images/turkbreakfast.jpeg";
 import milliBreakfast from "../../assets/images/milli-breakfast.jpeg";
-import saporaBreakfast from "../../assets/images/saporabreakfast.jpeg";
+import saporaBreakfast from "../../assets/images/saporaBreakfast.jpeg";
 import englishBreakfast from "../../assets/images/englishbreakfast.jpeg";
 
 export const menuData = {
