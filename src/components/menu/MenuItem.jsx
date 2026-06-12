@@ -3,7 +3,15 @@ import { Plus } from "lucide-react";
 import { motion } from "framer-motion";
 import { useCart } from "../../context/CartContext";
 
-const MenuItem = ({ id, image, title,description, price }) => {
+const MenuItem = ({
+  id,
+  image,
+  title,
+  description,
+  price,
+  priceSmall,
+  priceMedium,
+}) => {
   const { addToCart } = useCart();
 
   return (
@@ -13,7 +21,7 @@ const MenuItem = ({ id, image, title,description, price }) => {
       transition={{ duration: 0.3 }}
       className="relative flex gap-6 items-center group"
     >
-      {/* IMAGE WRAPPER */}
+      {/* IMAGE */}
       <div className="relative">
         <motion.img
           src={image}
@@ -26,11 +34,20 @@ const MenuItem = ({ id, image, title,description, price }) => {
         {/* ADD BUTTON */}
         <motion.button
           onClick={() =>
-            addToCart({ id, title, price, image })
+            addToCart({
+              id,
+              title,
+              price: price || priceSmall,
+              image,
+            })
           }
           whileHover={{ scale: 1.15 }}
           whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 400, damping: 15 }}
+          transition={{
+            type: "spring",
+            stiffness: 400,
+            damping: 15,
+          }}
           className="
             absolute -bottom-2 -right-2
             w-8 h-8
@@ -46,20 +63,22 @@ const MenuItem = ({ id, image, title,description, price }) => {
         </motion.button>
       </div>
 
-      {/* TEXT + PRICE */}
+      {/* CONTENT */}
       <div className="flex-1">
         <div className="flex items-center">
           <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
             {title}
           </p>
-              
+
           <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
-              
-          <span className="text-[#123a3d] text-lg font-semibold">
-            {price}
+
+          <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
+            {priceSmall && priceMedium
+              ? `${priceSmall}₼ / ${priceMedium}₼`
+              : `${price}₼`}
           </span>
         </div>
-              
+
         <p className="text-[#123a3d] text-sm opacity-75 mt-1">
           {description}
         </p>
