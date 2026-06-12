@@ -8,6 +8,7 @@ import {
   X,
   GlassWater,
   Salad,
+  Sunrise,
 } from "lucide-react";
 
 import MenuSection from "../menu/MenuSection";
@@ -17,6 +18,8 @@ import FloatingCartButton from "../FloatingCartButton";
 import ScrollToTop from "../ScrollToTop";
 
 const categories = [
+  { id: "breakfasts", label: "Səhər Yeməkləri", icon: Sunrise },
+
   { id: "sorbalar", label: "Şorbalar", icon: Soup },
   { id: "noodles", label: "Pasta və Noodle", icon: Utensils },
   { id: "Pizza", label: "Pizza", icon: Coffee },
@@ -69,6 +72,7 @@ const Menu = () => {
   const filteredData = useMemo(() => {
     if (!search.trim()) {
       return {
+        breakfasts: menuData.breakfasts || [],
         sorbalar: menuData.sorbalar || [],
         noodles: menuData.noodles || [],
         Pizza: menuData.Pizza || [],
@@ -80,28 +84,28 @@ const Menu = () => {
     const lower = normalize(search);
 
     const filterItems = (items = []) =>
-  items.filter(
-    (item) =>
-      normalize(item.title).includes(lower) ||
-      normalize(item.description).includes(lower)
-  );
+      items.filter(
+        (item) =>
+          normalize(item.title).includes(lower) ||
+          normalize(item.description).includes(lower),
+      );
     return {
+      breakfasts: filterItems(menuData.breakfasts),
       sorbalar: filterItems(menuData.sorbalar),
       noodles: filterItems(menuData.noodles),
       Pizza: filterItems(menuData.Pizza),
       garnishes: filterItems(menuData.garnishes),
       drinks: filterItems(menuData.drinks),
-      
     };
   }, [search]);
 
   const hasResults =
+    filteredData.breakfasts.length > 0 ||
     filteredData.sorbalar.length > 0 ||
     filteredData.noodles.length > 0 ||
     filteredData.Pizza.length > 0 ||
     filteredData.drinks.length > 0 ||
     filteredData.garnishes.length > 0;
-
   return (
     <>
       <section
@@ -190,6 +194,15 @@ const Menu = () => {
         <div className="text-center py-24 text-gray-400 text-lg">
           “{search}” üzrə heç nə tapılmadı
         </div>
+      )}
+
+      {/* SƏHƏR YEMƏKLƏRİ */}
+      {filteredData.breakfasts.length > 0 && (
+        <MenuSection
+          id="breakfasts"
+          title="Səhər Yeməkləri"
+          items={filteredData.breakfasts}
+        />
       )}
 
       {/* ŞORBALAR */}

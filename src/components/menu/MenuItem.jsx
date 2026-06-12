@@ -11,6 +11,8 @@ const MenuItem = ({
   price,
   priceSmall,
   priceMedium,
+  chooseCount,
+  options,
 }) => {
   const { addToCart } = useCart();
 
@@ -65,24 +67,52 @@ const MenuItem = ({
 
       {/* CONTENT */}
       <div className="flex-1">
-        <div className="flex items-center">
-          <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
-            {title}
-          </p>
+  <div className="flex items-center">
+    <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
+      {title}
+    </p>
 
-          <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
+    <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
 
-          <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
-            {priceSmall && priceMedium
-              ? `${priceSmall}₼ / ${priceMedium}₼`
-              : `${price}₼`}
-          </span>
-        </div>
+    <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
+      {priceSmall && priceMedium
+        ? `${priceSmall}₼ / ${priceMedium}₼`
+        : `${price}₼`}
+    </span>
+  </div>
 
-        <p className="text-[#123a3d] text-sm opacity-75 mt-1">
-          {description}
-        </p>
-      </div>
+  {description && (
+    <p className="text-[#123a3d] text-sm opacity-75 mt-1">
+      {description}
+    </p>
+  )}
+
+  {chooseCount > 0 && (
+    <div className="mt-2">
+      <span
+        className="
+          inline-flex
+          items-center
+          px-3
+          py-1
+          rounded-full
+          bg-[#c9a46a]/10
+          text-[#c9a46a]
+          text-xs
+          font-semibold
+        "
+      >
+        {chooseCount} isti yemək seçimi daxildir
+      </span>
+    </div>
+ )}
+    {options?.length > 0 && (
+  <p className="text-[#123a3d]/70 text-xs mt-2 leading-5">
+    Seçimlər: {options.join(" • ")}
+  </p>
+)}
+ 
+</div>
     </motion.div>
   );
 };

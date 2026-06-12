@@ -59,7 +59,162 @@ import almadilim from "../../assets/images/almadilim.jpeg";
 import fri from "../../assets/images/fries.jpeg";
 import ratatoulli from "../../assets/images/ratatoulli.jpeg";
 
+import turkBreakfast from "../../assets/images/turkbreakfast.jpeg";
+import milliBreakfast from "../../assets/images/millibreakfast.jpeg";
+import saporaBreakfast from "../../assets/images/saporabreakfast.jpeg";
+import englishBreakfast from "../../assets/images/englishbreakfast.jpeg";
+
 export const menuData = {
+ breakfasts: [
+  {
+    id: 1,
+    title: "Türk Sərpmə Səhər Yeməyi",
+    image: turkBreakfast,
+    price: 35,
+
+    description:
+      "Simit, poğaça, pendir çeşidləri, zeytun, bal, çay və Türk qəhvəsi ilə təqdim olunan zəngin Türk səhər süfrəsi.",
+
+    included: [
+      "Simit",
+      "Pide çörəyi",
+      "Poğaça",
+      "Reçel çeşidləri",
+      "Pomidor",
+      "Xiyar",
+      "Zeytun (qara və yaşıl)",
+      "Cəfəri",
+      "Şirin bibər",
+      "Bal",
+      "Pastrami",
+      "Bazlama tost",
+      "Ağ pendir",
+      "Kaşar pendiri",
+      "Hellim pendiri",
+      "Kərə yağı",
+      "Sosis",
+      "Çay",
+      "Türk qəhvəsi",
+    ],
+
+    chooseCount: 2,
+
+    options: [
+      "Menemen",
+      "Sucuqlu yumurta",
+      "Səhanda yumurta",
+      "Omlet",
+      "Mıhlama",
+      "Haşlanmış yumurta",
+    ],
+  },
+
+  {
+    id: 2,
+    title: "Milli Səhər Yeməyi",
+    image: milliBreakfast,
+    price: 30,
+
+    description:
+      "Təndir çörəyi, yuxa, kənd pendirləri, bal, mürəbbə, qaymaq və samovar çayı ilə milli səhər süfrəsi.",
+
+    included: [
+      "Təndir çörəyi",
+      "Yuxa",
+      "Nəhrə yağı",
+      "Keçi pendiri",
+      "Motal pendiri",
+      "Şor",
+      "Bal",
+      "Mürəbbə (3 növ)",
+      "Qaymaq",
+      "Xama",
+      "Samovar çayı",
+      "Limon",
+    ],
+
+    chooseCount: 2,
+
+    options: [
+      "Pomidor çığırtması",
+      "Kükü",
+      "Göz yumurta",
+      "Qayğanaq",
+      "Qaynadılmış yumurta",
+      "Kolbasalı yumurta",
+    ],
+  },
+
+  {
+    id: 3,
+    title: "Sapora Breakfast",
+    image: saporaBreakfast,
+    price: 35,
+
+    description:
+      "Pankek, çörək səbəti, pendir çeşidləri, meyvə püreləri, sırniki və isti içkilə təqdim olunan xüsusi Sapora səhər menyusu.",
+
+    included: [
+      "Çörək səbəti",
+      "Pankek",
+      "Pomidor",
+      "Xiyar",
+      "Bal",
+      "Meyvə püresi (3 növ)",
+      "Qatılaşdırılmış süd",
+      "Şokolad pastası",
+      "Sosis",
+      "Kəsmik (2 növ)",
+      "Kərə yağı",
+      "Feta pendiri",
+      "Mozzarella pendiri",
+      "Qranapadano pendiri",
+      "Holland pendiri",
+      "Fri kartofu",
+      "Sırniki",
+      "Çay",
+      "Qəhvə",
+    ],
+
+    chooseCount: 2,
+
+    options: [
+      "Pendirli omlet",
+      "Göbələkli omlet",
+      "Avokadolu omlet",
+      "Göz yumurta",
+      "Kükü",
+      "Pomidor çığırtması",
+      "Sapora omleti",
+      "Qaynadılmış yumurta",
+    ],
+  },
+
+  {
+    id: 4,
+    title: "English Breakfast",
+    image: englishBreakfast,
+    price: 28,
+
+    description:
+      "Mal bekonu, yumurta, sosis, qrildə tərəvəzlər, souslu paxla və tost çörəyi ilə klassik İngilis səhər yeməyi.",
+
+    included: [
+      "Mal bekonu",
+      "2 ədəd göz yumurta",
+      "2 ədəd sosis",
+      "Qrildə çerri pomidor",
+      "Qrildə göbələk",
+      "Sousda ağ paxla",
+      "Qızardılmış tost çörəyi",
+      "Ahmad çayı",
+    ],
+
+    chooseCount: 0,
+
+    options: [],
+  },
+],
   noodles: [
     {
       id: 1,
@@ -455,52 +610,52 @@ export const menuData = {
     },
   ],
   garnishes: [
-  {
-    id: 1,
-    title: "Düyü Pilavı",
-    description: "Ətirli düyü, kərə yağı və göyərti",
-    price: 5,
-    image: duyu,
-  },
+    {
+      id: 1,
+      title: "Düyü Pilavı",
+      description: "Ətirli düyü, kərə yağı və göyərti",
+      price: 5,
+      image: duyu,
+    },
 
-  {
-    id: 2,
-    title: "Qrildə Tərəvəz",
-    description: "Badımcan, balqabaq, bibər və göbələk",
-    price: 8,
-    image: qrildeterezi,
-  },
+    {
+      id: 2,
+      title: "Qrildə Tərəvəz",
+      description: "Badımcan, balqabaq, bibər və göbələk",
+      price: 8,
+      image: qrildeterezi,
+    },
 
-  {
-    id: 3,
-    title: "Al Dente Tərəvəz",
-    description: "Buxarda hazırlanmış mövsümi tərəvəzlər",
-    price: 7,
-    image: aldenterevez,
-  },
+    {
+      id: 3,
+      title: "Al Dente Tərəvəz",
+      description: "Buxarda hazırlanmış mövsümi tərəvəzlər",
+      price: 7,
+      image: aldenterevez,
+    },
 
-  {
-    id: 4,
-    title: "Kartof Dilimləri",
-    description: "Ədviyyatlı soba kartofu",
-    price: 6,
-    image: almadilim,
-  },
+    {
+      id: 4,
+      title: "Kartof Dilimləri",
+      description: "Ədviyyatlı soba kartofu",
+      price: 6,
+      image: almadilim,
+    },
 
-  {
-    id: 5,
-    title: "Fri Kartof",
-    description: "Xırtıldayan qızardılmış kartof",
-    price: 5,
-    image: fri,
-  },
+    {
+      id: 5,
+      title: "Fri Kartof",
+      description: "Xırtıldayan qızardılmış kartof",
+      price: 5,
+      image: fri,
+    },
 
-  {
-    id: 6,
-    title: "Ratatouille",
-    description: "Badımcan, balqabaq, pomidor və bibər qarışığı",
-    price: 9,
-    image: ratatoulli,
-  },
-]
+    {
+      id: 6,
+      title: "Ratatouille",
+      description: "Badımcan, balqabaq, pomidor və bibər qarışığı",
+      price: 9,
+      image: ratatoulli,
+    },
+  ],
 };
