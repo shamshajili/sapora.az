@@ -3,6 +3,9 @@ import { Plus } from "lucide-react";
 import { motion } from "framer-motion";
 import { useCart } from "../../context/CartContext";
 
+import { useLanguage } from "../../context/LanguageContext";
+import { menuTranslations } from "../data/languages";
+
 const MenuItem = ({
   id,
   image,
@@ -16,6 +19,14 @@ const MenuItem = ({
 }) => {
   const { addToCart } = useCart();
 
+  const { language } = useLanguage();
+
+  const translatedItem = menuTranslations[language]?.[title];
+
+  const translatedTitle = translatedItem?.title || title;
+
+  const translatedDescription = translatedItem?.description || description;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -27,7 +38,7 @@ const MenuItem = ({
       <div className="relative">
         <motion.img
           src={image}
-          alt={title}
+          alt={translatedTitle}
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
           className="w-28 h-28 rounded-2xl object-cover shadow-md"
@@ -67,30 +78,30 @@ const MenuItem = ({
 
       {/* CONTENT */}
       <div className="flex-1">
-  <div className="flex items-center">
-    <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
-      {title}
-    </p>
+        <div className="flex items-center">
+          <p className="text-[#123a3d] text-lg font-medium transition-colors duration-300 group-hover:text-[#0e2f32]">
+            {translatedTitle}
+          </p>
 
-    <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
+          <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
 
-    <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
-      {priceSmall && priceMedium
-        ? `${priceSmall}₼ / ${priceMedium}₼`
-        : `${price}₼`}
-    </span>
-  </div>
+          <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
+            {priceSmall && priceMedium
+              ? `${priceSmall}₼ / ${priceMedium}₼`
+              : `${price}₼`}
+          </span>
+        </div>
 
-  {description && (
-    <p className="text-[#123a3d] text-sm opacity-75 mt-1">
-      {description}
-    </p>
-  )}
+        {description && (
+          <p className="text-[#123a3d] text-sm opacity-75 mt-1">
+            {translatedDescription}
+          </p>
+        )}
 
-  {chooseCount > 0 && (
-    <div className="mt-2">
-      <span
-        className="
+        {chooseCount > 0 && (
+          <div className="mt-2">
+            <span
+              className="
           inline-flex
           items-center
           px-3
@@ -101,18 +112,26 @@ const MenuItem = ({
           text-xs
           font-semibold
         "
-      >
-        {chooseCount} isti yemək seçimi daxildir
-      </span>
-    </div>
- )}
-    {options?.length > 0 && (
-  <p className="text-[#123a3d]/70 text-xs mt-2 leading-5">
-    Seçimlər: {options.join(" • ")}
-  </p>
-)}
- 
-</div>
+            >
+              {language === "az" && `${chooseCount} isti yemək seçimi daxildir`}
+
+              {language === "en" && `${chooseCount} hot meal choices included`}
+
+              {language === "ru" &&
+                `Включено ${chooseCount} горячих блюда на выбор`}
+            </span>
+          </div>
+        )}
+        {options?.length > 0 && (
+          <p className="text-[#123a3d]/70 text-xs mt-2 leading-5">
+            {language === "az" && "Seçimlər: "}
+            {language === "en" && "Options: "}
+            {language === "ru" && "Варианты: "}
+
+            {options.join(" • ")}
+          </p>
+        )}
+      </div>
     </motion.div>
   );
 };

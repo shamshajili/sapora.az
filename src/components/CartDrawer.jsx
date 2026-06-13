@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+
+import { useLanguage } from "../context/LanguageContext";
+import { translations } from "./data/languages";
 import {
   X,
   Trash2,
@@ -20,6 +23,8 @@ const CartDrawer = ({ open, setOpen }) => {
       : "auto";
   }, [open]);
 
+  const { language } = useLanguage();
+const t = translations[language];
   return (
     <AnimatePresence>
       {open && (
@@ -45,7 +50,7 @@ const CartDrawer = ({ open, setOpen }) => {
             {/* HEADER */}
             <div className="px-6 py-5 border-b border-white/20 flex justify-between items-center">
               <h2 className="text-2xl font-semibold tracking-wide">
-                Səbət
+                {t.cart.title}
               </h2>
               <button
                 onClick={() => setOpen(false)}
@@ -69,19 +74,18 @@ const CartDrawer = ({ open, setOpen }) => {
                   </div>
 
                   <h3 className="text-lg font-medium">
-                    Səbətiniz boşdur
+                    {t.cart.emptyTitle}
                   </h3>
 
                   <p className="text-white/50 text-sm mt-2 max-w-xs">
-                    Sevdiyiniz yeməkləri seçin və
-                    sifarişinizi tamamlayın
+                   {t.cart.emptyText}
                   </p>
 
                   <button
                     onClick={() => setOpen(false)}
                     className="mt-6 px-6 py-2 rounded-full border border-[#c9a46a] text-[#c9a46a] hover:bg-[#c9a46a] hover:text-white transition"
                   >
-                    Menyuya qayıt
+                    {t.cart.backToMenu}
                   </button>
                 </div>
               )}
@@ -154,7 +158,7 @@ const CartDrawer = ({ open, setOpen }) => {
                 <div>
                   <div className="flex items-center gap-2 mb-2 text-white/70 text-sm">
                     <Pencil size={14} />
-                    <span>Qeyd əlavə edin</span>
+                    <span>{t.cart.addNote}</span>
                   </div>
 
                   <textarea
@@ -173,7 +177,7 @@ const CartDrawer = ({ open, setOpen }) => {
               <div className="px-6 py-5 border-t border-white/20">
                 <div className="flex justify-between items-center mb-4">
                   <span className="text-white/70 text-sm">
-                    Cəmi
+                    {t.cart.total}
                   </span>
                   <span className="text-lg font-semibold">
                     {total.toFixed(2)} ₼
@@ -181,7 +185,7 @@ const CartDrawer = ({ open, setOpen }) => {
                 </div>
 
                 <button className="w-full bg-[#c9a46a] hover:bg-[#b89355] transition py-3 rounded-full text-white font-medium shadow-lg">
-                  Sifarişi tamamla
+                  {t.cart.checkout}
                 </button>
               </div>
             )}

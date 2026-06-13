@@ -61,13 +61,24 @@ import ratatoulli from "../../assets/images/ratatoulli.jpeg";
 
 import turkBreakfast from "../../assets/images/turkbreakfast.jpeg";
 import milliBreakfast from "../../assets/images/milli-breakfast.jpeg";
-import saporaBreakfast from "../../assets/images/saporaBreakfast.jpeg";
+import breakfastsapora from "../../assets/images/breakfastsapora.jpeg";
 import englishBreakfast from "../../assets/images/englishBreakfast.jpeg";
 
 import defaultsalap from "../../assets/images/defaultsalad.png";
 import defaultavropa from "../../assets/images/defaultavropa.png";
 import defaultburger from "../../assets/images/defaultburger.png";
 import defaultmexican from "../../assets/images/defaultmexican.png";
+
+import riceebi from "../../assets/images/riceebi.jpeg";
+import defaultasian from "../../assets/images/defaultasian.png";
+
+import nuggets from "../../assets/images/nuggets.jpeg";
+import mozzarella from "../../assets/images/mozarella.jpeg";
+import sogan from "../../assets/images/sogan.jpeg";
+import fries from "../../assets/images/fri.jpeg";
+import qanad from "../../assets/images/qanad.jpeg";
+
+import maletburger from "../../assets/images/maletburger.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -153,7 +164,7 @@ export const menuData = {
     {
       id: 3,
       title: "Sapora Breakfast",
-      image: saporaBreakfast,
+        image: breakfastsapora,
       price: 35,
 
       description:
@@ -223,31 +234,6 @@ export const menuData = {
   noodles: [
     {
       id: 1,
-      title: "Karidesli Wok Noodle",
-      description:
-        "Karides, yumurta noodle, rəngli bibər, soya sousu və yaşıl soğan",
-      price: 27,
-      image: noodle2,
-    },
-    {
-      id: 2,
-      title: "Toyuqlu Teriyaki Noodle",
-      description:
-        "Toyuq filesi, noodle, tərəvəzlər, teriyaki sousu və soya sousu",
-      price: 20,
-      image: noodle1,
-    },
-    {
-      id: 3,
-      title: "Qızıl Balıqlı Wok Noodle",
-      description:
-        "Qızıl balıq, noodle, tərəvəzlər, soya sousu və təzə göyərti",
-      price: 24,
-      image: noodle3,
-    },
-
-    {
-      id: 4,
       title: "Fetuçini Alfredo",
       description:
         "Fetuçini makaronu, qaymaqlı sous, parmesan pendiri və göyərti",
@@ -256,7 +242,7 @@ export const menuData = {
     },
 
     {
-      id: 5,
+      id: 2,
       title: "Penne Arrabbiata",
       description:
         "Penne makaronu, pomidor sousu, sarımsaq, acı bibər və parmesan",
@@ -265,7 +251,7 @@ export const menuData = {
     },
 
     {
-      id: 6,
+      id: 3,
       title: "Spagetti Bolonez",
       description:
         "Spagetti, mal əti raqusu, pomidor sousu, parmesan və reyhan",
@@ -274,7 +260,7 @@ export const menuData = {
     },
 
     {
-      id: 7,
+      id: 4,
       title: "Di Mare Makaronu",
       description: "Karides, kalmar, dəniz məhsulları, spagetti və xüsusi sous",
       price: 30,
@@ -542,14 +528,58 @@ export const menuData = {
       image: defaultmexican,
     },
   ],
-
+  asianFoodFashion: [
+    {
+      id: 1,
+      title: "Balıqlı Noodle",
+      description:
+        "Balıq filesi, yumurta noodle, tərəvəzlər, soya sousu və göyərti",
+      price: 24,
+      image: noodle3,
+    },
+    {
+      id: 2,
+      title: "Ebi Noodle",
+      description: "Karides, yumurta noodle, tərəvəzlər və xüsusi Asiya sousu",
+      price: 27,
+      image: noodle2,
+    },
+    {
+      id: 3,
+      title: "Toyuqlu Noodle",
+      description: "Toyuq filesi, noodle, tərəvəzlər və soya sousu",
+      price: 20,
+      image: noodle1,
+    },
+    {
+      id: 4,
+      title: "Toyuqlu Fried Rice",
+      description: "Toyuq filesi, tərəvəzlər, yumurta və qızardılmış düyü",
+      price: 19,
+      image: defaultasian,
+    },
+    {
+      id: 5,
+      title: "Ebili Fried Rice",
+      description: "Karides, tərəvəzlər, yumurta və qızardılmış düyü",
+      price: 24,
+      image: riceebi,
+    },
+    {
+      id: 6,
+      title: "Balıqlı Fried Rice",
+      description: "Balıq filesi, tərəvəzlər, yumurta və qızardılmış düyü",
+      price: 22,
+      image: defaultasian,
+    },
+  ],
   burgerler: [
     {
       id: 1,
       title: "Mal Ətli Burger",
       description: "Mal əti kotleti, pendir və tərəvəzlər",
       price: 18,
-      image: defaultburger,
+      image: maletburger,
     },
     {
       id: 2,
@@ -573,43 +603,43 @@ export const menuData = {
       image: defaultburger,
     },
   ],
-  // mixFast: [
-  //   {
-  //     id: 1,
-  //     title: "Toyuq Naqetsləri",
-  //     description: "Xırtıldayan toyuq nagetsləri",
-  //     price: 12,
-  //     image: defaultFoodImage,
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Mozzarella Çubuqları",
-  //     description: "Əridilmiş mozzarella pendiri ilə hazırlanmış çubuqlar",
-  //     price: 14,
-  //     image: defaultFoodImage,
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Soğan Halqaları",
-  //     description: "Xırtıldayan qızardılmış soğan halqaları",
-  //     price: 10,
-  //     image: defaultFoodImage,
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Kartof Fri",
-  //     description: "Qızardılmış kartof dilimləri",
-  //     price: 8,
-  //     image: defaultFoodImage,
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Toyuq Qanadları",
-  //     description: "Ədviyyatlı və qızardılmış toyuq qanadları",
-  //     price: 15,
-  //     image: defaultFoodImage,
-  //   },
-  // ],
+  mixFast: [
+    {
+      id: 1,
+      title: "Toyuq Naqetsləri",
+      description: "Xırtıldayan toyuq nagetsləri",
+      price: 12,
+      image: nuggets,
+    },
+    {
+      id: 2,
+      title: "Mozzarella Çubuqları",
+      description: "Əridilmiş mozzarella pendiri ilə hazırlanmış çubuqlar",
+      price: 14,
+      image: mozzarella,
+    },
+    {
+      id: 3,
+      title: "Soğan Halqaları",
+      description: "Xırtıldayan qızardılmış soğan halqaları",
+      price: 10,
+      image: sogan,
+    },
+    {
+      id: 4,
+      title: "Kartof Fri",
+      description: "Qızardılmış kartof dilimləri",
+      price: 8,
+      image: fries,
+    },
+    {
+      id: 5,
+      title: "Toyuq Qanadları",
+      description: "Ədviyyatlı və qızardılmış toyuq qanadları",
+      price: 15,
+      image: qanad,
+    },
+  ],
   drinks: [
     {
       id: 1,

@@ -1,16 +1,16 @@
 import React from "react";
 import logo from "../../assets/images/saporalogo.png";
+import { useLanguage } from "../../context/LanguageContext";
+import { translations } from "../data/languages";
 
 const Footer = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
   return (
     <footer className="bg-[#123a3d] text-white">
       <div className="max-w-5xl mx-auto px-6 py-20 flex flex-col items-center gap-6">
         {/* LOGO – OPTICAL CENTER */}
-        <img
-          src={logo}
-          alt="Sapora Logo"
-          className="w-72 translate-x-[3px]"
-        />
+        <img src={logo} alt="Sapora Logo" className="w-72 translate-x-[3px]" />
 
         {/* BUTTON – OPTICAL CENTER */}
         <a
@@ -31,14 +31,14 @@ const Footer = () => {
             -translate-x-[2px]
           "
         >
-          Follow us on Instagram
+          {t.followInstagram}
         </a>
       </div>
 
       <div className="border-t border-white/20" />
 
       <div className="text-center py-5 text-sm opacity-80">
-        © {new Date().getFullYear()} Sapora. All rights reserved.
+        © {new Date().getFullYear()} {t.copyright}
       </div>
     </footer>
   );

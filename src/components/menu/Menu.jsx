@@ -1,5 +1,9 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { useLanguage } from "../../context/LanguageContext";
+import { translations } from "../data/languages";
+
+
 import {
   Soup,
   Coffee,
@@ -13,6 +17,7 @@ import {
   Sandwich,
   Beef,
   Popcorn,
+  CookingPot,
 } from "lucide-react";
 
 import MenuSection from "../menu/MenuSection";
@@ -21,53 +26,70 @@ import CartDrawer from "../CartDrawer";
 import FloatingCartButton from "../FloatingCartButton";
 import ScrollToTop from "../ScrollToTop";
 
-const categories = [
-  { id: "breakfasts", label: "Səhər Yeməkləri", icon: Sunrise },
-
-  { id: "sorbalar", label: "Şorbalar", icon: Soup },
-
-  { id: "noodles", label: "Pasta və Noodle", icon: Utensils },
-
-  { id: "Pizza", label: "Pizza", icon: Coffee },
-
-  { id: "salatlar", label: "Salatlar", icon: Salad },
-
-  {
-    id: "avropaKlassikleri",
-    label: "Avropa Klassikləri",
-    icon: UtensilsCrossed,
-  },
-
-  {
-    id: "meksikaSapora",
-    label: "Meksika Sapora",
-    icon: Beef,
-  },
-
-  {
-    id: "burgerler",
-    label: "Burgerlər",
-    icon: Sandwich,
-  },
-
-  {
-    id: "mixFast",
-    label: "Mix Fast",
-    icon: Popcorn,
-  },
-
-  { id: "garnishes", label: "Qarnir", icon: Salad },
-
-  { id: "drinks", label: "İçkilər", icon: GlassWater },
-];
-
 const Menu = () => {
   const [cartOpen, setCartOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [active, setActive] = useState("breakfasts");
 
+  const { language } = useLanguage();
+  const t = translations[language];
+
   const menuStartRef = useRef(null);
+
+  const categories = [
+    { id: "breakfasts", label: t.categories.breakfasts, icon: Sunrise },
+
+    { id: "sorbalar", label: t.categories.sorbalar, icon: Soup },
+
+    { id: "noodles", label: t.categories.noodles, icon: Utensils },
+
+    { id: "Pizza", label: t.categories.pizza, icon: Coffee },
+
+    { id: "salatlar", label: t.categories.salatlar, icon: Salad },
+
+    {
+      id: "avropaKlassikleri",
+      label: t.categories.avropa,
+      icon: UtensilsCrossed,
+    },
+
+    {
+      id: "meksikaSapora",
+      label: t.categories.meksika,
+      icon: Beef,
+    },
+
+    {
+      id: "asianFoodFashion",
+      label: t.categories.asia,
+      icon: CookingPot,
+    },
+
+    {
+      id: "burgerler",
+      label: t.categories.burgerler,
+      icon: Sandwich,
+    },
+
+    {
+      id: "mixFast",
+      label: t.categories.mixfast,
+      icon: Popcorn,
+    },
+
+    {
+      id: "garnishes",
+      label: t.categories.garnishes,
+      icon: Salad,
+    },
+
+    {
+      id: "drinks",
+      label: t.categories.drinks,
+      icon: GlassWater,
+    },
+  ];
 
   const scrollToSection = (id) => {
     setActive(id);
@@ -113,6 +135,7 @@ const Menu = () => {
         salatlar: menuData.salatlar || [],
         avropaKlassikleri: menuData.avropaKlassikleri || [],
         meksikaSapora: menuData.meksikaSapora || [],
+        asianFoodFashion: menuData.asianFoodFashion || [],
         burgerler: menuData.burgerler || [],
         mixFast: menuData.mixFast || [],
         garnishes: menuData.garnishes || [],
@@ -136,6 +159,7 @@ const Menu = () => {
       salatlar: filterItems(menuData.salatlar),
       avropaKlassikleri: filterItems(menuData.avropaKlassikleri),
       meksikaSapora: filterItems(menuData.meksikaSapora),
+      asianFoodFashion: filterItems(menuData.asianFoodFashion),
       burgerler: filterItems(menuData.burgerler),
       mixFast: filterItems(menuData.mixFast),
       garnishes: filterItems(menuData.garnishes),
@@ -151,6 +175,7 @@ const Menu = () => {
     filteredData.salatlar.length > 0 ||
     filteredData.avropaKlassikleri.length > 0 ||
     filteredData.meksikaSapora.length > 0 ||
+    filteredData.asianFoodFashion.length > 0 ||
     filteredData.burgerler.length > 0 ||
     filteredData.mixFast.length > 0 ||
     filteredData.garnishes.length > 0 ||
@@ -190,7 +215,7 @@ const Menu = () => {
                   autoFocus
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  placeholder="Menyu üzrə axtar..."
+                  placeholder={t.searchPlaceholder}
                   className="bg-transparent outline-none text-sm px-2 w-full"
                 />
 
@@ -241,7 +266,7 @@ const Menu = () => {
 
       {search && !hasResults && (
         <div className="text-center py-24 text-gray-400 text-lg">
-          “{search}” üzrə heç nə tapılmadı
+          “{search}” {t.notFound}
         </div>
       )}
 
@@ -249,7 +274,7 @@ const Menu = () => {
       {filteredData.breakfasts.length > 0 && (
         <MenuSection
           id="breakfasts"
-          title="Səhər Yeməkləri"
+          title={t.categories.breakfasts}
           items={filteredData.breakfasts}
         />
       )}
@@ -258,7 +283,7 @@ const Menu = () => {
       {filteredData.sorbalar.length > 0 && (
         <MenuSection
           id="sorbalar"
-          title="Şorbalar"
+          title={t.categories.sorbalar}
           items={filteredData.sorbalar}
         />
       )}
@@ -267,21 +292,21 @@ const Menu = () => {
       {filteredData.noodles.length > 0 && (
         <MenuSection
           id="noodles"
-          title="Pasta və Noodle"
+          title={t.categories.noodles}
           items={filteredData.noodles}
         />
       )}
 
       {/* PIZZA */}
       {filteredData.Pizza.length > 0 && (
-        <MenuSection id="Pizza" title="Pizza" items={filteredData.Pizza} />
+        <MenuSection id="Pizza" title={t.categories.pizza} items={filteredData.Pizza} />
       )}
 
       {/* SALATLAR */}
       {filteredData.salatlar.length > 0 && (
         <MenuSection
           id="salatlar"
-          title="Salatlar"
+          title={t.categories.salatlar}
           items={filteredData.salatlar}
         />
       )}
@@ -290,7 +315,7 @@ const Menu = () => {
       {filteredData.avropaKlassikleri.length > 0 && (
         <MenuSection
           id="avropaKlassikleri"
-          title="Avropa Klassikləri"
+          title={t.categories.avropa}
           items={filteredData.avropaKlassikleri}
         />
       )}
@@ -299,16 +324,23 @@ const Menu = () => {
       {filteredData.meksikaSapora.length > 0 && (
         <MenuSection
           id="meksikaSapora"
-          title="Meksika Sapora"
+          title={t.categories.meksika}
           items={filteredData.meksikaSapora}
         />
       )}
-
+      {/* ASİYA MƏTBƏXİ */}
+      {filteredData.asianFoodFashion.length > 0 && (
+        <MenuSection
+          id="asianFoodFashion"
+          title={t.categories.asia}
+          items={filteredData.asianFoodFashion}
+        />
+      )}
       {/* BURGERLƏR */}
       {filteredData.burgerler.length > 0 && (
         <MenuSection
           id="burgerler"
-          title="Burgerlər"
+          title={t.categories.burgerler}
           items={filteredData.burgerler}
         />
       )}
@@ -317,7 +349,7 @@ const Menu = () => {
       {filteredData.mixFast.length > 0 && (
         <MenuSection
           id="mixFast"
-          title="Mix Fast"
+          title={t.categories.mixfast}
           items={filteredData.mixFast}
         />
       )}
@@ -325,14 +357,14 @@ const Menu = () => {
       {filteredData.garnishes.length > 0 && (
         <MenuSection
           id="garnishes"
-          title="Qarnir"
+          title={t.categories.garnishes}
           items={filteredData.garnishes}
         />
       )}
 
       {/* İÇKİLƏR */}
       {filteredData.drinks.length > 0 && (
-        <MenuSection id="drinks" title="İçkilər" items={filteredData.drinks} />
+        <MenuSection id="drinks" title={t.categories.drinks} items={filteredData.drinks} />
       )}
 
       <FloatingCartButton setOpen={setCartOpen} hidden={cartOpen} />

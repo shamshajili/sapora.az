@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+import { useLanguage } from "../../context/LanguageContext";
+import { translations } from "../data/languages";
+
 const ReviewForm = () => {
   const navigate = useNavigate();
 
@@ -8,6 +11,9 @@ const ReviewForm = () => {
   const [hover, setHover] = useState(0);
   const [comment, setComment] = useState("");
   const [submitted, setSubmitted] = useState(false);
+
+  const { language } = useLanguage();
+  const t = translations[language];
 
   // auto redirect after success
   useEffect(() => {
@@ -30,12 +36,10 @@ const ReviewForm = () => {
           </div>
 
           <h2 className="text-3xl font-serif text-[#123a3d] mb-3">
-            Təşəkkür edirik!
+            {t.reviewSuccessTitle}
           </h2>
 
-          <p className="text-[#123a3d]/70">
-            Rəyiniz uğurla göndərildi
-          </p>
+          <p className="text-[#123a3d]/70">{t.reviewSuccessText}</p>
         </div>
       </section>
     );
@@ -73,7 +77,7 @@ const ReviewForm = () => {
       <div className="max-w-2xl mx-auto text-center">
         {/* TITLE */}
         <h2 className="text-3xl md:text-4xl font-serif tracking-wide text-[#123a3d] mb-6">
-          Təcrübənizi qiymətləndirin
+          {t.reviewTitle}
         </h2>
 
         {/* STARS */}
@@ -88,9 +92,7 @@ const ReviewForm = () => {
             >
               <span
                 className={
-                  (hover || rating) >= star
-                    ? "text-[#c9a46a]"
-                    : "text-gray-300"
+                  (hover || rating) >= star ? "text-[#c9a46a]" : "text-gray-300"
                 }
               >
                 ★
@@ -100,15 +102,13 @@ const ReviewForm = () => {
         </div>
 
         {/* SUBTITLE */}
-        <p className="text-[#123a3d] text-lg mb-4">
-          Fikrinizi bizimlə bölüşün
-        </p>
+        <p className="text-[#123a3d] text-lg mb-4">{t.reviewSubtitle}</p>
 
         {/* TEXTAREA */}
         <textarea
           value={comment}
           onChange={(e) => setComment(e.target.value)}
-          placeholder="Rəyinizi burada qeyd edin"
+          placeholder={t.reviewPlaceholder}
           className="
             w-full
             min-h-[160px]
@@ -143,7 +143,7 @@ const ReviewForm = () => {
             disabled:cursor-not-allowed
           "
         >
-          Rəyi göndər
+          {t.reviewButton}
         </button>
       </div>
     </section>
