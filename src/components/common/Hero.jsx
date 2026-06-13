@@ -75,13 +75,9 @@ const Hero = () => {
           />
 
           <div className="space-y-2 text-sm mb-10">
-            <p>Bazar ertəsi – Cümə</p>
-            <p className="font-semibold">11:00 – 00:00</p>
-
-            <p className="mt-4">Şənbə – Bazar</p>
-            <p className="font-semibold">10:00 – 00:00</p>
-
-            <p className="mt-6">Rashid Behbudov str. 41</p>
+            <p>Bazar ertəsi – Bazar</p>
+            <p className="font-semibold">08:00 – 00:00</p>
+            <p className="mt-6">Huseynov Kucesi, Mingecevir</p>
             <p>+994 xx xxx xx xx</p>
           </div>
 

@@ -9,6 +9,10 @@ import {
   GlassWater,
   Salad,
   Sunrise,
+  UtensilsCrossed,
+  Sandwich,
+  Beef,
+  Popcorn,
 } from "lucide-react";
 
 import MenuSection from "../menu/MenuSection";
@@ -21,17 +25,47 @@ const categories = [
   { id: "breakfasts", label: "Səhər Yeməkləri", icon: Sunrise },
 
   { id: "sorbalar", label: "Şorbalar", icon: Soup },
+
   { id: "noodles", label: "Pasta və Noodle", icon: Utensils },
+
   { id: "Pizza", label: "Pizza", icon: Coffee },
+
+  { id: "salatlar", label: "Salatlar", icon: Salad },
+
+  {
+    id: "avropaKlassikleri",
+    label: "Avropa Klassikləri",
+    icon: UtensilsCrossed,
+  },
+
+  {
+    id: "meksikaSapora",
+    label: "Meksika Sapora",
+    icon: Beef,
+  },
+
+  {
+    id: "burgerler",
+    label: "Burgerlər",
+    icon: Sandwich,
+  },
+
+  {
+    id: "mixFast",
+    label: "Mix Fast",
+    icon: Popcorn,
+  },
+
   { id: "garnishes", label: "Qarnir", icon: Salad },
+
   { id: "drinks", label: "İçkilər", icon: GlassWater },
 ];
 
 const Menu = () => {
-  const [active, setActive] = useState("sorbalar");
   const [cartOpen, setCartOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [search, setSearch] = useState("");
+  const [active, setActive] = useState("breakfasts");
 
   const menuStartRef = useRef(null);
 
@@ -76,8 +110,13 @@ const Menu = () => {
         sorbalar: menuData.sorbalar || [],
         noodles: menuData.noodles || [],
         Pizza: menuData.Pizza || [],
-        drinks: menuData.drinks || [],
+        salatlar: menuData.salatlar || [],
+        avropaKlassikleri: menuData.avropaKlassikleri || [],
+        meksikaSapora: menuData.meksikaSapora || [],
+        burgerler: menuData.burgerler || [],
+        mixFast: menuData.mixFast || [],
         garnishes: menuData.garnishes || [],
+        drinks: menuData.drinks || [],
       };
     }
 
@@ -94,6 +133,11 @@ const Menu = () => {
       sorbalar: filterItems(menuData.sorbalar),
       noodles: filterItems(menuData.noodles),
       Pizza: filterItems(menuData.Pizza),
+      salatlar: filterItems(menuData.salatlar),
+      avropaKlassikleri: filterItems(menuData.avropaKlassikleri),
+      meksikaSapora: filterItems(menuData.meksikaSapora),
+      burgerler: filterItems(menuData.burgerler),
+      mixFast: filterItems(menuData.mixFast),
       garnishes: filterItems(menuData.garnishes),
       drinks: filterItems(menuData.drinks),
     };
@@ -104,8 +148,13 @@ const Menu = () => {
     filteredData.sorbalar.length > 0 ||
     filteredData.noodles.length > 0 ||
     filteredData.Pizza.length > 0 ||
-    filteredData.drinks.length > 0 ||
-    filteredData.garnishes.length > 0;
+    filteredData.salatlar.length > 0 ||
+    filteredData.avropaKlassikleri.length > 0 ||
+    filteredData.meksikaSapora.length > 0 ||
+    filteredData.burgerler.length > 0 ||
+    filteredData.mixFast.length > 0 ||
+    filteredData.garnishes.length > 0 ||
+    filteredData.drinks.length > 0;
   return (
     <>
       <section
@@ -228,6 +277,50 @@ const Menu = () => {
         <MenuSection id="Pizza" title="Pizza" items={filteredData.Pizza} />
       )}
 
+      {/* SALATLAR */}
+      {filteredData.salatlar.length > 0 && (
+        <MenuSection
+          id="salatlar"
+          title="Salatlar"
+          items={filteredData.salatlar}
+        />
+      )}
+
+      {/* AVROPA KLASSİKLƏRİ */}
+      {filteredData.avropaKlassikleri.length > 0 && (
+        <MenuSection
+          id="avropaKlassikleri"
+          title="Avropa Klassikləri"
+          items={filteredData.avropaKlassikleri}
+        />
+      )}
+
+      {/* MEKSİKA SAPORA */}
+      {filteredData.meksikaSapora.length > 0 && (
+        <MenuSection
+          id="meksikaSapora"
+          title="Meksika Sapora"
+          items={filteredData.meksikaSapora}
+        />
+      )}
+
+      {/* BURGERLƏR */}
+      {filteredData.burgerler.length > 0 && (
+        <MenuSection
+          id="burgerler"
+          title="Burgerlər"
+          items={filteredData.burgerler}
+        />
+      )}
+
+      {/* MIX FAST */}
+      {filteredData.mixFast.length > 0 && (
+        <MenuSection
+          id="mixFast"
+          title="Mix Fast"
+          items={filteredData.mixFast}
+        />
+      )}
       {/* QARNİR */}
       {filteredData.garnishes.length > 0 && (
         <MenuSection

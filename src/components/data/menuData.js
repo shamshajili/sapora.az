@@ -64,157 +64,162 @@ import milliBreakfast from "../../assets/images/milli-breakfast.jpeg";
 import saporaBreakfast from "../../assets/images/saporaBreakfast.jpeg";
 import englishBreakfast from "../../assets/images/englishBreakfast.jpeg";
 
+import defaultsalap from "../../assets/images/defaultsalad.png";
+import defaultavropa from "../../assets/images/defaultavropa.png";
+import defaultburger from "../../assets/images/defaultburger.png";
+import defaultmexican from "../../assets/images/defaultmexican.png";
+
 export const menuData = {
- breakfasts: [
-  {
-    id: 1,
-    title: "Türk Sərpmə Səhər Yeməyi", 
-    image: turkBreakfast,
-    price: 35,
+  breakfasts: [
+    {
+      id: 1,
+      title: "Türk Sərpmə Səhər Yeməyi",
+      image: turkBreakfast,
+      price: 35,
 
-    description:
-      "Simit, poğaça, pendir çeşidləri, zeytun, bal, çay və Türk qəhvəsi ilə təqdim olunan zəngin Türk səhər süfrəsi.",
+      description:
+        "Simit, poğaça, pendir çeşidləri, zeytun, bal, çay və Türk qəhvəsi ilə təqdim olunan zəngin Türk səhər süfrəsi.",
 
-    included: [
-      "Simit",
-      "Pide çörəyi",
-      "Poğaça",
-      "Reçel çeşidləri",
-      "Pomidor",
-      "Xiyar",
-      "Zeytun (qara və yaşıl)",
-      "Cəfəri",
-      "Şirin bibər",
-      "Bal",
-      "Pastrami",
-      "Bazlama tost",
-      "Ağ pendir",
-      "Kaşar pendiri",
-      "Hellim pendiri",
-      "Kərə yağı",
-      "Sosis",
-      "Çay",
-      "Türk qəhvəsi",
-    ],
+      included: [
+        "Simit",
+        "Pide çörəyi",
+        "Poğaça",
+        "Reçel çeşidləri",
+        "Pomidor",
+        "Xiyar",
+        "Zeytun (qara və yaşıl)",
+        "Cəfəri",
+        "Şirin bibər",
+        "Bal",
+        "Pastrami",
+        "Bazlama tost",
+        "Ağ pendir",
+        "Kaşar pendiri",
+        "Hellim pendiri",
+        "Kərə yağı",
+        "Sosis",
+        "Çay",
+        "Türk qəhvəsi",
+      ],
 
-    chooseCount: 2,
+      chooseCount: 2,
 
-    options: [
-      "Menemen",
-      "Sucuqlu yumurta",
-      "Səhanda yumurta",
-      "Omlet",
-      "Mıhlama",
-      "Haşlanmış yumurta",
-    ],
-  },
+      options: [
+        "Menemen",
+        "Sucuqlu yumurta",
+        "Səhanda yumurta",
+        "Omlet",
+        "Mıhlama",
+        "Haşlanmış yumurta",
+      ],
+    },
 
-  {
-    id: 2,
-    title: "Milli Səhər Yeməyi",
-    image: milliBreakfast,
-    price: 30,
+    {
+      id: 2,
+      title: "Milli Səhər Yeməyi",
+      image: milliBreakfast,
+      price: 30,
 
-    description:
-      "Təndir çörəyi, yuxa, kənd pendirləri, bal, mürəbbə, qaymaq və samovar çayı ilə milli səhər süfrəsi.",
+      description:
+        "Təndir çörəyi, yuxa, kənd pendirləri, bal, mürəbbə, qaymaq və samovar çayı ilə milli səhər süfrəsi.",
 
-    included: [
-      "Təndir çörəyi",
-      "Yuxa",
-      "Nəhrə yağı",
-      "Keçi pendiri",
-      "Motal pendiri",
-      "Şor",
-      "Bal",
-      "Mürəbbə (3 növ)",
-      "Qaymaq",
-      "Xama",
-      "Samovar çayı",
-      "Limon",
-    ],
+      included: [
+        "Təndir çörəyi",
+        "Yuxa",
+        "Nəhrə yağı",
+        "Keçi pendiri",
+        "Motal pendiri",
+        "Şor",
+        "Bal",
+        "Mürəbbə (3 növ)",
+        "Qaymaq",
+        "Xama",
+        "Samovar çayı",
+        "Limon",
+      ],
 
-    chooseCount: 2,
+      chooseCount: 2,
 
-    options: [
-      "Pomidor çığırtması",
-      "Kükü",
-      "Göz yumurta",
-      "Qayğanaq",
-      "Qaynadılmış yumurta",
-      "Kolbasalı yumurta",
-    ],
-  },
+      options: [
+        "Pomidor çığırtması",
+        "Kükü",
+        "Göz yumurta",
+        "Qayğanaq",
+        "Qaynadılmış yumurta",
+        "Kolbasalı yumurta",
+      ],
+    },
 
-  {
-    id: 3,
-    title: "Sapora Breakfast",
-    image: saporaBreakfast,
-    price: 35,
+    {
+      id: 3,
+      title: "Sapora Breakfast",
+      image: saporaBreakfast,
+      price: 35,
 
-    description:
-      "Pankek, çörək səbəti, pendir çeşidləri, meyvə püreləri, sırniki və isti içkilə təqdim olunan xüsusi Sapora səhər menyusu.",
+      description:
+        "Pankek, çörək səbəti, pendir çeşidləri, meyvə püreləri, sırniki və isti içkilə təqdim olunan xüsusi Sapora səhər menyusu.",
 
-    included: [
-      "Çörək səbəti",
-      "Pankek",
-      "Pomidor",
-      "Xiyar",
-      "Bal",
-      "Meyvə püresi (3 növ)",
-      "Qatılaşdırılmış süd",
-      "Şokolad pastası",
-      "Sosis",
-      "Kəsmik (2 növ)",
-      "Kərə yağı",
-      "Feta pendiri",
-      "Mozzarella pendiri",
-      "Qranapadano pendiri",
-      "Holland pendiri",
-      "Fri kartofu",
-      "Sırniki",
-      "Çay",
-      "Qəhvə",
-    ],
+      included: [
+        "Çörək səbəti",
+        "Pankek",
+        "Pomidor",
+        "Xiyar",
+        "Bal",
+        "Meyvə püresi (3 növ)",
+        "Qatılaşdırılmış süd",
+        "Şokolad pastası",
+        "Sosis",
+        "Kəsmik (2 növ)",
+        "Kərə yağı",
+        "Feta pendiri",
+        "Mozzarella pendiri",
+        "Qranapadano pendiri",
+        "Holland pendiri",
+        "Fri kartofu",
+        "Sırniki",
+        "Çay",
+        "Qəhvə",
+      ],
 
-    chooseCount: 2,
+      chooseCount: 2,
 
-    options: [
-      "Pendirli omlet",
-      "Göbələkli omlet",
-      "Avokadolu omlet",
-      "Göz yumurta",
-      "Kükü",
-      "Pomidor çığırtması",
-      "Sapora omleti",
-      "Qaynadılmış yumurta",
-    ],
-  },
+      options: [
+        "Pendirli omlet",
+        "Göbələkli omlet",
+        "Avokadolu omlet",
+        "Göz yumurta",
+        "Kükü",
+        "Pomidor çığırtması",
+        "Sapora omleti",
+        "Qaynadılmış yumurta",
+      ],
+    },
 
-  {
-    id: 4,
-    title: "English Breakfast",
-    image: englishBreakfast,
-    price: 28,
+    {
+      id: 4,
+      title: "English Breakfast",
+      image: englishBreakfast,
+      price: 28,
 
-    description:
-      "Mal bekonu, yumurta, sosis, qrildə tərəvəzlər, souslu paxla və tost çörəyi ilə klassik İngilis səhər yeməyi.",
+      description:
+        "Mal bekonu, yumurta, sosis, qrildə tərəvəzlər, souslu paxla və tost çörəyi ilə klassik İngilis səhər yeməyi.",
 
-    included: [
-      "Mal bekonu",
-      "2 ədəd göz yumurta",
-      "2 ədəd sosis",
-      "Qrildə çerri pomidor",
-      "Qrildə göbələk",
-      "Sousda ağ paxla",
-      "Qızardılmış tost çörəyi",
-      "Ahmad çayı",
-    ],
+      included: [
+        "Mal bekonu",
+        "2 ədəd göz yumurta",
+        "2 ədəd sosis",
+        "Qrildə çerri pomidor",
+        "Qrildə göbələk",
+        "Sousda ağ paxla",
+        "Qızardılmış tost çörəyi",
+        "Ahmad çayı",
+      ],
 
-    chooseCount: 0,
+      chooseCount: 0,
 
-    options: [],
-  },
-],
+      options: [],
+    },
+  ],
   noodles: [
     {
       id: 1,
@@ -352,6 +357,259 @@ export const menuData = {
       image: vegetables,
     },
   ],
+  salatlar: [
+    {
+      id: 1,
+      title: "Toyuqlu Sezar Salatı",
+      description:
+        "Toyuq filesi, kahı, parmesan pendiri, kruton və sezar sousu",
+      price: 18,
+      image: defaultsalap,
+    },
+    {
+      id: 2,
+      title: "Krevetli Sezar Salatı",
+      description: "Krevet, kahı, parmesan pendiri, kruton və sezar sousu",
+      price: 22,
+      image: defaultsalap,
+    },
+    {
+      id: 3,
+      title: "Harialtı Salatı",
+      description: "Təzə tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
+      price: 15,
+      image: defaultsalap,
+    },
+    {
+      id: 4,
+      title: "Ton Balıqlı Salat",
+      description: "Ton balığı, tərəvəzlər və xüsusi sous",
+      price: 19,
+      image: defaultsalap,
+    },
+    {
+      id: 5,
+      title: "Dəniz Məhsulları Salatı",
+      description: "Dəniz məhsulları və təzə tərəvəzlərdən hazırlanmış salat",
+      price: 24,
+      image: defaultsalap,
+    },
+    {
+      id: 6,
+      title: "İsti Salat",
+      description: "İsti tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
+      price: 17,
+      image: defaultsalap,
+    },
+    {
+      id: 7,
+      title: "Kapreze Salatı",
+      description: "Mozzarella, pomidor, reyhan və zeytun yağı",
+      price: 16,
+      image: defaultsalap,
+    },
+    {
+      id: 8,
+      title: "Rukola Qarışığı",
+      description: "Rukola, tərəvəzlər və xüsusi sous",
+      price: 15,
+      image: defaultsalap,
+    },
+    {
+      id: 9,
+      title: "Mal Əti Karpaççosu",
+      description: "Nazik dilimlənmiş mal əti və parmesan pendiri",
+      price: 23,
+      image: defaultsalap,
+    },
+    {
+      id: 10,
+      title: "Yaşıl Təravət Salatı",
+      description: "Yaşıl tərəvəzlərdən hazırlanmış yüngül salat",
+      price: 14,
+      image: defaultsalap,
+    },
+    {
+      id: 11,
+      title: "Marinə Edilmiş Pomidor Salatı",
+      description: "Marinə edilmiş pomidor və göyərtilər",
+      price: 13,
+      image: defaultsalap,
+    },
+  ],
+
+  avropaKlassikleri: [
+    {
+      id: 1,
+      title: "Toyuq Şnitseli",
+      description: "Xırtıldayan panirovkada toyuq şnitseli",
+      price: 22,
+      image: defaultavropa,
+    },
+    {
+      id: 2,
+      title: "Mal Ətli Stroqanov",
+      description: "Mal əti, göbələk və qaymaqlı sous",
+      price: 28,
+      image: defaultavropa,
+    },
+    {
+      id: 3,
+      title: "Toyuqlu Stroqanov",
+      description: "Toyuq filesi, göbələk və qaymaqlı sous",
+      price: 24,
+      image: defaultavropa,
+    },
+    {
+      id: 4,
+      title: "Mal Əti Medalyonu",
+      description: "Qril edilmiş mal əti medalyonları",
+      price: 32,
+      image: defaultavropa,
+    },
+    {
+      id: 9,
+      title: "İspan Paelyası",
+      description:
+        "Dəniz məhsulları və düyü ilə hazırlanan ənənəvi ispan yeməyi",
+      price: 32,
+      image: defaultavropa,
+    },
+    {
+      id: 10,
+      title: "Rizotto",
+      description: "Kremli italyan düyü yeməyi",
+      price: 23,
+      image: defaultavropa,
+    },
+    {
+      id: 11,
+      title: "Lazanya",
+      description: "Mal əti və pendir qatları ilə hazırlanmış lazanya",
+      price: 26,
+      image: defaultavropa,
+    },
+  ],
+
+  meksikaSapora: [
+    {
+      id: 1,
+      title: "Mal Ətli Fajita",
+      description: "Mal əti, bibər və xüsusi Meksika sousları",
+      price: 28,
+      image: defaultmexican,
+    },
+    {
+      id: 2,
+      title: "Toyuqlu Fajita",
+      description: "Toyuq filesi, bibər və xüsusi Meksika sousları",
+      price: 24,
+      image: defaultmexican,
+    },
+    {
+      id: 3,
+      title: "Qarışıq Tacos",
+      description: "Ət və tərəvəzlərlə hazırlanmış Meksika takosu",
+      price: 22,
+      image: defaultmexican,
+    },
+    {
+      id: 4,
+      title: "Toyuqlu Ençilada",
+      description: "Toyuq filesi və xüsusi sous ilə hazırlanmış ençilada",
+      price: 24,
+      image: defaultmexican,
+    },
+    {
+      id: 5,
+      title: "Burrito",
+      description: "Ət, tərəvəz və souslarla doldurulmuş tortilla",
+      price: 21,
+      image: defaultmexican,
+    },
+    {
+      id: 6,
+      title: "Ribay Steyk",
+      description: "Qril edilmiş premium ribay steyk",
+      price: 39,
+      image: defaultmexican,
+    },
+    {
+      id: 7,
+      title: "Klassik Steyk",
+      description: "Qril edilmiş klassik mal əti steyki",
+      price: 34,
+      image: defaultmexican,
+    },
+  ],
+
+  burgerler: [
+    {
+      id: 1,
+      title: "Mal Ətli Burger",
+      description: "Mal əti kotleti, pendir və tərəvəzlər",
+      price: 18,
+      image: defaultburger,
+    },
+    {
+      id: 2,
+      title: "Toyuq Burgeri",
+      description: "Toyuq filesi, tərəvəzlər və xüsusi sous",
+      price: 16,
+      image: defaultburger,
+    },
+    {
+      id: 3,
+      title: "Sapora Çizburgeri",
+      description: "Xüsusi pendirli Sapora burgeri",
+      price: 19,
+      image: defaultburger,
+    },
+    {
+      id: 4,
+      title: "Big Fantastik Burger",
+      description: "İkiqat ətli böyük burger",
+      price: 24,
+      image: defaultburger,
+    },
+  ],
+  // mixFast: [
+  //   {
+  //     id: 1,
+  //     title: "Toyuq Naqetsləri",
+  //     description: "Xırtıldayan toyuq nagetsləri",
+  //     price: 12,
+  //     image: defaultFoodImage,
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Mozzarella Çubuqları",
+  //     description: "Əridilmiş mozzarella pendiri ilə hazırlanmış çubuqlar",
+  //     price: 14,
+  //     image: defaultFoodImage,
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Soğan Halqaları",
+  //     description: "Xırtıldayan qızardılmış soğan halqaları",
+  //     price: 10,
+  //     image: defaultFoodImage,
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Kartof Fri",
+  //     description: "Qızardılmış kartof dilimləri",
+  //     price: 8,
+  //     image: defaultFoodImage,
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "Toyuq Qanadları",
+  //     description: "Ədviyyatlı və qızardılmış toyuq qanadları",
+  //     price: 15,
+  //     image: defaultFoodImage,
+  //   },
+  // ],
   drinks: [
     {
       id: 1,
