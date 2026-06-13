@@ -40,6 +40,8 @@ export const translations = {
       avropa: "Avropa Klassikləri",
       meksika: "Meksika Sapora",
       asia: "Asiya Mətbəxi",
+      sushiSets: "Sushi Setləri",
+      sushiRolls: "Sushi Rolls",
       burgerler: "Burgerlər",
       mixfast: "Mix Fast",
       garnishes: "Qarnir",
@@ -92,6 +94,8 @@ export const translations = {
       avropa: "European Classics",
       meksika: "Mexican Sapora",
       asia: "Asian Cuisine",
+      sushiSets: "Sushi Sets",
+      sushiRolls: "Sushi Rolls",
       burgerler: "Burgers",
       mixfast: "Mix Fast",
       garnishes: "Side Dishes",
@@ -144,6 +148,8 @@ export const translations = {
       avropa: "Европейская кухня",
       meksika: "Мексика Sapora",
       asia: "Азиатская кухня",
+      sushiSets: "Сеты Суши",
+      sushiRolls: "Суши Роллы",
       burgerler: "Бургеры",
       mixfast: "Фастфуд",
       garnishes: "Гарниры",
@@ -648,6 +654,123 @@ export const menuTranslations = {
       title: "Mojito",
       description: "Mint, lime and soda",
     },
+    "Coca-Cola": {
+      title: "Coca-Cola",
+      description: "330 ml",
+    },
+
+    Sprite: {
+      title: "Sprite",
+      description: "330 ml",
+    },
+
+    "Qazlı Sirab": {
+      title: "Sparkling Sirab Water",
+      description: "500 ml",
+    },
+
+    "Qazsız Sirab": {
+      title: "Still Sirab Water",
+      description: "500 ml",
+    },
+    "Set 1": {
+      title: "Set 1",
+      description:
+        "Philadelphia Roll (8), California Roll (8), Chicken Hot (10), Curry Hot (10)",
+    },
+
+    "Set 2": {
+      title: "Set 2",
+      description:
+        "Ebi Alaska (8), Chips Roll (8), Sake Hot (10), Ebi Hot (10)",
+    },
+
+    "Set 3": {
+      title: "Set 3",
+      description: "Philadelphia Roll (8), Cedar Roll (8), Curry Hot (10)",
+    },
+
+    "Set 4": {
+      title: "Set 4",
+      description:
+        "Philadelphia Roll (8), California Roll (8), Chips Roll (8), Curry Hot (10), Chicken Hot (10)",
+    },
+
+    "Set 5": {
+      title: "Set 5",
+      description: "Sake Kunsei (8), Ebi Cheese Maki (8), Ebi Hot (10)",
+    },
+
+    "Set 6": {
+      title: "Set 6",
+      description:
+        "Ebi Hot (10), Chicken Hot (10), Sake Hot (10), Curry Hot (10)",
+    },
+    "Sapora Set": {
+      title: "Sapora Set",
+      description:
+        "Philadelphia Roll (8), Sapora Roll (8), Caesar Roll (8), Curry Roll (10), Ebi Cheese Maki (8)",
+    },
+
+    "Filadelfiya Roll": {
+      title: "Philadelphia Roll",
+      description: "8 pcs",
+    },
+
+    "Kaliforniya Roll": {
+      title: "California Roll",
+      description: "8 pcs",
+    },
+
+    "Sedir Roll": {
+      title: "Cedar Roll",
+      description: "8 pcs",
+    },
+
+    "Saki Maki": {
+      title: "Sake Maki",
+      description: "8 pcs",
+    },
+
+    "Sapora Roll": {
+      title: "Sapora Roll",
+      description: "8 pcs",
+    },
+
+    "Çips Roll": {
+      title: "Chips Roll",
+      description: "8 pcs",
+    },
+
+    "Ebi Çiz Maki": {
+      title: "Ebi Cheese Maki",
+      description: "8 pcs",
+    },
+
+    "Ebi Alyaska": {
+      title: "Ebi Alaska",
+      description: "8 pcs",
+    },
+
+    "Kani Hot": {
+      title: "Kani Hot",
+      description: "10 pcs",
+    },
+
+    "Sezar Roll Hot": {
+      title: "Caesar Roll Hot",
+      description: "10 pcs",
+    },
+
+    "Saki Hot": {
+      title: "Sake Hot",
+      description: "10 pcs",
+    },
+
+    "Çiken Hot": {
+      title: "Chicken Hot",
+      description: "10 pcs",
+    },
   },
 
   ru: {
@@ -1143,6 +1266,121 @@ export const menuTranslations = {
     Moxito: {
       title: "Мохито",
       description: "Мята, лайм и сода",
+    },
+    "Coca-Cola": {
+      title: "Coca-Cola",
+      description: "330 мл",
+    },
+
+    Sprite: {
+      title: "Sprite",
+      description: "330 мл",
+    },
+
+    "Qazlı Sirab": {
+      title: "Газированная Вода Sirab",
+      description: "500 мл",
+    },
+
+    "Qazsız Sirab": {
+      title: "Негазированная Вода Sirab",
+      description: "500 мл",
+    },
+    "Set 1": {
+      title: "Сет 1",
+      description:
+        "Филадельфия Ролл (8), Калифорния Ролл (8), Чикен Хот (10), Кари Хот (10)",
+    },
+
+    "Set 2": {
+      title: "Сет 2",
+      description: "Эби Аляска (8), Чипс Ролл (8), Саке Хот (10), Эби Хот (10)",
+    },
+
+    "Set 3": {
+      title: "Сет 3",
+      description: "Филадельфия Ролл (8), Сидар Ролл (8), Кари Хот (10)",
+    },
+
+    "Set 4": {
+      title: "Сет 4",
+      description:
+        "Филадельфия Ролл (8), Калифорния Ролл (8), Чипс Ролл (8), Кари Хот (10), Чикен Хот (10)",
+    },
+
+    "Set 5": {
+      title: "Сет 5",
+      description: "Саке Кунсей (8), Эби Чиз Маки (8), Эби Хот (10)",
+    },
+
+    "Set 6": {
+      title: "Сет 6",
+      description: "Эби Хот (10), Чикен Хот (10), Саке Хот (10), Кари Хот (10)",
+    },
+    "Sapora Set": {
+      title: "Сет Sapora",
+      description:
+        "Филадельфия Ролл (8), Сапора Ролл (8), Цезарь Ролл (8), Кари Ролл (10), Эби Чиз Маки (8)",
+    },
+
+    "Filadelfiya Roll": {
+      title: "Филадельфия Ролл",
+      description: "8 шт",
+    },
+
+    "Kaliforniya Roll": {
+      title: "Калифорния Ролл",
+      description: "8 шт",
+    },
+
+    "Sedir Roll": {
+      title: "Сидар Ролл",
+      description: "8 шт",
+    },
+
+    "Saki Maki": {
+      title: "Саке Маки",
+      description: "8 шт",
+    },
+
+    "Sapora Roll": {
+      title: "Сапора Ролл",
+      description: "8 шт",
+    },
+
+    "Çips Roll": {
+      title: "Чипс Ролл",
+      description: "8 шт",
+    },
+
+    "Ebi Çiz Maki": {
+      title: "Эби Чиз Маки",
+      description: "8 шт",
+    },
+
+    "Ebi Alyaska": {
+      title: "Эби Аляска",
+      description: "8 шт",
+    },
+
+    "Kani Hot": {
+      title: "Кани Хот",
+      description: "10 шт",
+    },
+
+    "Sezar Roll Hot": {
+      title: "Цезарь Ролл Хот",
+      description: "10 шт",
+    },
+
+    "Saki Hot": {
+      title: "Саке Хот",
+      description: "10 шт",
+    },
+
+    "Çiken Hot": {
+      title: "Чикен Хот",
+      description: "10 шт",
     },
   },
 };

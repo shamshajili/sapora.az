@@ -52,6 +52,10 @@ import whitemocka from "../../assets/images/whitemocca.jpeg";
 import raffcofe from "../../assets/images/raffcofee.jpeg";
 import saltedcaramellatte from "../../assets/images/saltedcaramellatte.jpeg";
 import moxito from "../../assets/images/moxito.jpeg";
+import kola from "../../assets/images/kola.png";
+import sprite from "../../assets/images/sprite.png";
+import sirabqazssiz from "../../assets/images/sirabqassiz.png";
+import sirabqazli from "../../assets/images/sirabqazli.png";
 
 import duyu from "../../assets/images/duyu.jpeg";
 import qrildeterezi from "../../assets/images/qrildeterevez.jpeg";
@@ -80,6 +84,10 @@ import fries from "../../assets/images/fri.jpeg";
 import qanad from "../../assets/images/qanad.jpeg";
 
 import maletburger from "../../assets/images/maletburger.jpeg";
+
+import defaultsusi from "../../assets/images/defaultsusi.png";
+
+import saporaset from "../../assets/images/saporaset.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -165,7 +173,7 @@ export const menuData = {
     {
       id: 3,
       title: "Sapora Breakfast",
-        image: breakfastsapora,
+      image: breakfastsapora,
       price: 35,
 
       description:
@@ -571,7 +579,148 @@ export const menuData = {
       title: "Balıqlı Fried Rice",
       description: "Balıq filesi, tərəvəzlər, yumurta və qızardılmış düyü",
       price: 22,
-      image: defaultasian,
+      image: defaultsusi,
+    },
+  ],
+  sushiSets: [
+    {
+      id: 1,
+      title: "Set 1",
+      description:
+        "Philadelphia (8), California (8), Chicken Hot (10), Curry Hot (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 2,
+      title: "Set 2",
+      description:
+        "Ebi Alaska (8), Chips Roll (8), Saki Hot (10), Ebi Hot (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 3,
+      title: "Set 3",
+      description: "Philadelphia (8), Cedar Roll (8), Curry Hot (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 4,
+      title: "Set 4",
+      description:
+        "Philadelphia (8), California (8), Chips Roll (8), Curry Hot (10), Chicken Hot (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 5,
+      title: "Set 5",
+      description: "Saki Kunsey (8), Ebi Cheese Maki (8), Ebi Hot (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 6,
+      title: "Set 6",
+      description:
+        "Ebi Hot (10), Chicken Hot (10), Saki Hot (10), Curry Hot (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 7,
+      title: "Sapora Set",
+      description:
+        "Filadelfiya (8), Sapora Roll (8), Sezar Roll (8), Kari Roll (10), Ebi Çiz Maki (8)",
+      image: saporaset,
+    },
+  ],
+
+  sushiRolls: [
+    {
+      id: 1,
+      title: "Filadelfiya Roll",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 2,
+      title: "Kaliforniya Roll",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 3,
+      title: "Sedir Roll",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 4,
+      title: "Saki Maki",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 5,
+      title: "Sapora Roll",
+      description: "8 ədəd",
+      image: saporaset,
+    },
+
+    {
+      id: 6,
+      title: "Çips Roll",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 7,
+      title: "Ebi Çiz Maki",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 8,
+      title: "Ebi Alyaska",
+      description: "8 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 9,
+      title: "Kani Hot",
+      description: "10 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 10,
+      title: "Sezar Roll Hot",
+      description: "10 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 11,
+      title: "Saki Hot",
+      description: "10 ədəd",
+      image: defaultsusi,
+    },
+
+    {
+      id: 12,
+      title: "Çiken Hot",
+      description: "10 ədəd",
+      image: defaultsusi,
     },
   ],
   burgerler: [
@@ -903,7 +1052,38 @@ export const menuData = {
       description: "Nanə, limon və soda",
       price: 6.5,
       image: moxito,
-    }
+    },
+    {
+      id: 37,
+      title: "Coca-Cola",
+      description: "330 ml",
+      price: 8,
+      image: kola,
+    },
+
+    {
+      id: 38,
+      title: "Sprite",
+      description: "330 ml",
+      price: 8,
+      image: sprite,
+    },
+
+    {
+      id: 39,
+      title: "Qazlı Sirab",
+      description: "500 ml",
+      price: 8,
+      image: sirabqazli,
+    },
+
+    {
+      id: 40,
+      title: "Qazsız Sirab",
+      description: "500 ml",
+      price: 8,
+      image: sirabqazssiz,
+    },
   ],
   garnishes: [
     {

@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { useLanguage } from "../../context/LanguageContext";
 import { translations } from "../data/languages";
 
-
 import {
   Soup,
   Coffee,
@@ -65,7 +64,17 @@ const Menu = () => {
       label: t.categories.asia,
       icon: CookingPot,
     },
+    {
+      id: "sushiSets",
+      label: "Sushi Setləri",
+      icon: CookingPot,
+    },
 
+    {
+      id: "sushiRolls",
+      label: "Sushi Rolls",
+      icon: CookingPot,
+    },
     {
       id: "burgerler",
       label: t.categories.burgerler,
@@ -136,6 +145,8 @@ const Menu = () => {
         avropaKlassikleri: menuData.avropaKlassikleri || [],
         meksikaSapora: menuData.meksikaSapora || [],
         asianFoodFashion: menuData.asianFoodFashion || [],
+        sushiSets: menuData.sushiSets || [],
+        sushiRolls: menuData.sushiRolls || [],
         burgerler: menuData.burgerler || [],
         mixFast: menuData.mixFast || [],
         garnishes: menuData.garnishes || [],
@@ -160,6 +171,8 @@ const Menu = () => {
       avropaKlassikleri: filterItems(menuData.avropaKlassikleri),
       meksikaSapora: filterItems(menuData.meksikaSapora),
       asianFoodFashion: filterItems(menuData.asianFoodFashion),
+      sushiSets: filterItems(menuData.sushiSets),
+      sushiRolls: filterItems(menuData.sushiRolls),
       burgerler: filterItems(menuData.burgerler),
       mixFast: filterItems(menuData.mixFast),
       garnishes: filterItems(menuData.garnishes),
@@ -176,6 +189,8 @@ const Menu = () => {
     filteredData.avropaKlassikleri.length > 0 ||
     filteredData.meksikaSapora.length > 0 ||
     filteredData.asianFoodFashion.length > 0 ||
+    filteredData.sushiSets.length > 0 ||
+    filteredData.sushiRolls.length > 0 ||
     filteredData.burgerler.length > 0 ||
     filteredData.mixFast.length > 0 ||
     filteredData.garnishes.length > 0 ||
@@ -299,7 +314,11 @@ const Menu = () => {
 
       {/* PIZZA */}
       {filteredData.Pizza.length > 0 && (
-        <MenuSection id="Pizza" title={t.categories.pizza} items={filteredData.Pizza} />
+        <MenuSection
+          id="Pizza"
+          title={t.categories.pizza}
+          items={filteredData.Pizza}
+        />
       )}
 
       {/* SALATLAR */}
@@ -336,6 +355,23 @@ const Menu = () => {
           items={filteredData.asianFoodFashion}
         />
       )}
+      {/* SUSHI SETLƏRİ */}
+      {filteredData.sushiSets.length > 0 && (
+        <MenuSection
+          id="sushiSets"
+          title={t.categories.sushiSets}
+          items={filteredData.sushiSets}
+        />
+      )}
+
+      {/* SUSHI ROLLS */}
+      {filteredData.sushiRolls.length > 0 && (
+        <MenuSection
+          id="sushiRolls"
+          title={t.categories.sushiRolls}
+          items={filteredData.sushiRolls}
+        />
+      )}
       {/* BURGERLƏR */}
       {filteredData.burgerler.length > 0 && (
         <MenuSection
@@ -364,7 +400,11 @@ const Menu = () => {
 
       {/* İÇKİLƏR */}
       {filteredData.drinks.length > 0 && (
-        <MenuSection id="drinks" title={t.categories.drinks} items={filteredData.drinks} />
+        <MenuSection
+          id="drinks"
+          title={t.categories.drinks}
+          items={filteredData.drinks}
+        />
       )}
 
       <FloatingCartButton setOpen={setCartOpen} hidden={cartOpen} />
