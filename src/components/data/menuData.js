@@ -51,6 +51,7 @@ import darkmokka from "../../assets/images/darkmocha.jpeg";
 import whitemocka from "../../assets/images/whitemocca.jpeg";
 import raffcofe from "../../assets/images/raffcofee.jpeg";
 import saltedcaramellatte from "../../assets/images/saltedcaramellatte.jpeg";
+import moxito from "../../assets/images/moxito.jpeg";
 
 import duyu from "../../assets/images/duyu.jpeg";
 import qrildeterezi from "../../assets/images/qrildeterevez.jpeg";
@@ -827,42 +828,42 @@ export const menuData = {
 
     {
       id: 26,
-      title: "Vanilla Milkshake",
+      title: "Vanilli Milkşeyk",
       description: "Vanil dondurması və süd",
       price: 6.7,
       image: vanillamilkseyk,
     },
     {
       id: 27,
-      title: "Chocolate Milkshake",
+      title: "Şokoladlı Milkşeyk",
       description: "Şokolad və süd",
       price: 6.7,
       image: sokalatmilkseyk,
     },
     {
       id: 28,
-      title: "Caramel Milkshake",
+      title: "Karamelli Milkşeyk",
       description: "Karamel və süd",
       price: 6.7,
       image: caramelmilkseyk,
     },
     {
       id: 29,
-      title: "Strawberry Milkshake",
+      title: "Çiyələkli Milkşeyk",
       description: "Çiyələk və süd",
       price: 6.7,
       image: strowberrylimonat,
     },
     {
       id: 30,
-      title: "Banana Milkshake",
+      title: "Bananlı Milkşeyk",
       description: "Banan və süd",
       price: 6.7,
       image: banamilkseyk,
     },
     {
       id: 31,
-      title: "Snickers Milkshake",
+      title: "Snickers Milkşeyk",
       description: "Snickers və süd",
       price: 7,
       image: snikersmilkseyk,
@@ -870,32 +871,39 @@ export const menuData = {
 
     {
       id: 32,
-      title: "Tropical Lemonade",
+      title: "Tropik Limonad",
       description: "Tropik meyvə qarışığı",
       price: 7,
       image: tropicallimonat,
     },
     {
       id: 33,
-      title: "Passion Fruit Mango",
+      title: "Manqo və Marakuya",
       description: "Manqo və marakuya",
       price: 7,
       image: pasionfrutmango,
     },
     {
       id: 34,
-      title: "Strawberry Lemonade",
+      title: "Çiyələkli Limonad",
       description: "Çiyələk və limon",
       price: 7,
       image: strowberylimonat,
     },
     {
       id: 35,
-      title: "Watermelon Mojito",
-      description: "Qarpız, nanə və лайm",
+      title: "Qarpızlı Limonad",
+      description: "Qarpız, nanə və limon",
       price: 5.9,
       image: vatermelon,
     },
+    {
+      id: 36,
+      title: "Moxito",
+      description: "Nanə, limon və soda",
+      price: 6.5,
+      image: moxito,
+    }
   ],
   garnishes: [
     {

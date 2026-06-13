@@ -595,54 +595,58 @@ export const menuTranslations = {
       description: "Ice cream topped with espresso",
     },
 
-    "Vanilla Milkshake": {
+    "Vanilli Milkşeyk": {
       title: "Vanilla Milkshake",
       description: "Vanilla ice cream and milk",
     },
 
-    "Chocolate Milkshake": {
+    "Şokoladlı Milkşeyk": {
       title: "Chocolate Milkshake",
       description: "Chocolate and milk",
     },
 
-    "Caramel Milkshake": {
+    "Karamelli Milkşeyk": {
       title: "Caramel Milkshake",
       description: "Caramel and milk",
     },
 
-    "Strawberry Milkshake": {
+    "Çiyələkli Milkşeyk": {
       title: "Strawberry Milkshake",
       description: "Strawberry and milk",
     },
 
-    "Banana Milkshake": {
+    "Bananlı Milkşeyk": {
       title: "Banana Milkshake",
       description: "Banana and milk",
     },
 
-    "Snickers Milkshake": {
+    "Snickers Milkşeyk": {
       title: "Snickers Milkshake",
       description: "Snickers and milk",
     },
 
-    "Tropical Lemonade": {
+    "Tropik Limonad": {
       title: "Tropical Lemonade",
       description: "Tropical fruit blend",
     },
 
-    "Passion Fruit Mango": {
+    "Manqo və Marakuya": {
       title: "Passion Fruit Mango",
       description: "Mango and passion fruit",
     },
 
-    "Strawberry Lemonade": {
+    "Çiyələkli Limonad": {
       title: "Strawberry Lemonade",
       description: "Strawberry and lemon",
     },
 
-    "Watermelon Mojito": {
-      title: "Watermelon Mojito",
+    "Qarpızlı Limonad": {
+      title: "Watermelon Lemonade",
       description: "Watermelon, mint and lime",
+    },
+    Moxito: {
+      title: "Mojito",
+      description: "Mint, lime and soda",
     },
   },
 
@@ -1087,54 +1091,58 @@ export const menuTranslations = {
       description: "Мороженое с эспрессо",
     },
 
-    "Vanilla Milkshake": {
+    "Vanilli Milkşeyk": {
       title: "Ванильный Милкшейк",
       description: "Ванильное мороженое и молоко",
     },
 
-    "Chocolate Milkshake": {
+    "Şokoladlı Milkşeyk": {
       title: "Шоколадный Милкшейк",
       description: "Шоколад и молоко",
     },
 
-    "Caramel Milkshake": {
+    "Karamelli Milkşeyk": {
       title: "Карамельный Милкшейк",
       description: "Карамель и молоко",
     },
 
-    "Strawberry Milkshake": {
+    "Çiyələkli Milkşeyk": {
       title: "Клубничный Милкшейк",
       description: "Клубника и молоко",
     },
 
-    "Banana Milkshake": {
+    "Bananlı Milkşeyk": {
       title: "Банановый Милкшейк",
       description: "Банан и молоко",
     },
 
-    "Snickers Milkshake": {
+    "Snickers Milkşeyk": {
       title: "Милкшейк Сникерс",
       description: "Snickers и молоко",
     },
 
-    "Tropical Lemonade": {
+    "Tropik Limonad": {
       title: "Тропический Лимонад",
       description: "Смесь тропических фруктов",
     },
 
-    "Passion Fruit Mango": {
+    "Manqo və Marakuya": {
       title: "Манго-Маракуйя",
       description: "Манго и маракуйя",
     },
 
-    "Strawberry Lemonade": {
+    "Çiyələkli Limonad": {
       title: "Клубничный Лимонад",
       description: "Клубника и лимон",
     },
 
-    "Watermelon Mojito": {
-      title: "Арбузный Мохито",
+    "Qarpızlı Limonad": {
+      title: "Арбузный Лимонад",
       description: "Арбуз, мята и лайм",
+    },
+    Moxito: {
+      title: "Мохито",
+      description: "Мята, лайм и сода",
     },
   },
 };
