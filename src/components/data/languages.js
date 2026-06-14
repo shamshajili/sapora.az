@@ -904,6 +904,11 @@ export const menuTranslations = {
       title: "Diet San Sebastian",
       description: "Light version of San Sebastian cheesecake",
     },
+    "Fetuçini Alfredo Krevetli": {
+      title: "Shrimp Fettuccine Alfredo",
+      description:
+        "Fettuccine pasta, creamy sauce, shrimp, parmesan cheese and herbs",
+    },
   },
 
   ru: {
@@ -935,7 +940,11 @@ export const menuTranslations = {
       title: "Чечевичный Суп",
       description: "Красная чечевица, морковь, лук и специи",
     },
-
+    "Fetuçini Alfredo Krevetli": {
+      title: "Фетучини Альфредо с Креветками",
+      description:
+        "Паста фетучини, сливочный соус, креветки, пармезан и зелень",
+    },
     "Kremli Brokoli Şorbası": {
       title: "Крем-суп из Брокколи",
       description: "Брокколи, сливки, молоко и специи",

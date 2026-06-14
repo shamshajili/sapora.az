@@ -93,6 +93,7 @@ import defaultsusi from "../../assets/images/defaultsusi.png";
 
 import saporaset from "../../assets/images/saporaset.jpeg";
 import defaultDessert from "../../assets/images/defaultdesert.png"
+import defaultpasta from "../../assets/images/defaultpasta.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -263,7 +264,7 @@ export const menuData = {
       description:
         "Fetuçini makaronu, qaymaqlı sous, parmesan pendiri və göyərti",
       price: 12,
-      image: fetucini,
+      image: defaultpasta,
     },
     {
       id: 3,
