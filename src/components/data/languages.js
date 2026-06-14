@@ -45,8 +45,8 @@ export const translations = {
       burgerler: "Burgerlər",
       mixfast: "Mix Fast",
       garnishes: "Qarnir",
-      hotCoffees: "İsti Qəhvələr",
-      coldCoffees: "Soyuq Qəhvələr",
+      hotCoffees: "İsti Kofelər",
+      coldCoffees: "Soyuq Kofelər",
       milkshakes: "Milkşeyklər",
       lemonades: "Limonadlar",
       softDrinks: "Sərinləşdirici İçkilər",
@@ -692,7 +692,10 @@ export const menuTranslations = {
       title: "Coca-Cola",
       description: "330 ml",
     },
-
+    "Portağal Fresh": {
+      title: "Orange Fresh",
+      description: "Freshly squeezed orange juice",
+    },
     Sprite: {
       title: "Sprite",
       description: "330 ml",
@@ -1429,6 +1432,10 @@ export const menuTranslations = {
     Moxito: {
       title: "Мохито",
       description: "Мята, лайм и сода",
+    },
+    "Portağal Fresh": {
+      title: "Апельсиновый Фреш",
+      description: "Свежевыжатый апельсиновый сок",
     },
     "Coca-Cola": {
       title: "Coca-Cola",

@@ -2,7 +2,6 @@ import noodle1 from "../../assets/images/pasta1.jpeg";
 import noodle2 from "../../assets/images/pasta2.jpeg";
 import noodle3 from "../../assets/images/pasta3.jpeg";
 
-
 import sorba1 from "../../assets/images/lentilsoup.jpeg";
 import sorba2 from "../../assets/images//brocolisoup.jpeg";
 import sorba3 from "../../assets/images/mashroomsoup.jpeg";
@@ -92,9 +91,11 @@ import maletburger from "../../assets/images/maletburger.jpeg";
 import defaultsusi from "../../assets/images/defaultsusi.png";
 
 import saporaset from "../../assets/images/saporaset.jpeg";
-import defaultDessert from "../../assets/images/defaultdesert.png"
-import defaultpasta from "../../assets/images/defaultpasta.jpeg"
-import tacos from "../../assets/images/tacos2.jpeg"
+import defaultDessert from "../../assets/images/defaultdesert.png";
+import defaultpasta from "../../assets/images/defaultpasta.jpeg";
+import tacos from "../../assets/images/tacos2.jpeg";
+import fanta from "../../assets/images/fanta.jpeg";
+import portagalFresh from "../../assets/images/freshportagal.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -272,7 +273,7 @@ export const menuData = {
       title: "Penne Arrabbiata",
       description:
         "Penne makaronu, pomidor sousu, sarımsaq, acı bibər və parmesan",
-      price: 9.90,
+      price: 9.9,
       image: pennearabiatta,
     },
 
@@ -299,7 +300,7 @@ export const menuData = {
       id: 1,
       title: "Mərci Şorbası",
       description: "Qırmızı mərcimək, kök, soğan və xüsusi ədviyyatlar",
-      price: 4.50,
+      price: 4.5,
       image: sorba1,
     },
     {
@@ -329,7 +330,7 @@ export const menuData = {
       description: "Tomyun, tərəvəzlər və xüsusi ədviyyatlar",
       price: 8,
       image: sorba5,
-    }
+    },
   ],
 
   Pizza: [
@@ -344,7 +345,7 @@ export const menuData = {
       id: 2,
       title: "Margherita Pizza",
       description: "Mozzarella pendiri, pomidor sousu və təzə reyhan",
-      price: 9.50,
+      price: 9.5,
       image: margherita,
     },
     {
@@ -364,7 +365,8 @@ export const menuData = {
     {
       id: 5,
       title: "Di Mare Pizza",
-      description: "Karides, kalmar, ton, mozzarella pendiri və dəniz məhsulları",
+      description:
+        "Karides, kalmar, ton, mozzarella pendiri və dəniz məhsulları",
       price: 12,
       image: dimare,
     },
@@ -417,7 +419,7 @@ export const menuData = {
       id: 6,
       title: "İsti Salat",
       description: "İsti tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
-      price: 11.90,
+      price: 11.9,
       image: defaultsalap,
     },
     {
@@ -445,7 +447,7 @@ export const menuData = {
       id: 10,
       title: "Yaşıl Təravət Salatı",
       description: "Yaşıl tərəvəzlərdən hazırlanmış yüngül salat",
-      price: 9.90,
+      price: 9.9,
       image: defaultsalap,
     },
     {
@@ -462,21 +464,21 @@ export const menuData = {
       id: 1,
       title: "Toyuq Şnitseli",
       description: "Xırtıldayan panirovkada toyuq şnitseli",
-      price: 8,
+      price: 10,
       image: defaultavropa,
     },
     {
       id: 2,
       title: "Mal Ətli Stroqanov",
       description: "Mal əti, göbələk və qaymaqlı sous",
-      price: 11.90,
+      price: 11.9,
       image: defaultavropa,
     },
     {
       id: 3,
       title: "Toyuqlu Stroqanov",
       description: "Toyuq filesi, göbələk və qaymaqlı sous",
-      price: 9.90,
+      price: 9.9,
       image: defaultavropa,
     },
     {
@@ -498,7 +500,7 @@ export const menuData = {
       id: 6,
       title: "Rizotto",
       description: "Kremli italyan düyü yeməyi",
-      price: 10.90,
+      price: 10.9,
       image: defaultavropa,
     },
   ],
@@ -529,14 +531,14 @@ export const menuData = {
       id: 4,
       title: "Toyuqlu Ençilada",
       description: "Toyuq filesi və xüsusi sous ilə hazırlanmış ençilada",
-      price: 7.50,
+      price: 7.5,
       image: defaultmexican,
     },
     {
       id: 5,
       title: "Burrito",
       description: "Ət, tərəvəz və souslarla doldurulmuş tortilla",
-      price: 7.50,
+      price: 7.5,
       image: defaultmexican,
     },
     {
@@ -621,7 +623,7 @@ export const menuData = {
     {
       id: 3,
       title: "Set 3",
-      price: 22.90,
+      price: 22.9,
       description: "Philadelphia (8), Cedar Roll (8), Curry Hot (10)",
       image: defaultsusi,
     },
@@ -629,7 +631,7 @@ export const menuData = {
     {
       id: 4,
       title: "Set 4",
-      price: 29.90,
+      price: 29.9,
       description:
         "Philadelphia (8), California (8), Chips Roll (8), Curry Hot (10), Chicken Hot (10)",
       image: defaultsusi,
@@ -638,7 +640,7 @@ export const menuData = {
     {
       id: 5,
       title: "Set 5",
-      price: 21.90,
+      price: 21.9,
       description: "Saki Kunsey (8), Ebi Cheese Maki (8), Ebi Hot (10)",
       image: defaultsusi,
     },
@@ -707,7 +709,7 @@ export const menuData = {
       id: 6,
       title: "Çips Roll",
       description: "8 ədəd",
-      price: 8.90,
+      price: 8.9,
       image: defaultsusi,
     },
 
@@ -715,7 +717,7 @@ export const menuData = {
       id: 7,
       title: "Ebi Çiz Maki",
       description: "8 ədəd",
-      price: 10.90,
+      price: 10.9,
       image: defaultsusi,
     },
 
@@ -764,14 +766,14 @@ export const menuData = {
       id: 1,
       title: "Mal Ətli Burger",
       description: "Mal əti kotleti, pendir və tərəvəzlər",
-      price: 9.50,
+      price: 9.5,
       image: maletburger,
     },
     {
       id: 2,
       title: "Toyuq Burgeri",
       description: "Toyuq filesi, tərəvəzlər və xüsusi sous",
-      price: 6.50,
+      price: 6.5,
       image: defaultburger,
     },
     {
@@ -785,28 +787,29 @@ export const menuData = {
       id: 4,
       title: "Big Fantastik Burger",
       description: "İkiqat ətli böyük burger",
-      price: 8.50,
+      price: 8.5,
       image: defaultburger,
     },
-        {
+    {
       id: 5,
       title: "Mix Fast",
-      description: "Fri kartof, soğan halqaları, mozzarella çubuqları və toyuq naqetsləri",
+      description:
+        "Fri kartof, soğan halqaları, mozzarella çubuqları və toyuq naqetsləri",
       price: 12,
       image: defaultburger,
     },
-        {
+    {
       id: 4,
       title: "Pendirli Tost",
       description: "Əridilmiş pendir ilə hazırlanmış xırtıldayan tost",
       price: 3,
       image: defaultburger,
     },
-        {
+    {
       id: 4,
       title: "Sucuqlu Tost",
       description: "Sucuq və pendir ilə hazırlanmış isti tost",
-      price: 3.50,
+      price: 3.5,
       image: defaultburger,
     },
   ],
@@ -815,7 +818,7 @@ export const menuData = {
       id: 1,
       title: "Toyuq Naqetsləri",
       description: "Xırtıldayan toyuq nagetsləri",
-      price: 3.90,
+      price: 3.9,
       image: nuggets,
     },
     {
@@ -829,14 +832,14 @@ export const menuData = {
       id: 3,
       title: "Soğan Halqaları",
       description: "Xırtıldayan qızardılmış soğan halqaları",
-      price: 3.90,
+      price: 3.9,
       image: sogan,
     },
     {
       id: 4,
       title: "Kartof Fri",
       description: "Qızardılmış kartof dilimləri",
-      price: 4.90,
+      price: 4.9,
       image: fries,
     },
     {
@@ -859,7 +862,7 @@ export const menuData = {
       id: 2,
       title: "Macadamia Latte",
       description: "Espresso, süd və makadamiya şərbəti",
-      priceSmall: 5.50,
+      priceSmall: 5.5,
       priceMedium: 6,
       image: macadamya,
     },
@@ -867,7 +870,7 @@ export const menuData = {
       id: 3,
       title: "Spanish Latte",
       description: "Espresso, süd və qatılaşdırılmış süd",
-      priceSmall: 5.50,
+      priceSmall: 5.5,
       priceMedium: 6,
       image: spanis,
     },
@@ -875,7 +878,7 @@ export const menuData = {
       id: 4,
       title: "White Chocolate Latte",
       description: "Espresso, süd və ağ şokolad sousu",
-      priceSmall: 5.50,
+      priceSmall: 5.5,
       priceMedium: 6,
       image: vaitchooclate,
     },
@@ -883,7 +886,7 @@ export const menuData = {
       id: 5,
       title: "Single Espresso",
       description: "Tək porsiya espresso",
-      price: 3.50,
+      price: 3.5,
       image: singleespresso,
     },
     {
@@ -897,7 +900,7 @@ export const menuData = {
       id: 7,
       title: "Espresso Macchiato",
       description: "Espresso və süd köpüyü",
-      price: 4.50,
+      price: 4.5,
       image: espressomaciato,
     },
     {
@@ -925,15 +928,15 @@ export const menuData = {
       id: 11,
       title: "Americano",
       description: "Espresso və isti su",
-      priceSmall: 4.90,
-      priceMedium: 5.50,
+      priceSmall: 4.9,
+      priceMedium: 5.5,
       image: americano,
     },
     {
       id: 12,
       title: "Latte",
       description: "Espresso və süd",
-      priceSmall: 5.50,
+      priceSmall: 5.5,
       priceMedium: 6,
       image: latte,
     },
@@ -956,18 +959,18 @@ export const menuData = {
       id: 15,
       title: "White Mocha",
       description: "Ağ şokolad və espresso",
-      price: 6.50,
+      price: 6.5,
       image: whitemocka,
     },
     {
       id: 16,
       title: "Raf Coffee",
       description: "Qaymaqlı xüsusi raf qəhvəsi",
-      price: 6.90,
+      price: 6.9,
       image: raffcofe,
     },
- ],
- coldCoffees: [
+  ],
+  coldCoffees: [
     {
       id: 18,
       title: "Iced Salted Caramel Latte",
@@ -980,14 +983,14 @@ export const menuData = {
       id: 19,
       title: "Iced Salted Caramel Raf",
       description: "Soyuq raf qəhvəsi və duzlu karamel",
-      price: 7.50,
+      price: 7.5,
       image: issaltedcaramelraff,
     },
     {
       id: 20,
       title: "Iced Americano",
       description: "Soyuq espresso və su",
-      price: 5.50,
+      price: 5.5,
       image: isamericano,
     },
     {
@@ -1001,32 +1004,32 @@ export const menuData = {
       id: 22,
       title: "Frappuccino",
       description: "Buzlu qəhvə əsaslı içki",
-      price: 6.50,
+      price: 6.5,
       image: frappucino,
     },
     {
       id: 23,
       title: "Iced Mocha",
       description: "Soyuq şokoladlı qəhvə",
-      price: 6.50,
+      price: 6.5,
       image: ismocca,
     },
     {
       id: 24,
       title: "Iced Raf Coffee",
       description: "Soyuq qaymaqlı raf qəhvəsi",
-      price: 7.50,
+      price: 7.5,
       image: israfcofe,
     },
     {
       id: 25,
       title: "Affogato",
       description: "Dondurma üzərində espresso",
-      price: 6.50,
+      price: 6.5,
       image: affacato,
     },
- ],
- milkshakes: [
+  ],
+  milkshakes: [
     {
       id: 26,
       title: "Vanilli Milkşeyk",
@@ -1066,11 +1069,11 @@ export const menuData = {
       id: 31,
       title: "Snickers Milkşeyk",
       description: "Snickers və süd",
-      price: 6.50,
+      price: 6.5,
       image: snikersmilkseyk,
     },
- ],
-      lemonades: [
+  ],
+  lemonades: [
     {
       id: 32,
       title: "Tropik Limonad",
@@ -1106,8 +1109,15 @@ export const menuData = {
       price: 6,
       image: moxito,
     },
+    {
+      id: 37,
+      title: "Portağal Fresh",
+      description: "Təravətləndirici və təbii portağal şirəsi",
+      price: 6,
+      image: portagalFresh,
+    },
   ],
-    softDrinks: [
+  softDrinks: [
     {
       id: 37,
       title: "Coca-Cola",
@@ -1115,7 +1125,13 @@ export const menuData = {
       price: 3,
       image: kola,
     },
-
+    {
+      id: 37,
+      title: "Fanta",
+      description: "330 ml",
+      price: 3,
+      image: fanta,
+    },
     {
       id: 38,
       title: "Sprite",
@@ -1185,130 +1201,130 @@ export const menuData = {
       id: 6,
       title: "Ratatouille",
       description: "Badımcan, balqabaq, pomidor və bibər qarışığı",
-      price: 4.50,
+      price: 4.5,
       image: ratatoulli,
     },
   ],
-desserts: [
-  {
-    id: 1,
-    title: "Malaqa",
-    price: 6.5,
-    image: defaultDessert,
-  },
-  {
-    id: 2,
-    title: "Dubai Cheesecake",
-    price: 8,
-    image: defaultDessert,
-  },
-  {
-    id: 3,
-    title: "Bounty",
-    price: 6,
-    image: defaultDessert,
-  },
-  {
-    id: 4,
-    title: "Lotus",
-    price: 8,
-    image: defaultDessert,
-  },
-  {
-    id: 5,
-    title: "Red Velvet",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 6,
-    title: "Spartak",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 7,
-    title: "Snickers",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 8,
-    title: "San Sebastian",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 9,
-    title: "Honey Cake",
-    price: 8,
-    image: defaultDessert,
-  },
-  {
-    id: 10,
-    title: "Şokoladlı Cheesecake",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 11,
-    title: "Raspberry Cheesecake",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 12,
-    title: "Oreo",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 13,
-    title: "Three Chocolate",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 14,
-    title: "Tiramisu",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 15,
-    title: "Limonlu Cheesecake",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 16,
-    title: "Çiyələkli Cheesecake",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 17,
-    title: "Napoleon",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 18,
-    title: "Raffaello",
-    price: 7,
-    image: defaultDessert,
-  },
-  {
-    id: 19,
-    title: "Fıstıqlı Cheesecake",
-    price: 8.5,
-    image: defaultDessert,
-  },
-  {
-    id: 20,
-    title: "Dietik San Sebastian",
-    price: 7.5,
-    image: defaultDessert,
-  },
-],
+  desserts: [
+    {
+      id: 1,
+      title: "Malaqa",
+      price: 6.5,
+      image: defaultDessert,
+    },
+    {
+      id: 2,
+      title: "Dubai Cheesecake",
+      price: 8,
+      image: defaultDessert,
+    },
+    {
+      id: 3,
+      title: "Bounty",
+      price: 6,
+      image: defaultDessert,
+    },
+    {
+      id: 4,
+      title: "Lotus",
+      price: 8,
+      image: defaultDessert,
+    },
+    {
+      id: 5,
+      title: "Red Velvet",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 6,
+      title: "Spartak",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 7,
+      title: "Snickers",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 8,
+      title: "San Sebastian",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 9,
+      title: "Honey Cake",
+      price: 8,
+      image: defaultDessert,
+    },
+    {
+      id: 10,
+      title: "Şokoladlı Cheesecake",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 11,
+      title: "Raspberry Cheesecake",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 12,
+      title: "Oreo",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 13,
+      title: "Three Chocolate",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 14,
+      title: "Tiramisu",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 15,
+      title: "Limonlu Cheesecake",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 16,
+      title: "Çiyələkli Cheesecake",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 17,
+      title: "Napoleon",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 18,
+      title: "Raffaello",
+      price: 7,
+      image: defaultDessert,
+    },
+    {
+      id: 19,
+      title: "Fıstıqlı Cheesecake",
+      price: 8.5,
+      image: defaultDessert,
+    },
+    {
+      id: 20,
+      title: "Dietik San Sebastian",
+      price: 7.5,
+      image: defaultDessert,
+    },
+  ],
 };
