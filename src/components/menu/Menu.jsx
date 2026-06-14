@@ -67,13 +67,13 @@ const Menu = () => {
     },
     {
       id: "sushiSets",
-      label: "Sushi Setləri",
+      label: t.categories.sushiSets,
       icon: CookingPot,
     },
 
     {
       id: "sushiRolls",
-      label: "Sushi Rolls",
+      label: t.categories.sushiRolls,
       icon: CookingPot,
     },
     {
@@ -483,13 +483,13 @@ const Menu = () => {
           items={filteredData.softDrinks}
         />
       )}
-     {filteredData.desserts.length > 0 && (
-  <MenuSection
-    id="desserts"
-    title={t.categories.desserts}
-    items={filteredData.desserts}
-  />
-)}
+      {filteredData.desserts.length > 0 && (
+        <MenuSection
+          id="desserts"
+          title={t.categories.desserts}
+          items={filteredData.desserts}
+        />
+      )}
 
       <FloatingCartButton setOpen={setCartOpen} hidden={cartOpen} />
 
