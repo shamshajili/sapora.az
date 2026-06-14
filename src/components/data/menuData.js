@@ -798,7 +798,7 @@ export const menuData = {
         {
       id: 5,
       title: "Mix Fast",
-      description: "İkiqat ətli böyük burger",
+      description: "Fri kartof, soğan halqaları, mozzarella çubuqları və toyuq naqetsləri",
       price: 12,
       image: defaultburger,
     },
