@@ -501,13 +501,6 @@ export const menuData = {
       price: 10.90,
       image: defaultavropa,
     },
-    {
-      id: 7,
-      title: "Lazanya",
-      description: "Mal əti və pendir qatları ilə hazırlanmış lazanya",
-      price: 0,
-      image: defaultavropa,
-    },
   ],
 
   meksikaSapora: [
