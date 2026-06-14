@@ -1112,7 +1112,7 @@ export const menuData = {
       id: 37,
       title: "Coca-Cola",
       description: "330 ml",
-      price: 8,
+      price: 3,
       image: kola,
     },
 
@@ -1120,7 +1120,7 @@ export const menuData = {
       id: 38,
       title: "Sprite",
       description: "330 ml",
-      price: 8,
+      price: 3,
       image: sprite,
     },
 
@@ -1128,7 +1128,7 @@ export const menuData = {
       id: 39,
       title: "Qazlı Sirab",
       description: "500 ml",
-      price: 8,
+      price: 2,
       image: sirabqazli,
     },
 
@@ -1136,7 +1136,7 @@ export const menuData = {
       id: 40,
       title: "Qazsız Sirab",
       description: "500 ml",
-      price: 8,
+      price: 2,
       image: sirabqazssiz,
     },
   ],
