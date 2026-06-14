@@ -17,6 +17,7 @@ import {
   Beef,
   Popcorn,
   CookingPot,
+  CakeSlice,
 } from "lucide-react";
 
 import MenuSection from "../menu/MenuSection";
@@ -124,8 +125,8 @@ const Menu = () => {
     },
     {
       id: "desserts",
-      label: "Desserts",
-      icon: Coffee,
+      label: t.categories.desserts,
+      icon: CakeSlice,
     },
   ];
 
@@ -482,13 +483,13 @@ const Menu = () => {
           items={filteredData.softDrinks}
         />
       )}
-      {filteredData.desserts.length > 0 && (
-        <MenuSection
-          id="desserts"
-          title="Desserts"
-          items={filteredData.desserts}
-        />
-      )}
+     {filteredData.desserts.length > 0 && (
+  <MenuSection
+    id="desserts"
+    title={t.categories.desserts}
+    items={filteredData.desserts}
+  />
+)}
 
       <FloatingCartButton setOpen={setCartOpen} hidden={cartOpen} />
 

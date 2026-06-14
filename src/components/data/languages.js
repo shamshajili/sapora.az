@@ -50,6 +50,7 @@ export const translations = {
       milkshakes: "Milkşeyklər",
       lemonades: "Limonadlar",
       softDrinks: "Sərinləşdirici İçkilər",
+      desserts: "Desertlər",
     },
 
     searchPlaceholder: "Menyu üzrə axtar...",
@@ -108,6 +109,7 @@ export const translations = {
       milkshakes: "Milkshakes",
       lemonades: "Lemonades",
       softDrinks: "Soft Drinks",
+      desserts: "Desserts",
     },
 
     searchPlaceholder: "Search menu...",
@@ -166,6 +168,7 @@ export const translations = {
       milkshakes: "Милкшейки",
       lemonades: "Лимонады",
       softDrinks: "Прохладительные напитки",
+      desserts: "Десерты",
     },
 
     searchPlaceholder: "Поиск по меню...",
@@ -802,6 +805,105 @@ export const menuTranslations = {
       title: "Chicken Hot",
       description: "10 pcs",
     },
+    Malaqa: {
+      title: "Malaga",
+      description: "Creamy Malaga dessert",
+    },
+
+    "Dubai Cheesecake": {
+      title: "Dubai Cheesecake",
+      description: "Cheesecake with Dubai chocolate flavor",
+    },
+
+    Bounty: {
+      title: "Bounty",
+      description: "Coconut and chocolate dessert",
+    },
+
+    Lotus: {
+      title: "Lotus",
+      description: "Lotus biscuit flavored cheesecake",
+    },
+
+    "Red Velvet": {
+      title: "Red Velvet",
+      description: "Classic red velvet cake",
+    },
+
+    Spartak: {
+      title: "Spartak",
+      description: "Layered chocolate and cream cake",
+    },
+
+    Snickers: {
+      title: "Snickers",
+      description: "Peanut, caramel and chocolate dessert",
+    },
+
+    "San Sebastian": {
+      title: "San Sebastian",
+      description: "Basque burnt cheesecake",
+    },
+
+    "Honey Cake": {
+      title: "Honey Cake",
+      description: "Traditional layered honey cake",
+    },
+
+    "Şokoladlı Cheesecake": {
+      title: "Chocolate Cheesecake",
+      description: "Cheesecake with chocolate flavor",
+    },
+
+    "Raspberry Cheesecake": {
+      title: "Raspberry Cheesecake",
+      description: "Cheesecake with raspberry topping",
+    },
+
+    Oreo: {
+      title: "Oreo",
+      description: "Oreo cookie cheesecake",
+    },
+
+    "Three Chocolate": {
+      title: "Three Chocolate",
+      description: "Three-layer chocolate dessert",
+    },
+
+    Tiramisu: {
+      title: "Tiramisu",
+      description: "Italian coffee-flavored dessert",
+    },
+
+    "Limonlu Cheesecake": {
+      title: "Lemon Cheesecake",
+      description: "Cheesecake with fresh lemon flavor",
+    },
+
+    "Çiyələkli Cheesecake": {
+      title: "Strawberry Cheesecake",
+      description: "Cheesecake with strawberry topping",
+    },
+
+    Napoleon: {
+      title: "Napoleon",
+      description: "Layered puff pastry cake with cream",
+    },
+
+    Raffaello: {
+      title: "Raffaello",
+      description: "Coconut and almond flavored dessert",
+    },
+
+    "Fıstıqlı Cheesecake": {
+      title: "Pistachio Cheesecake",
+      description: "Cheesecake topped with pistachios",
+    },
+
+    "Dietik San Sebastian": {
+      title: "Diet San Sebastian",
+      description: "Light version of San Sebastian cheesecake",
+    },
   },
 
   ru: {
@@ -1433,6 +1535,105 @@ export const menuTranslations = {
     "Çiken Hot": {
       title: "Чикен Хот",
       description: "10 шт",
+    },
+    Malaqa: {
+      title: "Малага",
+      description: "Нежный десерт Малага",
+    },
+
+    "Dubai Cheesecake": {
+      title: "Дубайский Чизкейк",
+      description: "Чизкейк со вкусом дубайского шоколада",
+    },
+
+    Bounty: {
+      title: "Баунти",
+      description: "Кокосово-шоколадный десерт",
+    },
+
+    Lotus: {
+      title: "Лотус",
+      description: "Чизкейк со вкусом печенья Lotus",
+    },
+
+    "Red Velvet": {
+      title: "Красный Бархат",
+      description: "Классический торт Red Velvet",
+    },
+
+    Spartak: {
+      title: "Спартак",
+      description: "Многослойный шоколадно-кремовый торт",
+    },
+
+    Snickers: {
+      title: "Сникерс",
+      description: "Десерт с арахисом, карамелью и шоколадом",
+    },
+
+    "San Sebastian": {
+      title: "Сан Себастьян",
+      description: "Испанский запечённый чизкейк",
+    },
+
+    "Honey Cake": {
+      title: "Медовик",
+      description: "Традиционный медовый торт",
+    },
+
+    "Şokoladlı Cheesecake": {
+      title: "Шоколадный Чизкейк",
+      description: "Чизкейк с шоколадным вкусом",
+    },
+
+    "Raspberry Cheesecake": {
+      title: "Малиновый Чизкейк",
+      description: "Чизкейк с малиновой начинкой",
+    },
+
+    Oreo: {
+      title: "Орео",
+      description: "Чизкейк с печеньем Oreo",
+    },
+
+    "Three Chocolate": {
+      title: "Три Шоколада",
+      description: "Десерт из трёх видов шоколада",
+    },
+
+    Tiramisu: {
+      title: "Тирамису",
+      description: "Итальянский кофейный десерт",
+    },
+
+    "Limonlu Cheesecake": {
+      title: "Лимонный Чизкейк",
+      description: "Чизкейк со вкусом лимона",
+    },
+
+    "Çiyələkli Cheesecake": {
+      title: "Клубничный Чизкейк",
+      description: "Чизкейк с клубничной начинкой",
+    },
+
+    Napoleon: {
+      title: "Наполеон",
+      description: "Слоёный торт с заварным кремом",
+    },
+
+    Raffaello: {
+      title: "Рафаэлло",
+      description: "Кокосово-миндальный десерт",
+    },
+
+    "Fıstıqlı Cheesecake": {
+      title: "Фисташковый Чизкейк",
+      description: "Чизкейк с фисташками",
+    },
+
+    "Dietik San Sebastian": {
+      title: "Диетический Сан Себастьян",
+      description: "Лёгкая версия чизкейка Сан Себастьян",
     },
   },
 };
