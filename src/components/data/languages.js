@@ -441,6 +441,21 @@ export const menuTranslations = {
       title: "Big Fantastic Burger",
       description: "Large double beef burger",
     },
+    "Mix Fast": {
+      title: "Mix Fast",
+      description:
+        "French fries, onion rings, mozzarella sticks and chicken nuggets",
+    },
+
+    "Pendirli Tost": {
+      title: "Cheese Toast",
+      description: "Crispy toast prepared with melted cheese",
+    },
+
+    "Sucuqlu Tost": {
+      title: "Sucuk Toast",
+      description: "Hot toast prepared with Turkish sucuk and cheese",
+    },
     "Toyuq Naqetsləri": {
       title: "Chicken Nuggets",
       description: "Crispy chicken nuggets",
@@ -1040,24 +1055,41 @@ export const menuTranslations = {
       description: "Филе рыбы, овощи, яйцо и жареный рис",
     },
     "Mal Ətli Burger": {
-      title: "Beef Burger",
-      description: "Beef patty, cheese and vegetables",
+      title: "Бургер с говядиной",
+      description: "Говяжья котлета, сыр и овощи",
     },
 
     "Toyuq Burgeri": {
-      title: "Chicken Burger",
-      description: "Chicken fillet, vegetables and special sauce",
+      title: "Куриный бургер",
+      description: "Куриное филе, овощи и фирменный соус",
     },
 
     "Sapora Çizburgeri": {
-      title: "Sapora Cheeseburger",
-      description: "Special Sapora burger with cheese",
+      title: "Чизбургер Sapora",
+      description: "Фирменный бургер Sapora с сыром",
     },
 
     "Big Fantastik Burger": {
-      title: "Big Fantastic Burger",
-      description: "Large double beef burger",
+      title: "Большой Фантастик Бургер",
+      description: "Большой бургер с двойной говяжьей котлетой",
     },
+
+    "Mix Fast": {
+      title: "Фаст Микс",
+      description:
+        "Картофель фри, луковые кольца, палочки моцареллы и куриные наггетсы",
+    },
+
+    "Pendirli Tost": {
+      title: "Тост с сыром",
+      description: "Хрустящий тост с расплавленным сыром",
+    },
+
+    "Sucuqlu Tost": {
+      title: "Тост с суджуком",
+      description: "Горячий тост с турецким суджуком и сыром",
+    },
+
     "Toyuq Naqetsləri": {
       title: "Куриные Наггетсы",
       description: "Хрустящие куриные наггетсы",
