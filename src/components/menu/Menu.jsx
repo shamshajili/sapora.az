@@ -122,6 +122,11 @@ const Menu = () => {
       label: t.categories.softDrinks,
       icon: GlassWater,
     },
+    {
+      id: "desserts",
+      label: "Desserts",
+      icon: Coffee,
+    },
   ];
 
   const scrollToSection = (id) => {
@@ -179,6 +184,7 @@ const Menu = () => {
         milkshakes: menuData.milkshakes || [],
         lemonades: menuData.lemonades || [],
         softDrinks: menuData.softDrinks || [],
+        desserts: menuData.desserts || [],
       };
     }
 
@@ -209,6 +215,7 @@ const Menu = () => {
       milkshakes: filterItems(menuData.milkshakes),
       lemonades: filterItems(menuData.lemonades),
       softDrinks: filterItems(menuData.softDrinks),
+      desserts: filterItems(menuData.desserts),
     };
   }, [search]);
 
@@ -230,7 +237,9 @@ const Menu = () => {
     filteredData.coldCoffees.length > 0 ||
     filteredData.milkshakes.length > 0 ||
     filteredData.lemonades.length > 0 ||
-    filteredData.softDrinks.length > 0;
+    filteredData.softDrinks.length > 0 ||
+    filteredData.desserts.length > 0;
+
   return (
     <>
       <section
@@ -471,6 +480,13 @@ const Menu = () => {
           id="softDrinks"
           title={t.categories.softDrinks}
           items={filteredData.softDrinks}
+        />
+      )}
+      {filteredData.desserts.length > 0 && (
+        <MenuSection
+          id="desserts"
+          title="Desserts"
+          items={filteredData.desserts}
         />
       )}
 
