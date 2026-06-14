@@ -1,10 +1,14 @@
 import noodle1 from "../../assets/images/pasta1.jpeg";
 import noodle2 from "../../assets/images/pasta2.jpeg";
 import noodle3 from "../../assets/images/pasta3.jpeg";
+
+
 import sorba1 from "../../assets/images/lentilsoup.jpeg";
 import sorba2 from "../../assets/images//brocolisoup.jpeg";
 import sorba3 from "../../assets/images/mashroomsoup.jpeg";
 import sorba4 from "../../assets/images/tomatosoup.jpeg";
+import sorba5 from "../../assets/images/tomyun.jpeg";
+
 import legion from "../../assets/images/legion.jpeg";
 import margherita from "../../assets/images/margherita.jpeg";
 import bbq from "../../assets/images/bbq.jpeg";
@@ -306,6 +310,13 @@ export const menuData = {
       price: 10,
       image: sorba4,
     },
+    {
+      id: 5,
+      title: "Tomyun Şorbası",
+      description: "Tomyun, tərəvəzlər və xüsusi ədviyyatlar",
+      price: 12,
+      image: sorba5,
+    }
   ],
 
   Pizza: [
@@ -790,7 +801,7 @@ export const menuData = {
       image: qanad,
     },
   ],
-  drinks: [
+  hotCoffees: [
     {
       id: 1,
       title: "Coconut Cacao Latte",
@@ -909,15 +920,8 @@ export const menuData = {
       price: 6.9,
       image: raffcofe,
     },
-    {
-      id: 17,
-      title: "Salted Caramel Latte",
-      description: "Espresso, süd və duzlu karamel",
-      priceSmall: 6.1,
-      priceMedium: 6.6,
-      image: saltedcaramellatte,
-    },
-
+ ],
+ coldCoffees: [
     {
       id: 18,
       title: "Iced Salted Caramel Latte",
@@ -974,7 +978,8 @@ export const menuData = {
       price: 6.3,
       image: affacato,
     },
-
+ ],
+ milkshakes: [
     {
       id: 26,
       title: "Vanilli Milkşeyk",
@@ -1017,7 +1022,8 @@ export const menuData = {
       price: 7,
       image: snikersmilkseyk,
     },
-
+ ],
+      lemonades: [
     {
       id: 32,
       title: "Tropik Limonad",
@@ -1053,6 +1059,8 @@ export const menuData = {
       price: 6.5,
       image: moxito,
     },
+  ],
+    softDrinks: [
     {
       id: 37,
       title: "Coca-Cola",

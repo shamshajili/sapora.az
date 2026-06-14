@@ -45,7 +45,11 @@ export const translations = {
       burgerler: "Burgerlər",
       mixfast: "Mix Fast",
       garnishes: "Qarnir",
-      drinks: "İçkilər",
+      hotCoffees: "İsti Qəhvələr",
+      coldCoffees: "Soyuq Qəhvələr",
+      milkshakes: "Milkşeyklər",
+      lemonades: "Limonadlar",
+      softDrinks: "Sərinləşdirici İçkilər",
     },
 
     searchPlaceholder: "Menyu üzrə axtar...",
@@ -99,7 +103,11 @@ export const translations = {
       burgerler: "Burgers",
       mixfast: "Mix Fast",
       garnishes: "Side Dishes",
-      drinks: "Drinks",
+      hotCoffees: "Hot Coffees",
+      coldCoffees: "Cold Coffees",
+      milkshakes: "Milkshakes",
+      lemonades: "Lemonades",
+      softDrinks: "Soft Drinks",
     },
 
     searchPlaceholder: "Search menu...",
@@ -153,7 +161,11 @@ export const translations = {
       burgerler: "Бургеры",
       mixfast: "Фастфуд",
       garnishes: "Гарниры",
-      drinks: "Напитки",
+      hotCoffees: "Горячий кофе",
+      coldCoffees: "Холодный кофе",
+      milkshakes: "Милкшейки",
+      lemonades: "Лимонады",
+      softDrinks: "Прохладительные напитки",
     },
 
     searchPlaceholder: "Поиск по меню...",
@@ -203,6 +215,10 @@ export const menuTranslations = {
     "Pomidor Şorbası": {
       title: "Tomato Soup",
       description: "Tomato, basil, garlic and special sauce",
+    },
+    "Tomyun Şorbası": {
+      title: "Tomyun Soup",
+      description: "Tomyun, vegetables and special spices",
     },
     "Fetuçini Alfredo": {
       title: "Fettuccine Alfredo",
@@ -816,6 +832,10 @@ export const menuTranslations = {
     "Pomidor Şorbası": {
       title: "Томатный Суп",
       description: "Томаты, базилик, чеснок и фирменный соус",
+    },
+    "Tomyun Şorbası": {
+      title: "Суп Том Ям",
+      description: "Том Ям, овощи и специальные специи",
     },
     "Fetuçini Alfredo": {
       title: "Фетучини Альфредо",

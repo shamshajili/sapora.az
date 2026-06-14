@@ -94,8 +94,32 @@ const Menu = () => {
     },
 
     {
-      id: "drinks",
-      label: t.categories.drinks,
+      id: "hotCoffees",
+      label: t.categories.hotCoffees,
+      icon: Coffee,
+    },
+
+    {
+      id: "coldCoffees",
+      label: t.categories.coldCoffees,
+      icon: Coffee,
+    },
+
+    {
+      id: "milkshakes",
+      label: t.categories.milkshakes,
+      icon: GlassWater,
+    },
+
+    {
+      id: "lemonades",
+      label: t.categories.lemonades,
+      icon: GlassWater,
+    },
+
+    {
+      id: "softDrinks",
+      label: t.categories.softDrinks,
       icon: GlassWater,
     },
   ];
@@ -150,7 +174,11 @@ const Menu = () => {
         burgerler: menuData.burgerler || [],
         mixFast: menuData.mixFast || [],
         garnishes: menuData.garnishes || [],
-        drinks: menuData.drinks || [],
+        hotCoffees: menuData.hotCoffees || [],
+        coldCoffees: menuData.coldCoffees || [],
+        milkshakes: menuData.milkshakes || [],
+        lemonades: menuData.lemonades || [],
+        softDrinks: menuData.softDrinks || [],
       };
     }
 
@@ -176,7 +204,11 @@ const Menu = () => {
       burgerler: filterItems(menuData.burgerler),
       mixFast: filterItems(menuData.mixFast),
       garnishes: filterItems(menuData.garnishes),
-      drinks: filterItems(menuData.drinks),
+      hotCoffees: filterItems(menuData.hotCoffees),
+      coldCoffees: filterItems(menuData.coldCoffees),
+      milkshakes: filterItems(menuData.milkshakes),
+      lemonades: filterItems(menuData.lemonades),
+      softDrinks: filterItems(menuData.softDrinks),
     };
   }, [search]);
 
@@ -194,7 +226,11 @@ const Menu = () => {
     filteredData.burgerler.length > 0 ||
     filteredData.mixFast.length > 0 ||
     filteredData.garnishes.length > 0 ||
-    filteredData.drinks.length > 0;
+    filteredData.hotCoffees.length > 0 ||
+    filteredData.coldCoffees.length > 0 ||
+    filteredData.milkshakes.length > 0 ||
+    filteredData.lemonades.length > 0 ||
+    filteredData.softDrinks.length > 0;
   return (
     <>
       <section
@@ -398,12 +434,43 @@ const Menu = () => {
         />
       )}
 
-      {/* İÇKİLƏR */}
-      {filteredData.drinks.length > 0 && (
+      {filteredData.hotCoffees.length > 0 && (
         <MenuSection
-          id="drinks"
-          title={t.categories.drinks}
-          items={filteredData.drinks}
+          id="hotCoffees"
+          title={t.categories.hotCoffees}
+          items={filteredData.hotCoffees}
+        />
+      )}
+
+      {filteredData.coldCoffees.length > 0 && (
+        <MenuSection
+          id="coldCoffees"
+          title={t.categories.coldCoffees}
+          items={filteredData.coldCoffees}
+        />
+      )}
+
+      {filteredData.milkshakes.length > 0 && (
+        <MenuSection
+          id="milkshakes"
+          title={t.categories.milkshakes}
+          items={filteredData.milkshakes}
+        />
+      )}
+
+      {filteredData.lemonades.length > 0 && (
+        <MenuSection
+          id="lemonades"
+          title={t.categories.lemonades}
+          items={filteredData.lemonades}
+        />
+      )}
+
+      {filteredData.softDrinks.length > 0 && (
+        <MenuSection
+          id="softDrinks"
+          title={t.categories.softDrinks}
+          items={filteredData.softDrinks}
         />
       )}
 
