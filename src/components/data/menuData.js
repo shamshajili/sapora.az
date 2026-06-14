@@ -94,6 +94,7 @@ import defaultsusi from "../../assets/images/defaultsusi.png";
 import saporaset from "../../assets/images/saporaset.jpeg";
 import defaultDessert from "../../assets/images/defaultdesert.png"
 import defaultpasta from "../../assets/images/defaultpasta.jpeg"
+import tacos from "../../assets/images/taco.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -527,9 +528,9 @@ export const menuData = {
     {
       id: 3,
       title: "Qarışıq Tacos",
-      description: "Ət və tərəvəzlərlə hazırlanmış Meksika takosu",
+      description: "Toyuq və tərəvəzlərlə hazırlanmış Meksika takosu",
       price: 12,
-      image: defaultmexican,
+      image: tacos,
     },
     {
       id: 4,

@@ -374,7 +374,7 @@ export const menuTranslations = {
 
     "Qarışıq Tacos": {
       title: "Mixed Tacos",
-      description: "Mexican tacos prepared with meat and vegetables",
+      description: "Mexican tacos prepared with chicken and vegetables",
     },
 
     "Toyuqlu Ençilada": {
@@ -1114,7 +1114,7 @@ export const menuTranslations = {
 
     "Qarışıq Tacos": {
       title: "Ассорти Такос",
-      description: "Мексиканские такос с мясом и овощами",
+      description: "Мексиканские такос с курицей и овощами",
     },
 
     "Toyuqlu Ençilada": {
