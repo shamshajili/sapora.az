@@ -45,6 +45,7 @@ export const translations = {
       burgerler: "Burgerlər",
       mixfast: "Mix Fast",
       garnishes: "Qarnir",
+      teas: "Çaylar",
       hotCoffees: "İsti Kofelər",
       coldCoffees: "Soyuq Kofelər",
       milkshakes: "Milkşeyklər",
@@ -104,6 +105,7 @@ export const translations = {
       burgerler: "Burgers",
       mixfast: "Mix Fast",
       garnishes: "Side Dishes",
+      teas: "Tea",
       hotCoffees: "Hot Coffees",
       coldCoffees: "Cold Coffees",
       milkshakes: "Milkshakes",
@@ -163,6 +165,7 @@ export const translations = {
       burgerler: "Бургеры",
       mixfast: "Фастфуд",
       garnishes: "Гарниры",
+      teas: "Чаи",
       hotCoffees: "Горячий кофе",
       coldCoffees: "Холодный кофе",
       milkshakes: "Милкшейки",
@@ -348,7 +351,10 @@ export const menuTranslations = {
       title: "BBQ Sapora Pizza",
       description: "BBQ sauce, chicken, mozzarella cheese and red onion",
     },
-
+    "Pepperoni Pizza": {
+      title: "Pepperoni Pizza",
+      description: "Mozzarella cheese and pepperoni",
+    },
     "Toyuqlu Göbələk Pizza": {
       title: "Chicken Mushroom Pizza",
       description: "Chicken, mushrooms, mozzarella cheese and creamy sauce",
@@ -809,6 +815,10 @@ export const menuTranslations = {
       title: "Chicken Hot",
       description: "10 pcs",
     },
+    "Fincan Çay": {
+      title: "Cup of Tea",
+      description: "Traditional Azerbaijani black tea",
+    },
     Malaqa: {
       title: "Malaga",
       description: "Creamy Malaga dessert",
@@ -1091,7 +1101,10 @@ export const menuTranslations = {
       title: "Пицца BBQ Sapora",
       description: "Соус BBQ, курица, моцарелла и красный лук",
     },
-
+    "Pepperoni Pizza": {
+      title: "Пицца Пепперони",
+      description: "Сыр моцарелла и пепперони",
+    },
     "Toyuqlu Göbələk Pizza": {
       title: "Пицца с Курицей и Грибами",
       description: "Курица, грибы, моцарелла и сливочный соус",
@@ -1257,6 +1270,10 @@ export const menuTranslations = {
     Ratatouille: {
       title: "Рататуй",
       description: "Баклажаны, кабачки, томаты и перец",
+    },
+    "Fincan Çay": {
+      title: "Чашка чая",
+      description: "Традиционный азербайджанский чёрный чай",
     },
     "Coconut Cacao Latte": {
       title: "Кокосовый Какао Латте",

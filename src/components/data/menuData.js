@@ -18,6 +18,7 @@ import fetucini from "../../assets/images/fetuccino.jpeg";
 import pennearabiatta from "../../assets/images/pennearabiato.jpeg";
 import spagettibolonez from "../../assets/images/spagettibolonez.jpeg";
 import dimare2 from "../../assets/images/dimare2.jpeg";
+import pepperonni from "../../assets/images/pepperonni.jpeg"
 
 import cacanoud from "../../assets/images/cacaound.jpeg";
 import macadamya from "../../assets/images/macadamyanut.jpeg";
@@ -96,6 +97,8 @@ import defaultpasta from "../../assets/images/defaultpasta.jpeg";
 import tacos from "../../assets/images/tacos2.jpeg";
 import fanta from "../../assets/images/fanta.jpeg";
 import portagalFresh from "../../assets/images/freshportagal.jpeg";
+
+import tea from "../../assets/images/tea.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -338,8 +341,16 @@ export const menuData = {
       id: 1,
       title: "Legion Pizza",
       description: "Mozzarella pendiri, pepperoni, göbələk və zeytun",
-      price: 12,
+      price: 13,
       image: legion,
+    },
+    {
+      id: 2,
+      title: "Pepperoni Pizza",
+      description:
+        "Mozzarella pendiri və pepperoni ilə hazırlanmış klassik pizza",
+      price: 11,
+      image: pepperonni,
     },
     {
       id: 2,
@@ -971,6 +982,15 @@ export const menuData = {
       image: raffcofe,
     },
   ],
+  teas: [
+  {
+    id: 1,
+    title: "Fincan Çay",
+    description: "Ənənəvi Azərbaycan qara çayı",
+    price: 3,
+    image: tea,
+  },
+],
   coldCoffees: [
     {
       id: 18,

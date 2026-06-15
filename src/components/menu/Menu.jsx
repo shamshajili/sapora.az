@@ -18,6 +18,7 @@ import {
   Popcorn,
   CookingPot,
   CakeSlice,
+  CupSoda,
 } from "lucide-react";
 
 import MenuSection from "../menu/MenuSection";
@@ -93,7 +94,11 @@ const Menu = () => {
       label: t.categories.garnishes,
       icon: Salad,
     },
-
+    {
+      id: "teas",
+      label: t.categories.teas,
+      icon: CupSoda,
+    },
     {
       id: "hotCoffees",
       label: t.categories.hotCoffees,
@@ -180,6 +185,7 @@ const Menu = () => {
         burgerler: menuData.burgerler || [],
         mixFast: menuData.mixFast || [],
         garnishes: menuData.garnishes || [],
+        teas: menuData.teas || [],
         hotCoffees: menuData.hotCoffees || [],
         coldCoffees: menuData.coldCoffees || [],
         milkshakes: menuData.milkshakes || [],
@@ -211,6 +217,7 @@ const Menu = () => {
       burgerler: filterItems(menuData.burgerler),
       mixFast: filterItems(menuData.mixFast),
       garnishes: filterItems(menuData.garnishes),
+      teas: filterItems(menuData.teas),
       hotCoffees: filterItems(menuData.hotCoffees),
       coldCoffees: filterItems(menuData.coldCoffees),
       milkshakes: filterItems(menuData.milkshakes),
@@ -234,6 +241,7 @@ const Menu = () => {
     filteredData.burgerler.length > 0 ||
     filteredData.mixFast.length > 0 ||
     filteredData.garnishes.length > 0 ||
+    filteredData.teas.length > 0 ||
     filteredData.hotCoffees.length > 0 ||
     filteredData.coldCoffees.length > 0 ||
     filteredData.milkshakes.length > 0 ||
@@ -443,7 +451,13 @@ const Menu = () => {
           items={filteredData.garnishes}
         />
       )}
-
+      {filteredData.teas.length > 0 && (
+        <MenuSection
+          id="teas"
+          title={t.categories.teas}
+          items={filteredData.teas}
+        />
+      )}
       {filteredData.hotCoffees.length > 0 && (
         <MenuSection
           id="hotCoffees"
