@@ -255,9 +255,9 @@ export const menuTranslations = {
         "Shrimp, lettuce, parmesan cheese, croutons and caesar sauce",
     },
 
-    "Harialtı Salatı": {
-      title: "Garden Salad",
-      description: "Fresh vegetables and special dressing",
+    "Hariatiki Salatı": {
+      title: "Horiatiki Salad",
+      description: "Fresh vegetables with feta cheese and special dressing",
     },
 
     "Ton Balıqlı Salat": {
@@ -285,9 +285,10 @@ export const menuTranslations = {
       description: "Arugula, vegetables and special dressing",
     },
 
-    "Mal Əti Karpaççosu": {
-      title: "Beef Carpaccio",
-      description: "Thinly sliced beef and parmesan cheese",
+    "Qızıl Balıq Karpaççosu": {
+      title: "Salmon Carpaccio",
+      description:
+        "Thinly sliced salmon with parmesan cheese and special dressing",
     },
 
     "Yaşıl Təravət Salatı": {
@@ -459,9 +460,9 @@ export const menuTranslations = {
       title: "Sucuk Toast",
       description: "Hot toast prepared with Turkish sucuk and cheese",
     },
-    "Toyuq Naqetsləri": {
-      title: "Chicken Nuggets",
-      description: "Crispy chicken nuggets",
+    "Toyuq Naggetsləri + Fri": {
+      title: "Chicken Nuggets & Fries",
+      description: "Crispy chicken nuggets served with golden fries",
     },
 
     "Mozzarella Çubuqları": {
@@ -998,9 +999,9 @@ export const menuTranslations = {
       description: "Креветки, салат, пармезан, сухарики и соус Цезарь",
     },
 
-    "Harialtı Salatı": {
-      title: "Овощной Салат",
-      description: "Свежие овощи и фирменная заправка",
+    "Hariatiki Salatı": {
+      title: "Салат Хориатики",
+      description: "Свежие овощи с сыром фета и фирменной заправкой",
     },
 
     "Ton Balıqlı Salat": {
@@ -1028,9 +1029,9 @@ export const menuTranslations = {
       description: "Рукола, овощи и фирменная заправка",
     },
 
-    "Mal Əti Karpaççosu": {
-      title: "Карпаччо из Говядины",
-      description: "Тонко нарезанная говядина и пармезан",
+    "Qızıl Balıq Karpaççosu": {
+      title: "Карпаччо из Лосося",
+      description: "Тонко нарезанный лосось с пармезаном и фирменной заправкой",
     },
 
     "Yaşıl Təravət Salatı": {
@@ -1204,9 +1205,9 @@ export const menuTranslations = {
       description: "Горячий тост с турецким суджуком и сыром",
     },
 
-    "Toyuq Naqetsləri": {
-      title: "Куриные Наггетсы",
-      description: "Хрустящие куриные наггетсы",
+    "Toyuq Naggetsləri + Fri": {
+      title: "Куриные Наггетсы с Картофелем Фри",
+      description: "Хрустящие куриные наггетсы с картофелем фри",
     },
 
     "Mozzarella Çubuqları": {

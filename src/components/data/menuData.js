@@ -95,7 +95,7 @@ import defaultDessert from "../../assets/images/defaultdesert.png";
 import defaultpasta from "../../assets/images/defaultpasta.jpeg";
 import tacos from "../../assets/images/tacos2.jpeg";
 import fanta from "../../assets/images/fanta.jpeg";
-import portagalFresh from "../../assets/images/freshportagal.jpeg"
+import portagalFresh from "../../assets/images/freshportagal.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -396,7 +396,7 @@ export const menuData = {
     },
     {
       id: 3,
-      title: "Harialtı Salatı",
+      title: "Hariatiki Salatı",
       description: "Təzə tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
       price: 6,
       image: defaultsalap,
@@ -438,7 +438,7 @@ export const menuData = {
     },
     {
       id: 9,
-      title: "Mal Əti Karpaççosu",
+      title: "Qızıl Balıq Karpaççosu",
       description: "Nazik dilimlənmiş mal əti və parmesan pendiri",
       price: 14,
       image: defaultsalap,
@@ -468,11 +468,12 @@ export const menuData = {
       image: defaultavropa,
     },
     {
-      id: 2,
-      title: "Mal Ətli Stroqanov",
-      description: "Mal əti, göbələk və qaymaqlı sous",
-      price: 11.9,
-      image: defaultavropa,
+      id: 9,
+      title: "Qızıl Balıq Karpaççosu",
+      description:
+        "Nazik dilimlənmiş qızıl balıq, parmezan pendiri və xüsusi sous ilə",
+      price: 14,
+      image: defaultsalap,
     },
     {
       id: 3,
@@ -816,9 +817,9 @@ export const menuData = {
   mixFast: [
     {
       id: 1,
-      title: "Toyuq Naqetsləri",
-      description: "Xırtıldayan toyuq nagetsləri",
-      price: 3.9,
+      title: "Toyuq Naggetsləri + Fri",
+      description: "Xırtıldayan toyuq naggetsleri və qızarmış kartof fri",
+      price: 7.5,
       image: nuggets,
     },
     {
