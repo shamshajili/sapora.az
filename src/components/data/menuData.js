@@ -18,7 +18,7 @@ import fetucini from "../../assets/images/fetuccino.jpeg";
 import pennearabiatta from "../../assets/images/pennearabiato.jpeg";
 import spagettibolonez from "../../assets/images/spagettibolonez.jpeg";
 import dimare2 from "../../assets/images/dimare2.jpeg";
-import pepperonni from "../../assets/images/pepperonni.jpeg"
+import pepperonni from "../../assets/images/pepperonni.jpeg";
 
 import cacanoud from "../../assets/images/cacaound.jpeg";
 import macadamya from "../../assets/images/macadamyanut.jpeg";
@@ -98,7 +98,7 @@ import tacos from "../../assets/images/tacos2.jpeg";
 import fanta from "../../assets/images/fanta.jpeg";
 import portagalFresh from "../../assets/images/freshportagal.jpeg";
 
-import tea from "../../assets/images/tea.jpeg"
+import tea from "../../assets/images/tea.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -849,10 +849,18 @@ export const menuData = {
     },
     {
       id: 4,
-      title: "Kartof Fri",
-      description: "Qızardılmış kartof dilimləri",
-      price: 4.9,
-      image: fries,
+      title: "Kənd Üsulu Kartof Dilimləri",
+      description: "Ədviyyatlı soba kartofu",
+      price: 4,
+      image: almadilim,
+    },
+
+    {
+      id: 5,
+      title: "Fri Kartof",
+      description: "Xırtıldayan qızardılmış kartof",
+      price: 5,
+      image: fri,
     },
     {
       id: 5,
@@ -983,14 +991,14 @@ export const menuData = {
     },
   ],
   teas: [
-  {
-    id: 1,
-    title: "Fincan Çay",
-    description: "Ənənəvi Azərbaycan qara çayı",
-    price: 3,
-    image: tea,
-  },
-],
+    {
+      id: 1,
+      title: "Fincan Çay",
+      description: "Ənənəvi Azərbaycan qara çayı",
+      price: 3,
+      image: tea,
+    },
+  ],
   coldCoffees: [
     {
       id: 18,
@@ -1200,22 +1208,6 @@ export const menuData = {
       description: "Buxarda hazırlanmış mövsümi tərəvəzlər",
       price: 3,
       image: aldenterevez,
-    },
-
-    {
-      id: 4,
-      title: "Kartof Dilimləri",
-      description: "Ədviyyatlı soba kartofu",
-      price: 4,
-      image: almadilim,
-    },
-
-    {
-      id: 5,
-      title: "Fri Kartof",
-      description: "Xırtıldayan qızardılmış kartof",
-      price: 5,
-      image: fri,
     },
 
     {

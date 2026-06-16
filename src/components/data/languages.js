@@ -480,7 +480,10 @@ export const menuTranslations = {
       title: "Onion Rings",
       description: "Crispy fried onion rings",
     },
-
+    "Kənd Üsulu Kartof Dilimləri": {
+      title: "Country Style Potato Wedges",
+      description: "Seasoned oven-baked potato wedges",
+    },
     "Kartof Fri": {
       title: "French Fries",
       description: "Crispy fried potato sticks",
@@ -504,17 +507,6 @@ export const menuTranslations = {
       title: "Al Dente Vegetables",
       description: "Steamed seasonal vegetables",
     },
-
-    "Kartof Dilimləri": {
-      title: "Potato Wedges",
-      description: "Seasoned oven-baked potatoes",
-    },
-
-    "Fri Kartof": {
-      title: "French Fries",
-      description: "Crispy fried potatoes",
-    },
-
     Ratatouille: {
       title: "Ratatouille",
       description: "Eggplant, zucchini, tomatoes and peppers",
@@ -1257,8 +1249,8 @@ export const menuTranslations = {
       description: "Сезонные овощи, приготовленные на пару",
     },
 
-    "Kartof Dilimləri": {
-      title: "Картофельные Дольки",
+    "Kənd Üsulu Kartof Dilimləri": {
+      title: "Картофельные дольки по-деревенски",
       description: "Запечённый картофель со специями",
     },
 
