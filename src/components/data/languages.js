@@ -351,6 +351,10 @@ export const menuTranslations = {
       title: "BBQ Sapora Pizza",
       description: "BBQ sauce, chicken, mozzarella cheese and red onion",
     },
+    "BBQ Qiymə Ətli Pizza": {
+      title: "BBQ Minced Meat Pizza",
+      description: "BBQ sauce, minced beef, mozzarella cheese and red onion",
+    },
     "Pepperoni Pizza": {
       title: "Pepperoni Pizza",
       description: "Mozzarella cheese and pepperoni",
@@ -1092,6 +1096,10 @@ export const menuTranslations = {
     "BBQ Sapora Pizza": {
       title: "Пицца BBQ Sapora",
       description: "Соус BBQ, курица, моцарелла и красный лук",
+    },
+    "BBQ Qiymə Ətli Pizza": {
+      title: "Пицца BBQ с говяжьим фаршем",
+      description: "Соус BBQ, говяжий фарш, сыр моцарелла и красный лук",
     },
     "Pepperoni Pizza": {
       title: "Пицца Пепперони",

@@ -100,6 +100,9 @@ import portagalFresh from "../../assets/images/freshportagal.jpeg";
 
 import tea from "../../assets/images/tea.jpeg";
 
+import qiyme from "../../assets/images/qiyme.png";
+import sezar from "../../assets/images/sezar.png"
+
 export const menuData = {
   breakfasts: [
     {
@@ -368,6 +371,13 @@ export const menuData = {
     },
     {
       id: 4,
+      title: "BBQ Qiymə Ətli Pizza",
+      description: "BBQ sousu, qiymə əti, mozzarella pendiri və qırmızı soğan",
+      price: 14,
+      image: qiyme,
+    },
+    {
+      id: 4,
       title: "Toyuqlu Göbələk Pizza",
       description: "Toyuq əti, göbələk, mozzarella pendiri və qaymaqlı sous",
       price: 10,
@@ -396,7 +406,7 @@ export const menuData = {
       description:
         "Toyuq filesi, kahı, parmesan pendiri, kruton və sezar sousu",
       price: 9,
-      image: defaultsalap,
+      image: sezar,
     },
     {
       id: 2,
