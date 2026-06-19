@@ -101,7 +101,10 @@ import portagalFresh from "../../assets/images/freshportagal.jpeg";
 import tea from "../../assets/images/tea.jpeg";
 
 import qiyme from "../../assets/images/qiyme.png";
-import sezar from "../../assets/images/sezar.png"
+import sezar from "../../assets/images/sezar.png";
+import waffle from "../../assets/images/wuffle.jpeg"
+import hariatiki from "../../assets/images/hariatiki.jpeg"
+import saporacizburger from "../../assets/images/saporacizburger.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -420,7 +423,7 @@ export const menuData = {
       title: "Hariatiki Salatı",
       description: "Təzə tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
       price: 6,
-      image: defaultsalap,
+      image: hariatiki,
     },
     {
       id: 4,
@@ -803,7 +806,7 @@ export const menuData = {
       title: "Sapora Çizburgeri",
       description: "Xüsusi pendirli Sapora burgeri",
       price: 12,
-      image: defaultburger,
+      image: saporacizburger,
     },
     {
       id: 4,
@@ -1229,6 +1232,12 @@ export const menuData = {
     },
   ],
   desserts: [
+    {
+      id: 2,
+      title: "Sapora Vafli",
+      price: 6,
+      image: waffle,
+    },
     {
       id: 1,
       title: "Malaqa",

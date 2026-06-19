@@ -909,6 +909,10 @@ export const menuTranslations = {
       title: "Pistachio Cheesecake",
       description: "Cheesecake topped with pistachios",
     },
+    "Sapora Vafli": {
+      title: "Sapora Waffle",
+      description: "Waffle prepared with special toppings",
+    },
 
     "Dietik San Sebastian": {
       title: "Diet San Sebastian",
@@ -940,6 +944,10 @@ export const menuTranslations = {
         "Особый завтрак Sapora с панкейками, сырным ассорти, фруктовыми пюре, сырниками и горячими напитками.",
     },
 
+    "Sapora Vafli": {
+      title: "Вафля Сапора",
+      description: "Вафля с особыми топпингами",
+    },
     "English Breakfast": {
       title: "Английский Завтрак",
       description:
