@@ -436,8 +436,8 @@ export const menuTranslations = {
       title: "Fish Fried Rice",
       description: "Fish fillet, vegetables, egg and fried rice",
     },
-    "Mal Ətli Burger": {
-      title: "Beef Burger",
+    "Cheese Burger Burger": {
+      title: "Cheese Burger Burger",
       description: "Beef patty, cheese and vegetables",
     },
 
@@ -824,10 +824,23 @@ export const menuTranslations = {
       title: "Dubai Cheesecake",
       description: "Cheesecake with Dubai chocolate flavor",
     },
+    "Pistachio Cake": {
+      title: "Pistachio Cake",
+    },
 
-    Bounty: {
-      title: "Bounty",
-      description: "Coconut and chocolate dessert",
+    "Quş Südü": {
+      title: "Bird's Milk",
+    },
+
+    "Chocolate Brownie": {
+      title: "Chocolate Brownie",
+    },
+
+    "Strawberry Tiramisu": {
+      title: "Strawberry Tiramisu",
+    },
+    "Bounty Diet": {
+      title: "Bounty Diet",
     },
 
     Lotus: {
@@ -909,7 +922,7 @@ export const menuTranslations = {
       title: "Pistachio Cheesecake",
       description: "Cheesecake topped with pistachios",
     },
-    "Sapora Vafli": {
+    "Sapora Waffle": {
       title: "Sapora Waffle",
       description: "Waffle prepared with special toppings",
     },
@@ -944,7 +957,7 @@ export const menuTranslations = {
         "Особый завтрак Sapora с панкейками, сырным ассорти, фруктовыми пюре, сырниками и горячими напитками.",
     },
 
-    "Sapora Vafli": {
+    "Sapora Waffle": {
       title: "Вафля Сапора",
       description: "Вафля с особыми топпингами",
     },
@@ -1190,8 +1203,8 @@ export const menuTranslations = {
       title: "Жареный Рис с Рыбой",
       description: "Филе рыбы, овощи, яйцо и жареный рис",
     },
-    "Mal Ətli Burger": {
-      title: "Бургер с говядиной",
+    "Cheese Burger Burger": {
+      title: "Чизбургер",
       description: "Говяжья котлета, сыр и овощи",
     },
 
@@ -1588,11 +1601,7 @@ export const menuTranslations = {
       description: "Чизкейк со вкусом дубайского шоколада",
     },
 
-    Bounty: {
-      title: "Баунти",
-      description: "Кокосово-шоколадный десерт",
-    },
-
+    
     Lotus: {
       title: "Лотус",
       description: "Чизкейк со вкусом печенья Lotus",
@@ -1657,7 +1666,24 @@ export const menuTranslations = {
       title: "Клубничный Чизкейк",
       description: "Чизкейк с клубничной начинкой",
     },
+    "Pistachio Cake": {
+      title: "Фисташковый торт",
+    },
 
+    "Quş Südü": {
+      title: "Птичье молоко",
+    },
+
+    "Chocolate Brownie": {
+      title: "Шоколадный брауни",
+    },
+
+    "Strawberry Tiramisu": {
+      title: "Клубничный тирамису",
+    },
+    "Baunty Diet": {
+      title: "Диетический Баунти",
+    },
     Napoleon: {
       title: "Наполеон",
       description: "Слоёный торт с заварным кремом",

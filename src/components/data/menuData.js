@@ -102,9 +102,22 @@ import tea from "../../assets/images/tea.jpeg";
 
 import qiyme from "../../assets/images/qiyme.png";
 import sezar from "../../assets/images/sezar.png";
-import waffle from "../../assets/images/wuffle.jpeg"
-import hariatiki from "../../assets/images/hariatiki.jpeg"
-import saporacizburger from "../../assets/images/saporacizburger.jpeg"
+import waffle from "../../assets/images/wuffle.jpeg";
+import hariatiki from "../../assets/images/hariatiki.jpeg";
+import saporacizburger from "../../assets/images/saporacizburger.jpeg";
+
+
+import qussudlu from "../../assets/images/qussudlu.jpeg"
+import ciyeleklitiramisu from "../../assets/images/ciyeleklitiramisu.jpeg"
+import pistaska from "../../assets/images/pistaska.jpeg"
+import brovni from "../../assets/images/brovni.jpeg"
+import sansebastian from "../../assets/images/sansebastian.jpeg"
+import bauntidiet from "../../assets/images/bauntidiet.jpeg"
+
+import hotchicken from "../../assets/images/hotchicken.jpeg"
+import set1 from "../../assets/images/set1.jpeg"
+import set6 from "../../assets/images/set6.jpeg"
+import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -578,7 +591,7 @@ export const menuData = {
       title: "Klassik Steyk",
       description: "Qril edilmiş klassik mal əti steyki",
       price: 16,
-      image: defaultmexican,
+      image: klasiksteyk,
     },
   ],
   asianFoodFashion: [
@@ -633,7 +646,7 @@ export const menuData = {
       price: 27,
       description:
         "Philadelphia (8), California (8), Chicken Hot (10), Curry Hot (10)",
-      image: defaultsusi,
+      image: set1,
     },
 
     {
@@ -676,7 +689,7 @@ export const menuData = {
       price: 25,
       description:
         "Ebi Hot (10), Chicken Hot (10), Saki Hot (10), Curry Hot (10)",
-      image: defaultsusi,
+      image: set6,
     },
 
     {
@@ -783,13 +796,13 @@ export const menuData = {
       title: "Çiken Hot",
       description: "10 ədəd",
       price: 9,
-      image: defaultsusi,
+      image: hotchicken,
     },
   ],
   burgerler: [
     {
       id: 1,
-      title: "Mal Ətli Burger",
+      title: "Cheese Burger",
       description: "Mal əti kotleti, pendir və tərəvəzlər",
       price: 9.5,
       image: maletburger,
@@ -872,7 +885,7 @@ export const menuData = {
       id: 5,
       title: "Fri Kartof",
       description: "Xırtıldayan qızardılmış kartof",
-      price: 5,
+      price: 4,
       image: fri,
     },
     {
@@ -1233,127 +1246,151 @@ export const menuData = {
   ],
   desserts: [
     {
+      id: 1,
+      title: "Pistachio Cake",
+      price: 8,
+      image: pistaska,
+    },
+    {
       id: 2,
-      title: "Sapora Vafli",
+      title: "Quş Südü",
+      price: 8,
+      image: qussudlu,
+    },
+    {
+      id: 3,
+      title: "Chocolate Brownie",
+      price: 8,
+      image: brovni,
+    },
+    {
+      id: 4,
+      title: "Strawberry Tiramisu",
+      price: 8,
+      image: ciyeleklitiramisu,
+    },
+      {
+      id: 5,
+      title: "Baunty Diet",
+      price: 8,
+      image: bauntidiet,
+    },
+    {
+      id: 6,
+      title: "Sapora Waffle",
       price: 6,
       image: waffle,
     },
     {
-      id: 1,
+      id: 6,
       title: "Malaqa",
       price: 6.5,
       image: defaultDessert,
     },
     {
-      id: 2,
+      id: 7,
       title: "Dubai Cheesecake",
       price: 8,
       image: defaultDessert,
     },
     {
-      id: 3,
-      title: "Bounty",
-      price: 6,
-      image: defaultDessert,
-    },
-    {
-      id: 4,
+      id: 9,
       title: "Lotus",
       price: 8,
       image: defaultDessert,
     },
     {
-      id: 5,
+      id: 10,
       title: "Red Velvet",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 6,
+      id: 11,
       title: "Spartak",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 7,
+      id: 12,
       title: "Snickers",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 8,
+      id: 13,
       title: "San Sebastian",
-      price: 7,
-      image: defaultDessert,
+      price: 8,
+      image: sansebastian,
     },
     {
-      id: 9,
+      id: 14,
       title: "Honey Cake",
       price: 8,
       image: defaultDessert,
     },
     {
-      id: 10,
+      id: 15,
       title: "Şokoladlı Cheesecake",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 11,
+      id: 16,
       title: "Raspberry Cheesecake",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 12,
+      id: 17,
       title: "Oreo",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 13,
+      id: 18,
       title: "Three Chocolate",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 14,
+      id: 19,
       title: "Tiramisu",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 15,
+      id: 20,
       title: "Limonlu Cheesecake",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 16,
+      id: 21,
       title: "Çiyələkli Cheesecake",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 17,
+      id: 22,
       title: "Napoleon",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 18,
+      id: 23,
       title: "Raffaello",
       price: 7,
       image: defaultDessert,
     },
     {
-      id: 19,
+      id: 24,
       title: "Fıstıqlı Cheesecake",
       price: 8.5,
       image: defaultDessert,
     },
     {
-      id: 20,
+      id: 25,
       title: "Dietik San Sebastian",
       price: 7.5,
       image: defaultDessert,
