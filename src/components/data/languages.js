@@ -436,17 +436,17 @@ export const menuTranslations = {
       title: "Fish Fried Rice",
       description: "Fish fillet, vegetables, egg and fried rice",
     },
-    "Cheese Burger Burger": {
-      title: "Cheese Burger Burger",
+    "Cheese Burger": {
+      title: "Cheese Burger",
       description: "Beef patty, cheese and vegetables",
     },
 
-    "Toyuq Burgeri": {
-      title: "Chicken Burger",
-      description: "Chicken fillet, vegetables and special sauce",
+    "Chicken Cheese Burger": {
+      title: "Chicken Cheese Burger",
+      description: "Chicken fillet, vegetables, cheese and special sauce",
     },
 
-    "Sapora Çizburgeri": {
+    "Sapora Cheeseburger": {
       title: "Sapora Cheeseburger",
       description: "Special Sapora burger with cheese",
     },
@@ -1203,17 +1203,17 @@ export const menuTranslations = {
       title: "Жареный Рис с Рыбой",
       description: "Филе рыбы, овощи, яйцо и жареный рис",
     },
-    "Cheese Burger Burger": {
+    "Cheese Burger": {
       title: "Чизбургер",
       description: "Говяжья котлета, сыр и овощи",
     },
 
-    "Toyuq Burgeri": {
-      title: "Куриный бургер",
-      description: "Куриное филе, овощи и фирменный соус",
+    "Chicken Cheese Burger": {
+      title: "Чикен Чизбургер",
+      description: "Куриное филе, овощи, Чиз и фирменный соус",
     },
 
-    "Sapora Çizburgeri": {
+    "Sapora Cheeseburger": {
       title: "Чизбургер Sapora",
       description: "Фирменный бургер Sapora с сыром",
     },

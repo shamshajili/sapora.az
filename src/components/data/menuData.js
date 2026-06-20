@@ -809,14 +809,14 @@ export const menuData = {
     },
     {
       id: 2,
-      title: "Toyuq Burgeri",
-      description: "Toyuq filesi, tərəvəzlər və xüsusi sous",
+      title: "Chicken Cheese Burger",
+      description: "Toyuq filesi, tərəvəzlər,pendir və xüsusi sous",
       price: 6.5,
       image: defaultburger,
     },
     {
       id: 3,
-      title: "Sapora Çizburgeri",
+      title: "Sapora Cheeseburger",
       description: "Xüsusi pendirli Sapora burgeri",
       price: 12,
       image: saporacizburger,
