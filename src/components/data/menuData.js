@@ -118,6 +118,7 @@ import hotchicken from "../../assets/images/hotchicken.jpeg"
 import set1 from "../../assets/images/set1.jpeg"
 import set6 from "../../assets/images/set6.jpeg"
 import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
+import sset2 from "../../assets/images/set2.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -659,7 +660,7 @@ export const menuData = {
       price: 25,
       description:
         "Ebi Alaska (8), Chips Roll (8), Saki Hot (10), Ebi Hot (10)",
-      image: defaultsusi,
+      image: set2,
     },
 
     {
