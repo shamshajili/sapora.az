@@ -118,7 +118,7 @@ import hotchicken from "../../assets/images/hotchicken.jpeg"
 import set1 from "../../assets/images/set1.jpeg"
 import set6 from "../../assets/images/set6.jpeg"
 import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
-import sset2 from "../../assets/images/set2.jpeg"
+import set2 from "../../assets/images/set2.jpeg"
 
 export const menuData = {
   breakfasts: [
