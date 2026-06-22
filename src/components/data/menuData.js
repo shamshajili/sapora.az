@@ -119,6 +119,7 @@ import set1 from "../../assets/images/set1.jpeg"
 import set6 from "../../assets/images/set6.jpeg"
 import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
 import set2 from "../../assets/images/set2.jpeg"
+import coffeedefault from "../../assets/images/coffeedefault.png"
 
 export const menuData = {
   breakfasts: [
@@ -1004,7 +1005,7 @@ export const menuData = {
       title: "Dark Mocha",
       description: "Tünd şokolad və espresso",
       price: 6,
-      image: darkmokka,
+      image: coffeedefault,
     },
     {
       id: 15,
