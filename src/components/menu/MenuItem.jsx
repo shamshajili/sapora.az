@@ -14,6 +14,7 @@ const MenuItem = ({
   price,
   priceSmall,
   priceMedium,
+  priceType,
   chooseCount,
   options,
 }) => {
@@ -27,6 +28,7 @@ const MenuItem = ({
 
   const translatedDescription = translatedItem?.description || description;
 
+  console.log(title, priceType);
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -86,15 +88,21 @@ const MenuItem = ({
           <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
 
           {priceSmall && priceMedium ? (
-            <div className="flex flex-col items-end leading-tight whitespace-nowrap">
-              <span className="text-[#123a3d] text-sm font-semibold">
-                2 nəfər • {priceSmall}₼
-              </span>
+            priceType === "people" ? (
+              <div className="flex flex-col items-end leading-tight whitespace-nowrap">
+                <span className="text-[#123a3d] text-sm font-semibold">
+                  2 nəfər • {priceSmall}₼
+                </span>
 
-              <span className="text-[#c9a46a] text-sm font-semibold">
-                4 nəfər • {priceMedium}₼
+                <span className="text-[#c9a46a] text-sm font-semibold">
+                  4 nəfər • {priceMedium}₼
+                </span>
+              </div>
+            ) : (
+              <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
+                {priceSmall}₼ / {priceMedium}₼
               </span>
-            </div>
+            )
           ) : (
             <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
               {price}₼

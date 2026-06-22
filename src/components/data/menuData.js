@@ -127,6 +127,7 @@ export const menuData = {
       image: turkBreakfast,
       priceSmall: 30,
       priceMedium: 45,
+      priceType: "people",
 
       description:
         "Simit, poğaça, pendir çeşidləri, zeytun, bal, çay və Türk qəhvəsi ilə təqdim olunan zəngin Türk səhər süfrəsi.",
@@ -171,6 +172,7 @@ export const menuData = {
       image: milliBreakfast,
       priceSmall: 25,
       priceMedium: 40,
+      priceType: "people",
 
       description:
         "Təndir çörəyi, yuxa, kənd pendirləri, bal, mürəbbə, qaymaq və samovar çayı ilə milli səhər süfrəsi.",
@@ -208,6 +210,7 @@ export const menuData = {
       image: breakfastsapora,
       priceSmall: 30,
       priceMedium: 45,
+      priceType: "people",
 
       description:
         "Pankek, çörək səbəti, pendir çeşidləri, meyvə püreləri, sırniki və isti içkilə təqdim olunan xüsusi Sapora səhər menyusu.",
@@ -253,6 +256,7 @@ export const menuData = {
       title: "English Breakfast",
       image: englishBreakfast,
       price: 15,
+      
 
       description:
         "Mal bekonu, yumurta, sosis, qrildə tərəvəzlər, souslu paxla və tost çörəyi ilə klassik İngilis səhər yeməyi.",
