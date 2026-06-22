@@ -86,16 +86,14 @@ const MenuItem = ({
           <div className="flex-1 border-b border-dotted border-[#123a3d]/40 mx-4" />
 
           {priceSmall && priceMedium ? (
-            <div className="flex flex-col items-end whitespace-nowrap">
-              <div className="flex items-center gap-2">
-                <span className="px-2 py-1 rounded-full bg-[#c9a46a]/10 text-[#123a3d] text-xs font-semibold">
-                  2 nəfər • 30₼
-                </span>
+            <div className="flex flex-col items-end leading-tight whitespace-nowrap">
+              <span className="text-[#123a3d] text-sm font-semibold">
+                2 nəfər • {priceSmall}₼
+              </span>
 
-                <span className="px-2 py-1 rounded-full bg-[#c9a46a] text-white text-xs font-semibold">
-                  4 nəfər • 45₼
-                </span>
-              </div>
+              <span className="text-[#c9a46a] text-sm font-semibold">
+                4 nəfər • {priceMedium}₼
+              </span>
             </div>
           ) : (
             <span className="text-[#123a3d] text-base font-semibold whitespace-nowrap">
