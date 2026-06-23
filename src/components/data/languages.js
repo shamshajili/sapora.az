@@ -52,6 +52,7 @@ export const translations = {
       lemonades: "Limonadlar",
       softDrinks: "Sərinləşdirici İçkilər",
       desserts: "Desertlər",
+      dondurmalar: "Dondurmalar",
     },
 
     searchPlaceholder: "Menyu üzrə axtar...",
@@ -112,6 +113,7 @@ export const translations = {
       lemonades: "Lemonades",
       softDrinks: "Soft Drinks",
       desserts: "Desserts",
+      dondurmalar: "Ice Cream",
     },
 
     searchPlaceholder: "Search menu...",
@@ -172,6 +174,7 @@ export const translations = {
       lemonades: "Лимонады",
       softDrinks: "Прохладительные напитки",
       desserts: "Десерты",
+      dondurmalar: "Мороженое",
     },
 
     searchPlaceholder: "Поиск по меню...",
@@ -180,6 +183,9 @@ export const translations = {
 };
 export const menuTranslations = {
   en: {
+    Dondurma: {
+      title: "Ice Cream",
+    },
     "Türk Sərpmə Səhər Yeməyi": {
       title: "Turkish Breakfast Platter",
       description:
@@ -939,6 +945,9 @@ export const menuTranslations = {
   },
 
   ru: {
+    Dondurma: {
+      title: "Мороженое",
+    },
     "Türk Sərpmə Səhər Yeməyi": {
       title: "Турецкий Завтрак",
       description:
@@ -1601,7 +1610,6 @@ export const menuTranslations = {
       description: "Чизкейк со вкусом дубайского шоколада",
     },
 
-    
     Lotus: {
       title: "Лотус",
       description: "Чизкейк со вкусом печенья Lotus",

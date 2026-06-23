@@ -120,6 +120,8 @@ import set6 from "../../assets/images/set6.jpeg"
 import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
 import set2 from "../../assets/images/set2.jpeg"
 import coffeedefault from "../../assets/images/coffeedefault.png"
+import rukola from "../../assets/images/rukola.jpeg"
+import dondurma from "../../assets/images/dondurma.png"
 
 export const menuData = {
   breakfasts: [
@@ -477,7 +479,7 @@ export const menuData = {
       title: "Rukola Qarışığı",
       description: "Rukola, tərəvəzlər və xüsusi sous",
       price: 8,
-      image: defaultsalap,
+      image: rukola,
     },
     {
       id: 9,
@@ -1402,4 +1404,12 @@ export const menuData = {
       image: defaultDessert,
     },
   ],
+  dondurmalar: [
+  {
+    id: 1,
+    title: "Dondurma",
+    price: 3,
+    image: dondurma,
+  },
+],
 };

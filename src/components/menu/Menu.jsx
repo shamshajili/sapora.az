@@ -19,6 +19,7 @@ import {
   CookingPot,
   CakeSlice,
   CupSoda,
+  IceCreamCone,
 } from "lucide-react";
 
 import MenuSection from "../menu/MenuSection";
@@ -133,6 +134,11 @@ const Menu = () => {
       label: t.categories.desserts,
       icon: CakeSlice,
     },
+    {
+      id: "dondurmalar",
+      label: t.categories.dondurmalar,
+      icon: IceCreamCone,
+    },
   ];
 
   const scrollToSection = (id) => {
@@ -192,6 +198,7 @@ const Menu = () => {
         lemonades: menuData.lemonades || [],
         softDrinks: menuData.softDrinks || [],
         desserts: menuData.desserts || [],
+        dondurmalar: menuData.dondurmalar || [],
       };
     }
 
@@ -224,6 +231,7 @@ const Menu = () => {
       lemonades: filterItems(menuData.lemonades),
       softDrinks: filterItems(menuData.softDrinks),
       desserts: filterItems(menuData.desserts),
+      dondurmalar: filterItems(menuData.dondurmalar),
     };
   }, [search]);
 
@@ -247,7 +255,8 @@ const Menu = () => {
     filteredData.milkshakes.length > 0 ||
     filteredData.lemonades.length > 0 ||
     filteredData.softDrinks.length > 0 ||
-    filteredData.desserts.length > 0;
+    filteredData.desserts.length > 0 ||
+    filteredData.dondurmalar.length > 0;
 
   return (
     <>
@@ -502,6 +511,13 @@ const Menu = () => {
           id="desserts"
           title={t.categories.desserts}
           items={filteredData.desserts}
+        />
+      )}
+      {filteredData.dondurmalar.length > 0 && (
+        <MenuSection
+          id="dondurmalar"
+          title={t.categories.dondurmalar}
+          items={filteredData.dondurmalar}
         />
       )}
 
