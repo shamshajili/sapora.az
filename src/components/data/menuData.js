@@ -34,8 +34,8 @@ import israfcofe from "../../assets/images/israfcoffe.jpeg";
 import affacato from "../../assets/images/affacto.jpeg";
 import vanillamilkseyk from "../../assets/images/vanillamilkseyk.jpeg";
 import sokalatmilkseyk from "../../assets/images/chooclatemilkseyk.jpeg";
-import caramelmilkseyk from "../../assets/images/caramelmilkseyk.jpeg";
-import strowberrylimonat from "../../assets/images/strawberrymilkseyk.jpeg";
+import caramelmilkseyk from "../../assets/images/caramellimilkseyk.jpeg";
+import strowberrylimonat from "../../assets/images/cileklimilkseyk.jpeg";
 import banamilkseyk from "../../assets/images/bananamilkseyk.jpeg";
 import snikersmilkseyk from "../../assets/images/snickersilkseyk.jpeg";
 import tropicallimonat from "../../assets/images/tropicallimonat.jpeg";
@@ -122,6 +122,7 @@ import set2 from "../../assets/images/set2.jpeg"
 import coffeedefault from "../../assets/images/coffeedefault.png"
 import rukola from "../../assets/images/rukola.jpeg"
 import dondurma from "../../assets/images/dondurma.png"
+import saki from "../../assets/images/sakihot.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -796,7 +797,7 @@ export const menuData = {
       title: "Saki Hot",
       description: "10 ədəd",
       price: 10,
-      image: defaultsusi,
+      image: saki,
     },
 
     {
