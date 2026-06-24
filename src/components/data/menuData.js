@@ -115,7 +115,7 @@ import sansebastian from "../../assets/images/sansebastian.jpeg"
 import bauntidiet from "../../assets/images/bauntidiet.jpeg"
 
 import hotchicken from "../../assets/images/hotchicken.jpeg"
-import set1 from "../../assets/images/set1.jpeg"
+import set1 from "../../assets/images/susi1.png"
 import set6 from "../../assets/images/set6.jpeg"
 import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
 import set2 from "../../assets/images/set2.jpeg"
@@ -123,6 +123,8 @@ import coffeedefault from "../../assets/images/coffeedefault.png"
 import rukola from "../../assets/images/rukola.jpeg"
 import dondurma from "../../assets/images/dondurma.png"
 import saki from "../../assets/images/sakihot.jpeg"
+import istisalat from "../../assets/images/istisalat.png"
+import set4 from "../../assets/images/set4.png"
 
 export const menuData = {
   breakfasts: [
@@ -466,7 +468,7 @@ export const menuData = {
       title: "İsti Salat",
       description: "İsti tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
       price: 11.9,
-      image: defaultsalap,
+      image: istisalat,
     },
     {
       id: 7,
@@ -681,7 +683,7 @@ export const menuData = {
       price: 29.9,
       description:
         "Philadelphia (8), California (8), Chips Roll (8), Curry Hot (10), Chicken Hot (10)",
-      image: defaultsusi,
+      image: set4,
     },
 
     {
