@@ -125,7 +125,8 @@ import dondurma from "../../assets/images/dondurma.png"
 import saki from "../../assets/images/sakihot.jpeg"
 import istisalat from "../../assets/images/istisalat.png"
 import set4 from "../../assets/images/set4.png"
-import cizrol from "../../assets/images/set3.jpeg"
+import set3 from "../../assets/images/set3.jpeg"
+import cizrol from "../../assets/images/cizroll.jpeg"
  
 
 export const menuData = {
@@ -676,7 +677,7 @@ export const menuData = {
       title: "Set 3",
       price: 22.9,
       description: "Philadelphia (8), Cedar Roll (8), Curry Hot (10)",
-      image: cizrol,
+      image: set3,
     },
 
     {
@@ -769,7 +770,7 @@ export const menuData = {
       title: "Ebi Çiz Maki",
       description: "8 ədəd",
       price: 10.9,
-      image: defaultsusi,
+      image: cizrol,
     },
 
     {
