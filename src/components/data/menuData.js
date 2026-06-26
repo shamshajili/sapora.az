@@ -125,7 +125,8 @@ import dondurma from "../../assets/images/dondurma.png"
 import saki from "../../assets/images/sakihot.jpeg"
 import istisalat from "../../assets/images/istisalat.png"
 import set4 from "../../assets/images/set4.png"
-import set3 from "../../assets/images/set3.jpeg"
+import cizrol from "../../assets/images/set3.jpeg"
+ 
 
 export const menuData = {
   breakfasts: [
@@ -675,7 +676,7 @@ export const menuData = {
       title: "Set 3",
       price: 22.9,
       description: "Philadelphia (8), Cedar Roll (8), Curry Hot (10)",
-      image: set3,
+      image: cizrol,
     },
 
     {
