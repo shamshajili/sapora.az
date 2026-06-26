@@ -125,8 +125,8 @@ import dondurma from "../../assets/images/dondurma.png"
 import saki from "../../assets/images/sakihot.jpeg"
 import istisalat from "../../assets/images/istisalat.png"
 import set4 from "../../assets/images/set4.png"
-import set3 from "../../assets/images/set3.jpeg"
-import cizrol from "../../assets/images/cizroll.jpeg"
+import cizrol from "../../assets/images/set3.jpeg"
+import set3 from "../../assets/images/cizroll.jpeg"
  
 
 export const menuData = {
