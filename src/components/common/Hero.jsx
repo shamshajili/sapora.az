@@ -122,10 +122,10 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://"
+              href="https://wa.me/994708450345?text=Salam%20m%C9%99lumat%20almaq%20ist%C9%99yir%C9%99m"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center hover:bg-[#c9a46a] hover:text-black transition"
+              className="w-9 h-9 border border-[#c9a46a] rounded-full flex items-center justify-center"
             >
               WA
             </a>

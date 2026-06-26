@@ -9,7 +9,7 @@ export const translations = {
     workingHours: "08:00 – 00:00",
 
     address: "Huseynov Kucesi, Mingecevir",
-    phone: "+994 xx xxx xx xx",
+    phone: "+994 070-845-03-45",
     reviewTitle: "Təcrübənizi qiymətləndirin",
     reviewSubtitle: "Fikrinizi bizimlə bölüşün",
     reviewPlaceholder: "Rəyinizi burada qeyd edin",
@@ -69,7 +69,7 @@ export const translations = {
     workingHours: "08:00 AM – 12:00 AM",
 
     address: "Huseynov Street, Mingachevir",
-    phone: "+994 xx xxx xx xx",
+    phone: "+994 070-845-03-45",
 
     reviewTitle: "Rate Your Experience",
     reviewSubtitle: "Share your opinion with us",
@@ -130,7 +130,7 @@ export const translations = {
     workingHours: "08:00 – 00:00",
 
     address: "Улица Гусейнова, Мингячевир",
-    phone: "+994 xx xxx xx xx",
+    phone: "+994 070-845-03-45",
 
     reviewTitle: "Оцените ваш опыт",
     reviewSubtitle: "Поделитесь своим мнением с нами",
