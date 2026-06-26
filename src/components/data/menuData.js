@@ -127,6 +127,7 @@ import istisalat from "../../assets/images/istisalat.png"
 import set4 from "../../assets/images/set4.png"
 import cizrol from "../../assets/images/set3.jpeg"
 import set3 from "../../assets/images/cizroll.jpeg"
+import krivetqalisezar from "../../assets/images/krivetqalisezar.png"
  
 
 export const menuData = {
@@ -443,7 +444,7 @@ export const menuData = {
       title: "Krevetli Sezar Salatı",
       description: "Krevet, kahı, parmesan pendiri, kruton və sezar sousu",
       price: 11,
-      image: defaultsalap,
+      image: krivetqalisezar,
     },
     {
       id: 3,
