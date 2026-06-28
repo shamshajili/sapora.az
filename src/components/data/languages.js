@@ -283,7 +283,10 @@ export const menuTranslations = {
       title: "Warm Salad",
       description: "Warm vegetables served with special dressing",
     },
-
+    "Sapora Toyuq Burger": {
+      title: "Sapora Chicken Burger",
+      description: "Sapora's signature chicken burger",
+    },
     "Kapreze Salatı": {
       title: "Caprese Salad",
       description: "Mozzarella, tomato, basil and olive oil",
@@ -1008,6 +1011,10 @@ export const menuTranslations = {
       description: "Паста фетучини, сливочный соус, пармезан и зелень",
     },
 
+    "Sapora Toyuq Burger": {
+      title: "Куриный Бургер Sapora",
+      description: "Фирменный куриный бургер Sapora",
+    },
     "Penne Arrabbiata": {
       title: "Пенне Арраббьята",
       description:

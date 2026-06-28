@@ -106,29 +106,27 @@ import waffle from "../../assets/images/wuffle.jpeg";
 import hariatiki from "../../assets/images/hariatiki.jpeg";
 import saporacizburger from "../../assets/images/saporacizburger.jpeg";
 
+import qussudlu from "../../assets/images/qussudlu.jpeg";
+import ciyeleklitiramisu from "../../assets/images/ciyeleklitiramisu.jpeg";
+import pistaska from "../../assets/images/pistaska.jpeg";
+import brovni from "../../assets/images/brovni.jpeg";
+import sansebastian from "../../assets/images/sansebastian.jpeg";
+import bauntidiet from "../../assets/images/bauntidiet.jpeg";
 
-import qussudlu from "../../assets/images/qussudlu.jpeg"
-import ciyeleklitiramisu from "../../assets/images/ciyeleklitiramisu.jpeg"
-import pistaska from "../../assets/images/pistaska.jpeg"
-import brovni from "../../assets/images/brovni.jpeg"
-import sansebastian from "../../assets/images/sansebastian.jpeg"
-import bauntidiet from "../../assets/images/bauntidiet.jpeg"
-
-import hotchicken from "../../assets/images/hotchicken.jpeg"
-import set1 from "../../assets/images/susi1.png"
-import set6 from "../../assets/images/set6.jpeg"
-import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg"
-import set2 from "../../assets/images/set2.jpeg"
-import coffeedefault from "../../assets/images/coffeedefault.png"
-import rukola from "../../assets/images/rukola.jpeg"
-import dondurma from "../../assets/images/dondurma.png"
-import saki from "../../assets/images/sakihot.jpeg"
-import istisalat from "../../assets/images/istisalat.png"
-import set4 from "../../assets/images/set4.png"
-import cizrol from "../../assets/images/set3.jpeg"
-import set3 from "../../assets/images/cizroll.jpeg"
-import krivetqalisezar from "../../assets/images/krivetqalisezar.png"
- 
+import hotchicken from "../../assets/images/hotchicken.jpeg";
+import set1 from "../../assets/images/susi1.png";
+import set6 from "../../assets/images/set6.jpeg";
+import klasiksteyk from "../../assets/images/klasiksteyk2.jpeg";
+import set2 from "../../assets/images/set2.jpeg";
+import coffeedefault from "../../assets/images/coffeedefault.png";
+import rukola from "../../assets/images/rukola.jpeg";
+import dondurma from "../../assets/images/dondurma.png";
+import saki from "../../assets/images/sakihot.jpeg";
+import istisalat from "../../assets/images/istisalat.png";
+import set4 from "../../assets/images/set4.png";
+import cizrol from "../../assets/images/set3.jpeg";
+import set3 from "../../assets/images/cizroll.jpeg";
+import krivetqalisezar from "../../assets/images/krivetqalisezar.png";
 
 export const menuData = {
   breakfasts: [
@@ -267,7 +265,6 @@ export const menuData = {
       title: "English Breakfast",
       image: englishBreakfast,
       price: 15,
-      
 
       description:
         "Mal bekonu, yumurta, sosis, qrildə tərəvəzlər, souslu paxla və tost çörəyi ilə klassik İngilis səhər yeməyi.",
@@ -838,6 +835,13 @@ export const menuData = {
     },
     {
       id: 4,
+      title: "Sapora Toyuq Burger",
+      description: "Saporanın məşhur toyuq burgeri",
+      price: 10,
+      image: defaultburger,
+    },
+    {
+      id: 4,
       title: "Big Fantastik Burger",
       description: "İkiqat ətli böyük burger",
       price: 8.5,
@@ -1284,7 +1288,7 @@ export const menuData = {
       price: 8,
       image: ciyeleklitiramisu,
     },
-      {
+    {
       id: 5,
       title: "Baunty Diet",
       price: 8,
@@ -1412,11 +1416,11 @@ export const menuData = {
     },
   ],
   dondurmalar: [
-  {
-    id: 1,
-    title: "Dondurma",
-    price: 3,
-    image: dondurma,
-  },
-],
+    {
+      id: 1,
+      title: "Dondurma",
+      price: 3,
+      image: dondurma,
+    },
+  ],
 };
