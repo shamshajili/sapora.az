@@ -404,7 +404,7 @@ export const menuTranslations = {
 
     Burrito: {
       title: "Burrito",
-      description: "Tortilla filled with meat, vegetables and sauces",
+      description: "Tortilla filled with chickeen, vegetables and sauces",
     },
 
     "Ribay Steyk": {
@@ -1178,7 +1178,7 @@ export const menuTranslations = {
 
     Burrito: {
       title: "Буррито",
-      description: "Тортилья с мясом, овощами и соусами",
+      description: "Тортилья с курицей, овощами и соусами",
     },
 
     "Ribay Steyk": {

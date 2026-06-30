@@ -588,7 +588,7 @@ export const menuData = {
     {
       id: 5,
       title: "Burrito",
-      description: "Ət, tərəvəz və souslarla doldurulmuş tortilla",
+      description: "Toyuq, tərəvəz və souslarla doldurulmuş tortilla",
       price: 7.5,
       image: buritto,
     },
