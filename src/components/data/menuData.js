@@ -127,6 +127,7 @@ import set4 from "../../assets/images/set4.png";
 import cizrol from "../../assets/images/set3.jpeg";
 import set3 from "../../assets/images/cizroll.jpeg";
 import krivetqalisezar from "../../assets/images/krivetqalisezar.png";
+import buritto from "../../assets/images/buritto.jpeg"
 
 export const menuData = {
   breakfasts: [
@@ -589,7 +590,7 @@ export const menuData = {
       title: "Burrito",
       description: "Ət, tərəvəz və souslarla doldurulmuş tortilla",
       price: 7.5,
-      image: defaultmexican,
+      image: buritto,
     },
     {
       id: 6,
