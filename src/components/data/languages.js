@@ -320,10 +320,6 @@ export const menuTranslations = {
       title: "Lasagna",
       description: "Lasagna with beef and cheese layers",
     },
-    "Legion Pizza": {
-      title: "Legion Pizza",
-      description: "Mozzarella cheese, pepperoni, mushrooms and olives",
-    },
 
     "Margherita Pizza": {
       title: "Margherita Pizza",
@@ -337,10 +333,6 @@ export const menuTranslations = {
     "BBQ Qiymə Ətli Pizza": {
       title: "BBQ Minced Meat Pizza",
       description: "BBQ sauce, minced beef, mozzarella cheese and red onion",
-    },
-    "Pepperoni Pizza": {
-      title: "Pepperoni Pizza",
-      description: "Mozzarella cheese and pepperoni",
     },
     "Toyuqlu Göbələk Pizza": {
       title: "Chicken Mushroom Pizza",
@@ -1064,11 +1056,6 @@ export const menuTranslations = {
       title: "Лазанья",
       description: "Лазанья с говядиной и сыром",
     },
-    "Legion Pizza": {
-      title: "Пицца Легион",
-      description: "Моцарелла, пепперони, грибы и оливки",
-    },
-
     "Margherita Pizza": {
       title: "Пицца Маргарита",
       description: "Моцарелла, томатный соус и свежий базилик",
@@ -1081,10 +1068,6 @@ export const menuTranslations = {
     "BBQ Qiymə Ətli Pizza": {
       title: "Пицца BBQ с говяжьим фаршем",
       description: "Соус BBQ, говяжий фарш, сыр моцарелла и красный лук",
-    },
-    "Pepperoni Pizza": {
-      title: "Пицца Пепперони",
-      description: "Сыр моцарелла и пепперони",
     },
     "Toyuqlu Göbələk Pizza": {
       title: "Пицца с Курицей и Грибами",
