@@ -127,7 +127,7 @@ import set4 from "../../assets/images/set4.png";
 import cizrol from "../../assets/images/set3.jpeg";
 import set3 from "../../assets/images/cizroll.jpeg";
 import krivetqalisezar from "../../assets/images/krivetqalisezar.png";
-import buritto from "../../assets/images/buritto.jpeg"
+import buritto from "../../assets/images/buritto.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -339,13 +339,6 @@ export const menuData = {
       image: sorba1,
     },
     {
-      id: 2,
-      title: "Kremli Brokoli Şorbası",
-      description: "Brokoli, qaymaq, süd və xüsusi ədviyyatlar",
-      price: 5,
-      image: sorba2,
-    },
-    {
       id: 3,
       title: "Kremli Göbələk Şorbası",
       description: "Təzə göbələk, qaymaq, süd və kərə yağı",
@@ -473,32 +466,11 @@ export const menuData = {
       image: istisalat,
     },
     {
-      id: 7,
-      title: "Kapreze Salatı",
-      description: "Mozzarella, pomidor, reyhan və zeytun yağı",
-      price: 6.5,
-      image: defaultsalap,
-    },
-    {
       id: 8,
       title: "Rukola Qarışığı",
       description: "Rukola, tərəvəzlər və xüsusi sous",
       price: 8,
       image: rukola,
-    },
-    {
-      id: 9,
-      title: "Qızıl Balıq Karpaççosu",
-      description: "Nazik dilimlənmiş mal əti və parmesan pendiri",
-      price: 14,
-      image: defaultsalap,
-    },
-    {
-      id: 10,
-      title: "Yaşıl Təravət Salatı",
-      description: "Yaşıl tərəvəzlərdən hazırlanmış yüngül salat",
-      price: 9.9,
-      image: defaultsalap,
     },
     {
       id: 11,
@@ -516,14 +488,6 @@ export const menuData = {
       description: "Xırtıldayan panirovkada toyuq şnitseli",
       price: 10,
       image: defaultavropa,
-    },
-    {
-      id: 9,
-      title: "Qızıl Balıq Karpaççosu",
-      description:
-        "Nazik dilimlənmiş qızıl balıq, parmezan pendiri və xüsusi sous ilə",
-      price: 14,
-      image: defaultsalap,
     },
     {
       id: 3,
@@ -549,9 +513,17 @@ export const menuData = {
     },
     {
       id: 6,
-      title: "Rizotto",
-      description: "Kremli italyan düyü yeməyi",
-      price: 10.9,
+      title: "Qızıl Balıq Steyk",
+      description:
+        "Qızıl balıq steyki, bişmiş tərəvəzlər və xüsusi sous ilə təqdim olunur.",
+      price: 19.5,
+      image: defaultavropa,
+    },
+    {
+      id: 7,
+      title: "Krivetka Tempura",
+      description: "Qızardılmış krevetkalar, xüsusi sous ilə təqdim olunur.",
+      price: 10,
       image: defaultavropa,
     },
   ],
@@ -655,63 +627,38 @@ export const menuData = {
   sushiSets: [
     {
       id: 1,
-      title: "Set 1",
-      price: 27,
+      title: "Tokio Set",
+      price: 28.9,
       description:
-        "Philadelphia (8), California (8), Chicken Hot (10), Curry Hot (10)",
-      image: set1,
-    },
-
-    {
-      id: 2,
-      title: "Set 2",
-      price: 25,
-      description:
-        "Ebi Alaska (8), Chips Roll (8), Saki Hot (10), Ebi Hot (10)",
-      image: set2,
-    },
-
-    {
-      id: 3,
-      title: "Set 3",
-      price: 22.9,
-      description: "Philadelphia (8), Cedar Roll (8), Curry Hot (10)",
-      image: set3,
-    },
-
-    {
-      id: 4,
-      title: "Set 4",
-      price: 29.9,
-      description:
-        "Philadelphia (8), California (8), Chips Roll (8), Curry Hot (10), Chicken Hot (10)",
-      image: set4,
-    },
-
-    {
-      id: 5,
-      title: "Set 5",
-      price: 21.9,
-      description: "Saki Kunsey (8), Ebi Cheese Maki (8), Ebi Hot (10)",
+        "Philadelphia Roll (8), California Roll (8), Chicken Hot Roll (10), Kani Hot Roll (10)",
       image: defaultsusi,
     },
 
     {
-      id: 6,
-      title: "Set 6",
-      price: 25,
+      id: 2,
+      title: "Hot City Set",
+      price: 26.9,
       description:
-        "Ebi Hot (10), Chicken Hot (10), Saki Hot (10), Curry Hot (10)",
-      image: set6,
+        "Kani Hot Roll (10), Chicken Hot Roll (10), Saki Hot Roll (10), Ebi Hot Roll (10)",
+      image: defaultsusi,
     },
 
     {
-      id: 7,
-      title: "Sapora Set",
-      price: 30,
+      id: 3,
+      title: "Samuray Set",
+      price: 29.9,
       description:
-        "Filadelfiya (8), Sapora Roll (8), Sezar Roll (8), Kari Roll (10), Ebi Çiz Maki (8)",
-      image: saporaset,
+        "Saki Crunchy Chicken Roll (8), Ebi Alaska Roll (8), California Roll (8), Ebi Hot Roll (10), Saki Hot Roll (10)",
+      image: defaultsusi,
+    },
+
+    {
+      id: 4,
+      title: "Sapora Set",
+      price: 32.9,
+      description:
+        "Philadelphia Roll (8), Sapora Roll (8), California Roll (8), Alaska Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
+      image: defaultsusi,
     },
   ],
 
@@ -1247,15 +1194,6 @@ export const menuData = {
       price: 3,
       image: qrildeterezi,
     },
-
-    {
-      id: 3,
-      title: "Al Dente Tərəvəz",
-      description: "Buxarda hazırlanmış mövsümi tərəvəzlər",
-      price: 3,
-      image: aldenterevez,
-    },
-
     {
       id: 6,
       title: "Ratatouille",

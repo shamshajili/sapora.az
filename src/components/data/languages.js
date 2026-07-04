@@ -214,11 +214,6 @@ export const menuTranslations = {
       description: "Red lentils, carrot, onion and special spices",
     },
 
-    "Kremli Brokoli Şorbası": {
-      title: "Creamy Broccoli Soup",
-      description: "Broccoli, cream, milk and special spices",
-    },
-
     "Kremli Göbələk Şorbası": {
       title: "Creamy Mushroom Soup",
       description: "Fresh mushrooms, cream, milk and butter",
@@ -287,27 +282,11 @@ export const menuTranslations = {
       title: "Sapora Chicken Burger",
       description: "Sapora's signature chicken burger",
     },
-    "Kapreze Salatı": {
-      title: "Caprese Salad",
-      description: "Mozzarella, tomato, basil and olive oil",
-    },
 
     "Rukola Qarışığı": {
       title: "Arugula Mix",
       description: "Arugula, vegetables and special dressing",
     },
-
-    "Qızıl Balıq Karpaççosu": {
-      title: "Salmon Carpaccio",
-      description:
-        "Thinly sliced salmon with parmesan cheese and special dressing",
-    },
-
-    "Yaşıl Təravət Salatı": {
-      title: "Green Fresh Salad",
-      description: "Light salad made from fresh green vegetables",
-    },
-
     "Marinə Edilmiş Pomidor Salatı": {
       title: "Marinated Tomato Salad",
       description: "Marinated tomatoes and fresh herbs",
@@ -335,11 +314,6 @@ export const menuTranslations = {
     "İspan Paelyası": {
       title: "Spanish Paella",
       description: "Traditional Spanish dish with seafood and rice",
-    },
-
-    Rizotto: {
-      title: "Risotto",
-      description: "Creamy Italian rice dish",
     },
 
     Lazanya: {
@@ -516,10 +490,6 @@ export const menuTranslations = {
       description: "Eggplant, zucchini, peppers and mushrooms",
     },
 
-    "Al Dente Tərəvəz": {
-      title: "Al Dente Vegetables",
-      description: "Steamed seasonal vegetables",
-    },
     Ratatouille: {
       title: "Ratatouille",
       description: "Eggplant, zucchini, tomatoes and peppers",
@@ -722,39 +692,7 @@ export const menuTranslations = {
       title: "Still Sirab Water",
       description: "500 ml",
     },
-    "Set 1": {
-      title: "Set 1",
-      description:
-        "Philadelphia Roll (8), California Roll (8), Chicken Hot (10), Curry Hot (10)",
-    },
 
-    "Set 2": {
-      title: "Set 2",
-      description:
-        "Ebi Alaska (8), Chips Roll (8), Sake Hot (10), Ebi Hot (10)",
-    },
-
-    "Set 3": {
-      title: "Set 3",
-      description: "Philadelphia Roll (8), Cedar Roll (8), Curry Hot (10)",
-    },
-
-    "Set 4": {
-      title: "Set 4",
-      description:
-        "Philadelphia Roll (8), California Roll (8), Chips Roll (8), Curry Hot (10), Chicken Hot (10)",
-    },
-
-    "Set 5": {
-      title: "Set 5",
-      description: "Sake Kunsei (8), Ebi Cheese Maki (8), Ebi Hot (10)",
-    },
-
-    "Set 6": {
-      title: "Set 6",
-      description:
-        "Ebi Hot (10), Chicken Hot (10), Sake Hot (10), Curry Hot (10)",
-    },
     "Sapora Set": {
       title: "Sapora Set",
       description:
@@ -945,6 +883,39 @@ export const menuTranslations = {
       description:
         "Fettuccine pasta, creamy sauce, shrimp, parmesan cheese and herbs",
     },
+    "Tokio Set": {
+      title: "Tokyo Set",
+      description:
+        "Philadelphia Roll (8), California Roll (8), Chicken Hot Roll (10), Kani Hot Roll (10)",
+    },
+
+    "Hot City Set": {
+      title: "Hot City Set",
+      description:
+        "Kani Hot Roll (10), Chicken Hot Roll (10), Saki Hot Roll (10), Ebi Hot Roll (10)",
+    },
+
+    "Samuray Set": {
+      title: "Samurai Set",
+      description:
+        "Saki Crunchy Chicken Roll (8), Ebi Alaska Roll (8), California Roll (8), Ebi Hot Roll (10), Saki Hot Roll (10)",
+    },
+
+    "Sapora Set": {
+      title: "Sapora Set",
+      description:
+        "Philadelphia Roll (8), Sapora Roll (8), California Roll (8), Alaska Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
+    },
+
+    "Qızıl Balıq Steyk": {
+      title: "Salmon Steak",
+      description: "Salmon steak served with grilled vegetables and special sauce."
+    },
+
+    "Krivetka Tempura": {
+      title: "Shrimp Tempura",
+      description: "Fried shrimp served with special sauce.",
+    },
   },
 
   ru: {
@@ -987,10 +958,6 @@ export const menuTranslations = {
       title: "Фетучини Альфредо с Креветками",
       description:
         "Паста фетучини, сливочный соус, креветки, пармезан и зелень",
-    },
-    "Kremli Brokoli Şorbası": {
-      title: "Крем-суп из Брокколи",
-      description: "Брокколи, сливки, молоко и специи",
     },
 
     "Kremli Göbələk Şorbası": {
@@ -1061,27 +1028,10 @@ export const menuTranslations = {
       title: "Тёплый Салат",
       description: "Тёплые овощи с фирменной заправкой",
     },
-
-    "Kapreze Salatı": {
-      title: "Салат Капрезе",
-      description: "Моцарелла, томаты, базилик и оливковое масло",
-    },
-
     "Rukola Qarışığı": {
       title: "Смесь Руколы",
       description: "Рукола, овощи и фирменная заправка",
     },
-
-    "Qızıl Balıq Karpaççosu": {
-      title: "Карпаччо из Лосося",
-      description: "Тонко нарезанный лосось с пармезаном и фирменной заправкой",
-    },
-
-    "Yaşıl Təravət Salatı": {
-      title: "Зелёный Свежий Салат",
-      description: "Лёгкий салат из свежих зелёных овощей",
-    },
-
     "Marinə Edilmiş Pomidor Salatı": {
       title: "Салат из Маринованных Томатов",
       description: "Маринованные томаты и зелень",
@@ -1110,12 +1060,6 @@ export const menuTranslations = {
       title: "Испанская Паэлья",
       description: "Традиционное испанское блюдо с морепродуктами и рисом",
     },
-
-    Rizotto: {
-      title: "Ризотто",
-      description: "Классическое итальянское блюдо из риса",
-    },
-
     Lazanya: {
       title: "Лазанья",
       description: "Лазанья с говядиной и сыром",
@@ -1287,11 +1231,6 @@ export const menuTranslations = {
     "Qrildə Tərəvəz": {
       title: "Овощи на Гриле",
       description: "Баклажан, кабачок, перец и грибы",
-    },
-
-    "Al Dente Tərəvəz": {
-      title: "Овощи Аль Денте",
-      description: "Сезонные овощи, приготовленные на пару",
     },
 
     "Kənd Üsulu Kartof Dilimləri": {
@@ -1511,37 +1450,7 @@ export const menuTranslations = {
       title: "Негазированная Вода Sirab",
       description: "500 мл",
     },
-    "Set 1": {
-      title: "Сет 1",
-      description:
-        "Филадельфия Ролл (8), Калифорния Ролл (8), Чикен Хот (10), Кари Хот (10)",
-    },
 
-    "Set 2": {
-      title: "Сет 2",
-      description: "Эби Аляска (8), Чипс Ролл (8), Саке Хот (10), Эби Хот (10)",
-    },
-
-    "Set 3": {
-      title: "Сет 3",
-      description: "Филадельфия Ролл (8), Сидар Ролл (8), Кари Хот (10)",
-    },
-
-    "Set 4": {
-      title: "Сет 4",
-      description:
-        "Филадельфия Ролл (8), Калифорния Ролл (8), Чипс Ролл (8), Кари Хот (10), Чикен Хот (10)",
-    },
-
-    "Set 5": {
-      title: "Сет 5",
-      description: "Саке Кунсей (8), Эби Чиз Маки (8), Эби Хот (10)",
-    },
-
-    "Set 6": {
-      title: "Сет 6",
-      description: "Эби Хот (10), Чикен Хот (10), Саке Хот (10), Кари Хот (10)",
-    },
     "Sapora Set": {
       title: "Сет Sapora",
       description:
@@ -1717,6 +1626,39 @@ export const menuTranslations = {
     "Dietik San Sebastian": {
       title: "Диетический Сан Себастьян",
       description: "Лёгкая версия чизкейка Сан Себастьян",
+    },
+    "Tokio Set": {
+      title: "Сет Токио",
+      description:
+        "Ролл Филадельфия (8), Ролл Калифорния (8), Чикен Хот Ролл (10), Кани Хот Ролл (10)",
+    },
+
+    "Hot City Set": {
+      title: "Сет Хот Сити",
+      description:
+        "Кани Хот Ролл (10), Чикен Хот Ролл (10), Саки Хот Ролл (10), Эби Хот Ролл (10)",
+    },
+
+    "Samuray Set": {
+      title: "Сет Самурай",
+      description:
+        "Саки Кранчи Чикен Ролл (8), Эби Аляска Ролл (8), Ролл Калифорния (8), Эби Хот Ролл (10), Саки Хот Ролл (10)",
+    },
+
+    "Sapora Set": {
+      title: "Сет Sapora",
+      description:
+        "Ролл Филадельфия (8), Ролл Sapora (8), Ролл Калифорния (8), Ролл Аляска (8), Кани Хот Ролл (10), Чикен Хот Ролл (10)",
+    },
+
+    "Qızıl Balıq Steyk": {
+      title: "Стейк из лосося",
+      description: "Стейк из лосося подается с овощами на гриле и фирменным соусом."
+    },
+
+    "Krivetka Tempura": {
+      title: "Креветки Темпура",
+      description: "Жареные креветки, подаются с фирменным соусом.",
     },
   },
 };
