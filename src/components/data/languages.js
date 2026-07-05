@@ -263,7 +263,10 @@ export const menuTranslations = {
       title: "Horiatiki Salad",
       description: "Fresh vegetables with feta cheese and special dressing",
     },
-
+"Balıqlı Sezar Salatı": {
+  title: "Salmon Caesar Salad",
+  description: "Salmon, lettuce, Parmesan cheese, croutons and Caesar dressing.",
+},
     "Ton Balıqlı Salat": {
       title: "Tuna Salad",
       description: "Tuna fish, vegetables and special dressing",
@@ -358,9 +361,16 @@ export const menuTranslations = {
       description: "Chicken fillet, peppers and special Mexican sauces",
     },
 
-    "Qarışıq Tacos": {
-      title: "Mixed Tacos",
-      description: "Mexican tacos prepared with chicken and vegetables",
+    "Toyuqlu Tacos": {
+      title: "Chicken Tacos",
+      description:
+        "Mexican tacos prepared with chicken, vegetables and special sauce.",
+    },
+
+    "Ətli Tacos": {
+      title: "Beef Tacos",
+      description:
+        "Mexican tacos prepared with beef, vegetables and special sauce.",
     },
 
     "Toyuqlu Ençilada": {
@@ -901,7 +911,8 @@ export const menuTranslations = {
 
     "Qızıl Balıq Steyk": {
       title: "Salmon Steak",
-      description: "Salmon steak served with grilled vegetables and special sauce."
+      description:
+        "Salmon steak served with grilled vegetables and special sauce.",
     },
 
     "Krivetka Tempura": {
@@ -1015,7 +1026,10 @@ export const menuTranslations = {
       title: "Салат с Морепродуктами",
       description: "Морепродукты и свежие овощи",
     },
-
+"Balıqlı Sezar Salatı": {
+  title: "Салат Цезарь с лососем",
+  description: "Лосось, салат латук, сыр Пармезан, крутоны и соус Цезарь.",
+},
     "İsti Salat": {
       title: "Тёплый Салат",
       description: "Тёплые овощи с фирменной заправкой",
@@ -1093,9 +1107,14 @@ export const menuTranslations = {
       description: "Куриное филе, перец и фирменные мексиканские соусы",
     },
 
-    "Qarışıq Tacos": {
-      title: "Ассорти Такос",
-      description: "Мексиканские такос с курицей и овощами",
+    "Toyuqlu Tacos": {
+      title: "Тако с курицей",
+      description: "Мексиканское тако с курицей, овощами и фирменным соусом.",
+    },
+
+    "Ətli Tacos": {
+      title: "Тако с говядиной",
+      description: "Мексиканское тако с говядиной, овощами и фирменным соусом.",
     },
 
     "Toyuqlu Ençilada": {
@@ -1636,7 +1655,8 @@ export const menuTranslations = {
 
     "Qızıl Balıq Steyk": {
       title: "Стейк из лосося",
-      description: "Стейк из лосося подается с овощами на гриле и фирменным соусом."
+      description:
+        "Стейк из лосося подается с овощами на гриле и фирменным соусом.",
     },
 
     "Krivetka Tempura": {
