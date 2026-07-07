@@ -664,7 +664,7 @@ export const menuData = {
       title: "Sapora Roll",
       description: "8 ədəd",
       price: 13,
-      image: saporaset,
+      image: defaultsusi,
     },
 
     {
