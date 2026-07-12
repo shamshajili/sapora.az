@@ -19,6 +19,7 @@ import pennearabiatta from "../../assets/images/pennearabiato.jpeg";
 import spagettibolonez from "../../assets/images/spagettibolonez.jpeg";
 import dimare2 from "../../assets/images/dimare2.jpeg";
 import pepperonni from "../../assets/images/pepperonni.jpeg";
+import elmir from "../../assets/images/elmir.jpeg";
 
 import cacanoud from "../../assets/images/cacaound.jpeg";
 import macadamya from "../../assets/images/macadamyanut.jpeg";
@@ -128,6 +129,8 @@ import cizrol from "../../assets/images/set3.jpeg";
 import set3 from "../../assets/images/cizroll.jpeg";
 import krivetqalisezar from "../../assets/images/krivetqalisezar.png";
 import buritto from "../../assets/images/buritto.jpeg";
+
+import defaultlimonad from "../../assets/images/deflimonad.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -425,7 +428,8 @@ export const menuData = {
     {
       id: 3,
       title: "Balıqlı Sezar Salatı",
-      description: "Qızıl balıq, kahı, parmesan pendiri, kruton və Sezar sousu.",
+      description:
+        "Qızıl balıq, kahı, parmesan pendiri, kruton və Sezar sousu.",
       price: 12,
       image: defaultsalap,
     },
@@ -510,15 +514,17 @@ export const menuData = {
     {
       id: 3,
       title: "Toyuqlu Tacos",
-      description: "Toyuq, tərəvəz və xüsusi sous ilə hazırlanmış Meksika takosu.",
+      description:
+        "Toyuq, tərəvəz və xüsusi sous ilə hazırlanmış Meksika takosu.",
       price: 10,
       image: tacos,
     },
     {
       id: 4,
       title: "Ətli Tacos",
-      description: "Mal əti, tərəvəz və xüsusi sous ilə hazırlanmış Meksika takosu.",
-      price: 13.50,
+      description:
+        "Mal əti, tərəvəz və xüsusi sous ilə hazırlanmış Meksika takosu.",
+      price: 13.5,
       image: defaultmexican,
     },
     {
@@ -733,34 +739,41 @@ export const menuData = {
     },
     {
       id: 2,
-      title: "Chicken Cheese Burger",
-      description: "Toyuq filesi, tərəvəzlər,pendir və xüsusi sous",
+      title: "Toyuq Burger",
+      description: "Xırtıldayan toyuq filesi, pendir və təzə tərəvəzlər",
       price: 6.5,
       image: defaultburger,
     },
     {
       id: 3,
+      title: "Chicken Cheese Burger",
+      description: "Toyuq filesi, tərəvəzlər,pendir və xüsusi sous",
+      price: 8,
+      image: defaultburger,
+    },
+    {
+      id: 4,
       title: "Sapora Cheeseburger",
       description: "Xüsusi pendirli Sapora burgeri",
       price: 12,
       image: saporacizburger,
     },
     {
-      id: 4,
+      id: 5,
       title: "Sapora Toyuq Burger",
       description: "Saporanın məşhur toyuq burgeri",
       price: 10,
       image: defaultburger,
     },
     {
-      id: 4,
+      id: 6,
       title: "Big Fantastik Burger",
       description: "İkiqat ətli böyük burger",
       price: 8.5,
       image: defaultburger,
     },
     {
-      id: 5,
+      id: 7,
       title: "Mix Fast",
       description:
         "Fri kartof, soğan halqaları, mozzarella çubuqları və toyuq naqetsləri",
@@ -768,14 +781,14 @@ export const menuData = {
       image: defaultburger,
     },
     {
-      id: 4,
+      id: 8,
       title: "Pendirli Tost",
       description: "Əridilmiş pendir ilə hazırlanmış xırtıldayan tost",
       price: 3,
       image: defaultburger,
     },
     {
-      id: 4,
+      id: 8,
       title: "Sucuqlu Tost",
       description: "Sucuq və pendir ilə hazırlanmış isti tost",
       price: 3.5,
@@ -1020,42 +1033,42 @@ export const menuData = {
       id: 26,
       title: "Vanilli Milkşeyk",
       description: "Vanil dondurması və süd",
-      price: 6,
+      price: 6.9,
       image: vanillamilkseyk,
     },
     {
       id: 27,
       title: "Şokoladlı Milkşeyk",
       description: "Şokolad və süd",
-      price: 6,
+      price: 6.9,
       image: sokalatmilkseyk,
     },
     {
       id: 28,
       title: "Karamelli Milkşeyk",
       description: "Karamel və süd",
-      price: 6,
+      price: 6.9,
       image: caramelmilkseyk,
     },
     {
       id: 29,
       title: "Çiyələkli Milkşeyk",
       description: "Çiyələk və süd",
-      price: 6,
+      price: 6.9,
       image: strowberrylimonat,
     },
     {
       id: 30,
       title: "Bananlı Milkşeyk",
       description: "Banan və süd",
-      price: 6,
+      price: 6.9,
       image: banamilkseyk,
     },
     {
       id: 31,
       title: "Snickers Milkşeyk",
       description: "Snickers və süd",
-      price: 6.5,
+      price: 7.5,
       image: snikersmilkseyk,
     },
   ],
@@ -1064,43 +1077,43 @@ export const menuData = {
       id: 32,
       title: "Tropik Limonad",
       description: "Tropik meyvə qarışığı",
-      price: 5,
-      image: tropicallimonat,
+      price: 5.5,
+      image: defaultlimonad,
     },
     {
       id: 33,
       title: "Manqo və Marakuya",
       description: "Manqo və marakuya",
-      price: 5,
-      image: pasionfrutmango,
+      price: 5.5,
+      image: defaultlimonad,
     },
     {
       id: 34,
       title: "Çiyələkli Limonad",
       description: "Çiyələk və limon",
-      price: 5,
-      image: strowberylimonat,
+      price: 5.5,
+      image: defaultlimonad,
     },
     {
       id: 35,
       title: "Qarpızlı Limonad",
       description: "Qarpız, nanə və limon",
-      price: 5,
-      image: vatermelon,
+      price: 5.5,
+      image: defaultlimonad,
     },
     {
       id: 36,
       title: "Moxito",
       description: "Nanə, limon və soda",
-      price: 6,
-      image: moxito,
+      price: 6.5,
+      image: defaultlimonad,
     },
     {
       id: 37,
       title: "Portağal Fresh",
       description: "Təravətləndirici və təbii portağal şirəsi",
-      price: 6,
-      image: portagalFresh,
+      price: 7,
+      image: defaultlimonad,
     },
   ],
   softDrinks: [
@@ -1130,7 +1143,7 @@ export const menuData = {
       id: 39,
       title: "Qazlı Sirab",
       description: "500 ml",
-      price: 2,
+      price: 2.5,
       image: sirabqazli,
     },
 
@@ -1138,7 +1151,7 @@ export const menuData = {
       id: 40,
       title: "Qazsız Sirab",
       description: "500 ml",
-      price: 2,
+      price: 2.5,
       image: sirabqazssiz,
     },
   ],

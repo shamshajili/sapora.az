@@ -263,10 +263,11 @@ export const menuTranslations = {
       title: "Horiatiki Salad",
       description: "Fresh vegetables with feta cheese and special dressing",
     },
-"Balıqlı Sezar Salatı": {
-  title: "Salmon Caesar Salad",
-  description: "Salmon, lettuce, Parmesan cheese, croutons and Caesar dressing.",
-},
+    "Balıqlı Sezar Salatı": {
+      title: "Salmon Caesar Salad",
+      description:
+        "Salmon, lettuce, Parmesan cheese, croutons and Caesar dressing.",
+    },
     "Ton Balıqlı Salat": {
       title: "Tuna Salad",
       description: "Tuna fish, vegetables and special dressing",
@@ -416,7 +417,10 @@ export const menuTranslations = {
       title: "Shrimp Fried Rice",
       description: "Shrimp, vegetables, egg and fried rice",
     },
-
+    "Toyuq Burger": {
+      title: "Chicken Burger",
+      description: "Crispy chicken fillet, cheese and fresh vegetables",
+    },
     "Balıqlı Fried Rice": {
       title: "Fish Fried Rice",
       description: "Fish fillet, vegetables, egg and fried rice",
@@ -1026,10 +1030,10 @@ export const menuTranslations = {
       title: "Салат с Морепродуктами",
       description: "Морепродукты и свежие овощи",
     },
-"Balıqlı Sezar Salatı": {
-  title: "Салат Цезарь с лососем",
-  description: "Лосось, салат латук, сыр Пармезан, крутоны и соус Цезарь.",
-},
+    "Balıqlı Sezar Salatı": {
+      title: "Салат Цезарь с лососем",
+      description: "Лосось, салат латук, сыр Пармезан, крутоны и соус Цезарь.",
+    },
     "İsti Salat": {
       title: "Тёплый Салат",
       description: "Тёплые овощи с фирменной заправкой",
@@ -1051,7 +1055,10 @@ export const menuTranslations = {
       title: "Бефстроганов",
       description: "Говядина, грибы и сливочный соус",
     },
-
+    "Toyuq Burger": {
+      title: "Куриный Бургер",
+      description: "Хрустящее куриное филе, сыр и свежие овощи",
+    },
     "Toyuqlu Stroqanov": {
       title: "Куриный Строганов",
       description: "Куриное филе, грибы и сливочный соус",
