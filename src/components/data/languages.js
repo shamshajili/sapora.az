@@ -421,10 +421,16 @@ export const menuTranslations = {
       title: "Chicken Burger",
       description: "Crispy chicken fillet, cheese and fresh vegetables",
     },
+    Hamburger: {
+      title: "Hamburger",
+      description:
+        "Juicy beef patty, cheese, fresh vegetables and special sauce",
+    },
     "Balıqlı Fried Rice": {
       title: "Fish Fried Rice",
       description: "Fish fillet, vegetables, egg and fried rice",
     },
+
     "Cheese Burger": {
       title: "Cheese Burger",
       description: "Beef patty, cheese and vegetables",
@@ -941,6 +947,10 @@ export const menuTranslations = {
         "Традиционный азербайджанский завтрак с тандырным хлебом, сырами, медом, вареньем, сливками и самоварным чаем.",
     },
 
+    Hamburger: {
+      title: "Гамбургер",
+      description: "Сочная говяжья котлета, сыр, свежие овощи и фирменный соус",
+    },
     "Sapora Breakfast": {
       title: "Завтрак Sapora",
       description:
