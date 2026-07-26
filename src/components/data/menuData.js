@@ -131,6 +131,8 @@ import krivetqalisezar from "../../assets/images/krivetqalisezar.png";
 import buritto from "../../assets/images/buritto.jpeg";
 
 import defaultlimonad from "../../assets/images/deflimonad.jpeg";
+import premiumset from "../../assets/images/premiumset.jpeg";
+import salmon from "../../assets/images/salmon.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -597,6 +599,14 @@ export const menuData = {
   sushiSets: [
     {
       id: 1,
+      title: "Sapora Premium Set",
+      price: 38.5,
+      description:
+        "Philadelphia Luxury Fresh (8), Black Roll (8), Cizz Roll (8), Chicken Hot Roll (10)",
+      image: premiumset,
+    },
+    {
+      id: 2,
       title: "Tokio Set",
       price: 28.9,
       description:
@@ -605,7 +615,7 @@ export const menuData = {
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Hot City Set",
       price: 26.9,
       description:
@@ -614,7 +624,7 @@ export const menuData = {
     },
 
     {
-      id: 3,
+      id: 4,
       title: "Samuray Set",
       price: 29.9,
       description:
@@ -623,7 +633,7 @@ export const menuData = {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Sapora Set",
       price: 32.9,
       description:
@@ -635,6 +645,32 @@ export const menuData = {
   sushiRolls: [
     {
       id: 1,
+      title: "Sapora Sushi Burger",
+      price: 12,
+      description:
+        "Təzə salmon balığı, düyü, nori yosunu, xiyar, avokado və xüsusi Sapora sousu.",
+      image: salmon,
+    },
+
+    {
+      id: 2,
+      title: "Katana Sushi Burger",
+      price: 8.5,
+      description:
+        "Krab əti, düyü, nori yosunu, xiyar, kahı və xüsusi sous ilə hazırlanır.",
+      image: defaultsusi,
+    },
+
+    {
+      id: 3,
+      title: "Chicken Sushi Burger",
+      price: 9,
+      description:
+        "Xırtıldayan toyuq filesi, düyü, nori yosunu, kahı, xiyar və xüsusi sous ilə hazırlanır.",
+      image: defaultsusi,
+    },
+    {
+      id: 4,
       title: "Filadelfiya Roll",
       price: 12,
       description: "8 ədəd",
@@ -642,7 +678,7 @@ export const menuData = {
     },
 
     {
-      id: 2,
+      id: 5,
       title: "Kaliforniya Roll",
       description: "8 ədəd",
       price: 10,
@@ -650,7 +686,7 @@ export const menuData = {
     },
 
     {
-      id: 3,
+      id: 6,
       title: "Sedir Roll",
       description: "8 ədəd",
       price: 8,
@@ -658,7 +694,7 @@ export const menuData = {
     },
 
     {
-      id: 4,
+      id: 7,
       title: "Saki Maki",
       price: 7,
       description: "8 ədəd",
@@ -666,7 +702,7 @@ export const menuData = {
     },
 
     {
-      id: 5,
+      id: 8,
       title: "Sapora Roll",
       description: "8 ədəd",
       price: 13,
@@ -674,7 +710,7 @@ export const menuData = {
     },
 
     {
-      id: 6,
+      id: 9,
       title: "Çips Roll",
       description: "8 ədəd",
       price: 8.9,
@@ -682,7 +718,7 @@ export const menuData = {
     },
 
     {
-      id: 7,
+      id: 10,
       title: "Ebi Çiz Maki",
       description: "8 ədəd",
       price: 10.9,
@@ -690,7 +726,7 @@ export const menuData = {
     },
 
     {
-      id: 8,
+      id: 11,
       title: "Ebi Alyaska",
       description: "8 ədəd",
       price: 9,
@@ -698,7 +734,7 @@ export const menuData = {
     },
 
     {
-      id: 9,
+      id: 12,
       title: "Kani Hot",
       description: "10 ədəd",
       price: 9,
@@ -706,7 +742,7 @@ export const menuData = {
     },
 
     {
-      id: 10,
+      id: 13,
       title: "Sezar Roll Hot",
       description: "10 ədəd",
       price: 10,
@@ -714,7 +750,7 @@ export const menuData = {
     },
 
     {
-      id: 11,
+      id: 14,
       title: "Saki Hot",
       description: "10 ədəd",
       price: 10,
@@ -722,7 +758,7 @@ export const menuData = {
     },
 
     {
-      id: 12,
+      id: 15,
       title: "Çiken Hot",
       description: "10 ədəd",
       price: 9,

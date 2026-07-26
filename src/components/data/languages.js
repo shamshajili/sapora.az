@@ -213,6 +213,29 @@ export const menuTranslations = {
       title: "Lentil Soup",
       description: "Red lentils, carrot, onion and special spices",
     },
+    "Sapora Premium Set": {
+      title: "Sapora Premium Set",
+      description:
+        "Philadelphia Luxury Fresh (8), Black Roll (8), Cizz Roll (8), Chicken Hot Roll (10)",
+    },
+
+    "Sapora Sushi Burger": {
+      title: "Sapora Sushi Burger",
+      description:
+        "Fresh salmon, sushi rice, nori seaweed, cucumber, avocado, and Sapora signature sauce.",
+    },
+
+    "Katana Sushi Burger": {
+      title: "Katana Sushi Burger",
+      description:
+        "Crab meat, sushi rice, nori seaweed, cucumber, lettuce, and signature sauce.",
+    },
+
+    "Chicken Sushi Burger": {
+      title: "Chicken Sushi Burger",
+      description:
+        "Crispy chicken fillet, sushi rice, nori seaweed, lettuce, cucumber, and signature sauce.",
+    },
 
     "Kremli Göbələk Şorbası": {
       title: "Creamy Mushroom Soup",
@@ -932,6 +955,29 @@ export const menuTranslations = {
   },
 
   ru: {
+    "Sapora Premium Set": {
+      title: "Премиум Сет Sapora",
+      description:
+        "Philadelphia Luxury Fresh (8), Black Roll (8), Cizz Roll (8), Chicken Hot Roll (10)",
+    },
+
+    "Sapora Sushi Burger": {
+      title: "Суши Бургер Sapora",
+      description:
+        "Свежий лосось, рис для суши, водоросли нори, огурец, авокадо и фирменный соус Sapora.",
+    },
+
+    "Katana Sushi Burger": {
+      title: "Суши Бургер Katana",
+      description:
+        "Крабовое мясо, рис для суши, водоросли нори, огурец, листья салата и фирменный соус.",
+    },
+
+    "Chicken Sushi Burger": {
+      title: "Куриный Суши Бургер",
+      description:
+        "Хрустящее куриное филе, рис для суши, водоросли нори, листья салата, огурец и фирменный соус.",
+    },
     Dondurma: {
       title: "Мороженое",
     },
