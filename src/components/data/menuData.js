@@ -638,7 +638,7 @@ export const menuData = {
       price: 32.9,
       description:
         "Philadelphia Roll (8), Sapora Roll (8), California Roll (8), Alaska Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
-      image: defaultsusi,
+      image: set4,
     },
   ],
 
