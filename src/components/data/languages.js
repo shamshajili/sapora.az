@@ -361,6 +361,13 @@ export const menuTranslations = {
       title: "BBQ Minced Meat Pizza",
       description: "BBQ sauce, minced beef, mozzarella cheese and red onion",
     },
+    
+      "Legion Pizza": {
+        title: "Legion Pizza",
+        description:
+          "Chicken, mushrooms, tomatoes, mozzarella cheese and special pizza sauce",
+      },
+    
     "Toyuqlu Göbələk Pizza": {
       title: "Chicken Mushroom Pizza",
       description: "Chicken, mushrooms, mozzarella cheese and creamy sauce",
@@ -1160,6 +1167,13 @@ export const menuTranslations = {
       title: "Овощная Пицца",
       description: "Перец, грибы, кукуруза, оливки и моцарелла",
     },
+    
+      "Legion Pizza": {
+        title: "Пицца «Легион»",
+        description:
+          "Курица, грибы, помидоры, сыр моцарелла и фирменный томатный соус",
+      },
+    
     "Mal Ətli Fajita": {
       title: "Фахитас с Говядиной",
       description: "Говядина, перец и фирменные мексиканские соусы",

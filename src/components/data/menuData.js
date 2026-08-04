@@ -368,6 +368,14 @@ export const menuData = {
 
   Pizza: [
     {
+      id: 1,
+      title: "Legion Pizza",
+      description:
+        "Toyuq əti, göbələk, pomidor, mozzarella pendiri və xüsusi pizza sousu",
+      price: 14,
+      image: legion,
+    },
+    {
       id: 2,
       title: "Margherita Pizza",
       description: "Mozzarella pendiri, pomidor sousu və təzə reyhan",
