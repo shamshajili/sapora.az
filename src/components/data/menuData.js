@@ -134,6 +134,11 @@ import defaultlimonad from "../../assets/images/deflimonad.jpeg";
 import premiumset from "../../assets/images/premiumset.jpeg";
 import salmon from "../../assets/images/salmon.jpeg";
 
+import monastr from "../../assets/images/monastr.jpeg";
+import takosusi from "../../assets/images/takosusi.jpeg";
+import sucuklutost from "../../assets/images/sucuklutost.jpeg";
+import fusiyon from "../../assets/images/fusiyon.jpeg";
+
 export const menuData = {
   breakfasts: [
     {
@@ -344,21 +349,21 @@ export const menuData = {
       image: sorba1,
     },
     {
-      id: 3,
+      id: 2,
       title: "Kremli Göbələk Şorbası",
       description: "Təzə göbələk, qaymaq, süd və kərə yağı",
       price: 6,
       image: sorba3,
     },
     {
-      id: 4,
+      id: 3,
       title: "Pomidor Şorbası",
       description: "Pomidor, reyhan, sarımsaq və xüsusi sous",
       price: 5,
       image: sorba4,
     },
     {
-      id: 5,
+      id: 4,
       title: "Tomyun Şorbası",
       description: "Tomyun, tərəvəzlər və xüsusi ədviyyatlar",
       price: 8,
@@ -397,14 +402,14 @@ export const menuData = {
       image: qiyme,
     },
     {
-      id: 4,
+      id: 5,
       title: "Toyuqlu Göbələk Pizza",
       description: "Toyuq əti, göbələk, mozzarella pendiri və qaymaqlı sous",
       price: 10,
       image: chickkenmashroom,
     },
     {
-      id: 5,
+      id: 6,
       title: "Di Mare Pizza",
       description:
         "Karides, kalmar, ton, mozzarella pendiri və dəniz məhsulları",
@@ -412,7 +417,7 @@ export const menuData = {
       image: dimare,
     },
     {
-      id: 6,
+      id: 7,
       title: "Tərəvəzli Pizza",
       description: "Bibər, göbələk, qarğıdalı, zeytun və mozzarella pendiri",
       price: 9,
@@ -475,14 +480,14 @@ export const menuData = {
       image: defaultavropa,
     },
     {
-      id: 3,
+      id: 2,
       title: "Toyuqlu Stroqanov",
       description: "Toyuq filesi, göbələk və qaymaqlı sous",
       price: 9.9,
       image: defaultavropa,
     },
     {
-      id: 5,
+      id: 3,
       title: "İspan Paelyası",
       description:
         "Dəniz məhsulları və düyü ilə hazırlanan ənənəvi ispan yeməyi",
@@ -490,7 +495,7 @@ export const menuData = {
       image: defaultavropa,
     },
     {
-      id: 6,
+      id: 4,
       title: "Qızıl Balıq Steyk",
       description:
         "Qızıl balıq steyki, bişmiş tərəvəzlər və xüsusi sous ilə təqdim olunur.",
@@ -498,11 +503,19 @@ export const menuData = {
       image: defaultavropa,
     },
     {
-      id: 7,
+      id: 5,
       title: "Krivetka Tempura",
       description: "Qızardılmış krevetkalar, xüsusi sous ilə təqdim olunur.",
       price: 10,
       image: defaultavropa,
+    },
+    {
+      id: 6,
+      title: "Monastr Sayağı Toyuq",
+      description:
+        "Qril toyuq filesi, göbələkli qaymaqlı sous və kartof püresi ilə təqdim olunur",
+      price: 11.9,
+      image: monastr,
     },
   ],
 
@@ -648,6 +661,14 @@ export const menuData = {
         "Philadelphia Roll (8), Sapora Roll (8), California Roll (8), Alaska Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
       image: set4,
     },
+    {
+      id: 6,
+      title: "Fusiyon Set",
+      price: 24.9,
+      description:
+        "Philadelphia Roll (8), Cips Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
+      image: fusiyon,
+    },
   ],
 
   sushiRolls: [
@@ -679,6 +700,30 @@ export const menuData = {
     },
     {
       id: 4,
+      title: "Tako Suşi (Toyuqlu)",
+      description:
+        "Xırtıldayan tako qabığında toyuq, düyü, təzə tərəvəzlər və xüsusi sous ilə hazırlanır",
+      price: 10.0,
+      image: takosusi,
+    },
+    {
+      id: 5,
+      title: "Tako Suşi (Krevetkalı)",
+      description:
+        "Xırtıldayan tako qabığında krevetka, düyü, təzə tərəvəzlər və xüsusi sous ilə hazırlanır",
+      price: 11.9,
+      image: defaultsusi,
+    },
+    {
+      id: 6,
+      title: "Tako Suşi (Balıqlı)",
+      description:
+        "Xırtıldayan tako qabığında qızılbalıq, düyü, təzə tərəvəzlər və xüsusi sous ilə hazırlanır",
+      price: 12.9,
+      image: defaultsusi,
+    },
+    {
+      id: 7,
       title: "Filadelfiya Roll",
       price: 12,
       description: "8 ədəd",
@@ -686,7 +731,7 @@ export const menuData = {
     },
 
     {
-      id: 5,
+      id: 8,
       title: "Kaliforniya Roll",
       description: "8 ədəd",
       price: 10,
@@ -694,7 +739,7 @@ export const menuData = {
     },
 
     {
-      id: 6,
+      id: 9,
       title: "Sedir Roll",
       description: "8 ədəd",
       price: 8,
@@ -702,7 +747,7 @@ export const menuData = {
     },
 
     {
-      id: 7,
+      id: 10,
       title: "Saki Maki",
       price: 7,
       description: "8 ədəd",
@@ -710,7 +755,7 @@ export const menuData = {
     },
 
     {
-      id: 8,
+      id: 11,
       title: "Sapora Roll",
       description: "8 ədəd",
       price: 13,
@@ -718,7 +763,7 @@ export const menuData = {
     },
 
     {
-      id: 9,
+      id: 12,
       title: "Çips Roll",
       description: "8 ədəd",
       price: 8.9,
@@ -726,7 +771,7 @@ export const menuData = {
     },
 
     {
-      id: 10,
+      id: 13,
       title: "Ebi Çiz Maki",
       description: "8 ədəd",
       price: 10.9,
@@ -734,7 +779,7 @@ export const menuData = {
     },
 
     {
-      id: 11,
+      id: 14,
       title: "Ebi Alyaska",
       description: "8 ədəd",
       price: 9,
@@ -742,7 +787,7 @@ export const menuData = {
     },
 
     {
-      id: 12,
+      id: 15,
       title: "Kani Hot",
       description: "10 ədəd",
       price: 9,
@@ -750,7 +795,7 @@ export const menuData = {
     },
 
     {
-      id: 13,
+      id: 16,
       title: "Sezar Roll Hot",
       description: "10 ədəd",
       price: 10,
@@ -758,7 +803,7 @@ export const menuData = {
     },
 
     {
-      id: 14,
+      id: 17,
       title: "Saki Hot",
       description: "10 ədəd",
       price: 10,
@@ -766,7 +811,7 @@ export const menuData = {
     },
 
     {
-      id: 15,
+      id: 18,
       title: "Çiken Hot",
       description: "10 ədəd",
       price: 9,
@@ -843,8 +888,16 @@ export const menuData = {
       id: 10,
       title: "Sucuqlu Tost",
       description: "Sucuq və pendir ilə hazırlanmış isti tost",
-      price: 3.5,
+      price: 5.9,
       image: defaultburger,
+    },
+    {
+      id: 11,
+      title: "Sucuqlu Tost + Fries",
+      description:
+        "Sucuq və pendir ilə hazırlanmış isti tost və qızardılmış kartof fri",
+      price: 7.9,
+      image: sucuklutost,
     },
   ],
   mixFast: [
@@ -885,7 +938,7 @@ export const menuData = {
       image: fri,
     },
     {
-      id: 5,
+      id: 6,
       title: "Toyuq Qanadları",
       description: "Ədviyyatlı və qızardılmış toyuq qanadları",
       price: 6,
@@ -1018,6 +1071,13 @@ export const menuData = {
       title: "Fincan Çay",
       description: "Ənənəvi Azərbaycan qara çayı",
       price: 3,
+      image: tea,
+    },
+    {
+      id: 2,
+      title: "Çaynik Çay",
+      description: "Ənənəvi Azərbaycan qara çayı",
+      price: 8,
       image: tea,
     },
   ],

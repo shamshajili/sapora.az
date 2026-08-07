@@ -186,6 +186,10 @@ export const menuTranslations = {
     Dondurma: {
       title: "Ice Cream",
     },
+    "Çaynik Çay": {
+      title: "Teapot Tea",
+      description: "Traditional Azerbaijani black tea",
+    },
     "Türk Sərpmə Səhər Yeməyi": {
       title: "Turkish Breakfast Platter",
       description:
@@ -342,7 +346,28 @@ export const menuTranslations = {
       title: "Spanish Paella",
       description: "Traditional Spanish dish with seafood and rice",
     },
+    "Monastr Sayağı Toyuq": {
+      title: "Monastery-Style Chicken",
+      description:
+        "Grilled chicken fillet served with creamy mushroom sauce and mashed potatoes",
+    },
+    "Tako Suşi (Toyuqlu)": {
+      title: "Taco Sushi (Chicken)",
+      description:
+        "Crispy taco shell filled with chicken, sushi rice, fresh vegetables and special sauce",
+    },
 
+    "Tako Suşi (Krevetkalı)": {
+      title: "Taco Sushi (Shrimp)",
+      description:
+        "Crispy taco shell filled with shrimp, sushi rice, fresh vegetables and special sauce",
+    },
+
+    "Tako Suşi (Balıqlı)": {
+      title: "Taco Sushi (Salmon)",
+      description:
+        "Crispy taco shell filled with salmon, sushi rice, fresh vegetables and special sauce",
+    },
     Lazanya: {
       title: "Lasagna",
       description: "Lasagna with beef and cheese layers",
@@ -361,13 +386,13 @@ export const menuTranslations = {
       title: "BBQ Minced Meat Pizza",
       description: "BBQ sauce, minced beef, mozzarella cheese and red onion",
     },
-    
-      "Legion Pizza": {
-        title: "Legion Pizza",
-        description:
-          "Chicken, mushrooms, tomatoes, mozzarella cheese and special pizza sauce",
-      },
-    
+
+    "Legion Pizza": {
+      title: "Legion Pizza",
+      description:
+        "Chicken, mushrooms, tomatoes, mozzarella cheese and special pizza sauce",
+    },
+
     "Toyuqlu Göbələk Pizza": {
       title: "Chicken Mushroom Pizza",
       description: "Chicken, mushrooms, mozzarella cheese and creamy sauce",
@@ -494,6 +519,12 @@ export const menuTranslations = {
     "Sucuqlu Tost": {
       title: "Sucuk Toast",
       description: "Hot toast prepared with Turkish sucuk and cheese",
+    },
+
+    "Sucuqlu Tost + Fries": {
+      title: "Sausage Toast + Fries",
+      description:
+        "Hot toast prepared with Turkish sausage and cheese, served with crispy French fries",
     },
     "Toyuq Naggetsləri + Fri": {
       title: "Chicken Nuggets & Fries",
@@ -741,6 +772,12 @@ export const menuTranslations = {
         "Philadelphia Roll (8), Sapora Roll (8), Caesar Roll (8), Curry Roll (10), Ebi Cheese Maki (8)",
     },
 
+    "Fusiyon Set": {
+      title: "Fusion Set",
+      description:
+        "Philadelphia Roll (8), Chips Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
+    },
+
     "Filadelfiya Roll": {
       title: "Philadelphia Roll",
       description: "8 pcs",
@@ -962,18 +999,52 @@ export const menuTranslations = {
   },
 
   ru: {
+    "Çaynik Çay": {
+      title: "Чай в чайнике",
+      description: "Традиционный азербайджанский черный чай",
+    },
     "Sapora Premium Set": {
       title: "Премиум Сет Sapora",
       description:
         "Philadelphia Luxury Fresh (8), Black Roll (8), Cizz Roll (8), Chicken Hot Roll (10)",
     },
-
+    "Fusiyon Set": {
+      title: "Фьюжн Сет",
+      description:
+        "Ролл Филадельфия (8), Чипс Ролл (8), Кани Хот Ролл (10), Чикен Хот Ролл (10)",
+    },
+    "Sucuqlu Tost + Fries": {
+      title: "Тост с суджуком + Картофель фри",
+      description:
+        "Горячий тост с суджуком и сыром, подается с хрустящим картофелем фри",
+    },
+    "Monastr Sayağı Toyuq": {
+      title: "Курица по-монастырски",
+      description:
+        "Куриное филе на гриле, подается с грибным сливочным соусом и картофельным пюре",
+    },
     "Sapora Sushi Burger": {
       title: "Суши Бургер Sapora",
       description:
         "Свежий лосось, рис для суши, водоросли нори, огурец, авокадо и фирменный соус Sapora.",
     },
+    "Tako Suşi (Toyuqlu)": {
+      title: "Тако Суши (С курицей)",
+      description:
+        "Хрустящая тако-лепешка с курицей, рисом для суши, свежими овощами и фирменным соусом",
+    },
 
+    "Tako Suşi (Krevetkalı)": {
+      title: "Тако Суши (С креветкой)",
+      description:
+        "Хрустящая тако-лепешка с креветкой, рисом для суши, свежими овощами и фирменным соусом",
+    },
+
+    "Tako Suşi (Balıqlı)": {
+      title: "Тако Суши (С лососем)",
+      description:
+        "Хрустящая тако-лепешка с лососем, рисом для суши, свежими овощами и фирменным соусом",
+    },
     "Katana Sushi Burger": {
       title: "Суши Бургер Katana",
       description:
@@ -1167,13 +1238,13 @@ export const menuTranslations = {
       title: "Овощная Пицца",
       description: "Перец, грибы, кукуруза, оливки и моцарелла",
     },
-    
-      "Legion Pizza": {
-        title: "Пицца «Легион»",
-        description:
-          "Курица, грибы, помидоры, сыр моцарелла и фирменный томатный соус",
-      },
-    
+
+    "Legion Pizza": {
+      title: "Пицца «Легион»",
+      description:
+        "Курица, грибы, помидоры, сыр моцарелла и фирменный томатный соус",
+    },
+
     "Mal Ətli Fajita": {
       title: "Фахитас с Говядиной",
       description: "Говядина, перец и фирменные мексиканские соусы",
