@@ -948,9 +948,16 @@ export const menuTranslations = {
       title: "Pistachio Cheesecake",
       description: "Cheesecake topped with pistachios",
     },
-    "Sapora Waffle": {
-      title: "Sapora Waffle",
-      description: "Waffle prepared with special toppings",
+    "Bananlı Waffle": {
+      title: "Banana Waffle",
+    },
+
+    "Çiyələkli Waffle": {
+      title: "Strawberry Waffle",
+    },
+
+    "Qarışıq Waffle": {
+      title: "Mixed Waffle",
     },
 
     "Dietik San Sebastian": {
@@ -1081,9 +1088,16 @@ export const menuTranslations = {
         "Особый завтрак Sapora с панкейками, сырным ассорти, фруктовыми пюре, сырниками и горячими напитками.",
     },
 
-    "Sapora Waffle": {
-      title: "Вафля Сапора",
-      description: "Вафля с особыми топпингами",
+    "Bananlı Waffle": {
+      title: "Вафля с бананом",
+    },
+
+    "Çiyələkli Waffle": {
+      title: "Вафля с клубникой",
+    },
+
+    "Qarışıq Waffle": {
+      title: "Ассорти вафля",
     },
     "English Breakfast": {
       title: "Английский Завтрак",
