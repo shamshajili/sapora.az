@@ -783,6 +783,12 @@ export const menuTranslations = {
       description: "8 pcs",
     },
 
+    "Bonito Roll": {
+      title: "Bonito Roll",
+      description: "8 pcs",
+    },
+    
+
     "Kaliforniya Roll": {
       title: "California Roll",
       description: "8 pcs",
@@ -1623,6 +1629,10 @@ export const menuTranslations = {
 
     "Filadelfiya Roll": {
       title: "Филадельфия Ролл",
+      description: "8 шт",
+    },
+    "Bonito Roll": {
+      title: "Бонито Ролл",
       description: "8 шт",
     },
 

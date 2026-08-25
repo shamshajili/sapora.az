@@ -138,6 +138,7 @@ import monastr from "../../assets/images/monastr.jpeg";
 import takosusi from "../../assets/images/takosusi.jpeg";
 import sucuklutost from "../../assets/images/sucuklutost.jpeg";
 import fusiyon from "../../assets/images/fusiyon.jpeg";
+import bonito from "../../assets/images/bonito.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -816,6 +817,13 @@ export const menuData = {
       description: "10 ədəd",
       price: 9,
       image: hotchicken,
+    },
+    {
+      id: 19,
+      title: "Bonito Roll",
+      description: "8 ədəd",
+      price: 12,
+      image: bonito,
     },
   ],
   burgerler: [
