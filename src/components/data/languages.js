@@ -217,12 +217,6 @@ export const menuTranslations = {
       title: "Lentil Soup",
       description: "Red lentils, carrot, onion and special spices",
     },
-    "Sapora Premium Set": {
-      title: "Sapora Premium Set",
-      description:
-        "Philadelphia Luxury Fresh (8), Black Roll (8), Cizz Roll (8), Chicken Hot Roll (10)",
-    },
-
     "Sapora Sushi Burger": {
       title: "Sapora Sushi Burger",
       description:
@@ -397,6 +391,11 @@ export const menuTranslations = {
       title: "Chicken Mushroom Pizza",
       description: "Chicken, mushrooms, mozzarella cheese and creamy sauce",
     },
+    "Sezar Pizza": {
+      title: "Caesar Pizza",
+      description:
+        "Chicken fillet, Caesar sauce, mozzarella, Parmesan cheese and lettuce",
+    },
 
     "Di Mare Pizza": {
       title: "Di Mare Pizza",
@@ -447,10 +446,6 @@ export const menuTranslations = {
     "Klassik Steyk": {
       title: "Classic Steak",
       description: "Grilled classic beef steak",
-    },
-    "Balıqlı Noodle": {
-      title: "Fish Noodles",
-      description: "Fish fillet, egg noodles, vegetables, soy sauce and herbs",
     },
 
     "Ebi Noodle": {
@@ -787,7 +782,6 @@ export const menuTranslations = {
       title: "Bonito Roll",
       description: "8 pcs",
     },
-    
 
     "Kaliforniya Roll": {
       title: "California Roll",
@@ -1235,7 +1229,10 @@ export const menuTranslations = {
       title: "Пицца Маргарита",
       description: "Моцарелла, томатный соус и свежий базилик",
     },
-
+    "Sezar Pizza": {
+      title: "Пицца Цезарь",
+      description: "Куриное филе, соус Цезарь, моцарелла, сыр Пармезан и салат",
+    },
     "BBQ Sapora Pizza": {
       title: "Пицца BBQ Sapora",
       description: "Соус BBQ, курица, моцарелла и красный лук",
@@ -1304,11 +1301,6 @@ export const menuTranslations = {
       title: "Классический Стейк",
       description: "Классический говяжий стейк на гриле",
     },
-    "Balıqlı Noodle": {
-      title: "Лапша с Рыбой",
-      description: "Филе рыбы, яичная лапша, овощи, соевый соус и зелень",
-    },
-
     "Ebi Noodle": {
       title: "Лапша Эби",
       description: "Креветки, яичная лапша, овощи и фирменный азиатский соус",

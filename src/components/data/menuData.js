@@ -139,6 +139,7 @@ import takosusi from "../../assets/images/takosusi.jpeg";
 import sucuklutost from "../../assets/images/sucuklutost.jpeg";
 import fusiyon from "../../assets/images/fusiyon.jpeg";
 import bonito from "../../assets/images/bonito.jpeg";
+import sezarPizza from "../../assets/images/sezarPizza.jpeg";
 
 export const menuData = {
   breakfasts: [
@@ -424,6 +425,14 @@ export const menuData = {
       price: 9,
       image: vegetables,
     },
+    {
+      id: 8,
+      title: "Sezar Pizza",
+      description:
+        "Toyuq filesi, Sezar sousu, mozzarella, parmesan pendiri və kahı",
+      price: 13,
+      image: sezarPizza,
+    },
   ],
   salatlar: [
     {
@@ -574,44 +583,37 @@ export const menuData = {
     },
   ],
   asianFoodFashion: [
+   
     {
       id: 1,
-      title: "Balıqlı Noodle",
-      description:
-        "Balıq filesi, yumurta noodle, tərəvəzlər, soya sousu və göyərti",
-      price: 15,
-      image: noodle3,
-    },
-    {
-      id: 2,
       title: "Ebi Noodle",
       description: "Karides, yumurta noodle, tərəvəzlər və xüsusi Asiya sousu",
       price: 14,
       image: noodle2,
     },
     {
-      id: 3,
+      id: 2,
       title: "Toyuqlu Noodle",
       description: "Toyuq filesi, noodle, tərəvəzlər və soya sousu",
       price: 11,
       image: noodle1,
     },
     {
-      id: 4,
+      id: 3,
       title: "Toyuqlu Fried Rice",
       description: "Toyuq filesi, tərəvəzlər, yumurta və qızardılmış düyü",
       price: 10,
       image: defaultasian,
     },
     {
-      id: 5,
+      id: 4,
       title: "Ebili Fried Rice",
       description: "Karides, tərəvəzlər, yumurta və qızardılmış düyü",
       price: 12,
       image: riceebi,
     },
     {
-      id: 6,
+      id: 5,
       title: "Balıqlı Fried Rice",
       description: "Balıq filesi, tərəvəzlər, yumurta və qızardılmış düyü",
       price: 13,
@@ -619,16 +621,9 @@ export const menuData = {
     },
   ],
   sushiSets: [
+
     {
       id: 1,
-      title: "Sapora Premium Set",
-      price: 38.5,
-      description:
-        "Philadelphia Luxury Fresh (8), Black Roll (8), Cizz Roll (8), Chicken Hot Roll (10)",
-      image: premiumset,
-    },
-    {
-      id: 2,
       title: "Tokio Set",
       price: 28.9,
       description:
@@ -637,7 +632,7 @@ export const menuData = {
     },
 
     {
-      id: 3,
+      id: 2,
       title: "Hot City Set",
       price: 26.9,
       description:
@@ -646,7 +641,7 @@ export const menuData = {
     },
 
     {
-      id: 4,
+      id: 3,
       title: "Samuray Set",
       price: 29.9,
       description:
@@ -655,7 +650,7 @@ export const menuData = {
     },
 
     {
-      id: 5,
+      id: 4,
       title: "Sapora Set",
       price: 32.9,
       description:
@@ -663,7 +658,7 @@ export const menuData = {
       image: set4,
     },
     {
-      id: 6,
+      id: 5,
       title: "Fusiyon Set",
       price: 24.9,
       description:
