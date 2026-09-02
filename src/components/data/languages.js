@@ -1003,9 +1003,41 @@ export const menuTranslations = {
       title: "Shrimp Tempura",
       description: "Fried shrimp served with special sauce.",
     },
+    "Yaponika Susi Set + 2 Cola": {
+      title: "Yaponika Sushi Set + 2 Cola",
+      description:
+        "Philadelphia Roll (8), Chicken Baket Roll (10), Kani Hot Roll (10)",
+    },
+
+    "2 Nəfərlik Burger Seti": {
+      title: "2-Person Burger Set",
+      description: "2 Chicken Burgers, 2 French Fries, 2 Nuggets, 2 Colas",
+    },
+
+    "4 Nəfərlik Burger Seti": {
+      title: "4-Person Burger Set",
+      description: "4 Chicken Burgers, 4 French Fries, 4 Nuggets, 4 Colas",
+    },
   },
 
   ru: {
+    "Yaponika Susi Set + 2 Cola": {
+      title: "Сет суши Yaponika + 2 колы",
+      description:
+        "Филадельфия Ролл (8), Чикен Бакет Ролл (10), Кани Хот Ролл (10)",
+    },
+
+    "2 Nəfərlik Burger Seti": {
+      title: "Бургер-сет на 2 персоны",
+      description:
+        "2 куриных бургера, 2 порции картофеля фри, 2 наггетса, 2 колы",
+    },
+
+    "4 Nəfərlik Burger Seti": {
+      title: "Бургер-сет на 4 персоны",
+      description:
+        "4 куриных бургера, 4 порции картофеля фри, 4 наггетса, 4 колы",
+    },
     "Çaynik Çay": {
       title: "Чай в чайнике",
       description: "Традиционный азербайджанский черный чай",

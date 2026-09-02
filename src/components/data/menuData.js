@@ -140,6 +140,9 @@ import sucuklutost from "../../assets/images/sucuklutost.jpeg";
 import fusiyon from "../../assets/images/fusiyon.jpeg";
 import bonito from "../../assets/images/bonito.jpeg";
 import sezarPizza from "../../assets/images/sezarPizza.jpeg";
+import yaponika from "../../assets/images/yaponika.jpeg";
+import teoset from "../../assets/images/teoset.jpeg";
+import fourset from "../../assets/images/fourset.png";
 
 export const menuData = {
   breakfasts: [
@@ -583,7 +586,6 @@ export const menuData = {
     },
   ],
   asianFoodFashion: [
-   
     {
       id: 1,
       title: "Ebi Noodle",
@@ -621,9 +623,20 @@ export const menuData = {
     },
   ],
   sushiSets: [
-
     {
       id: 1,
+      title: "Yaponika Susi Set + 2 Cola",
+      price: 21.9,
+      description:
+        "Philadelphia (8), Chicken Baket Roll (10), Kani Hot Roll (10)",
+      image: yaponika,
+      availableTime: {
+        from: "12:00",
+        to: "17:00",
+      },
+    },
+    {
+      id: 2,
       title: "Tokio Set",
       price: 28.9,
       description:
@@ -632,7 +645,7 @@ export const menuData = {
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Hot City Set",
       price: 26.9,
       description:
@@ -641,7 +654,7 @@ export const menuData = {
     },
 
     {
-      id: 3,
+      id: 4,
       title: "Samuray Set",
       price: 29.9,
       description:
@@ -650,7 +663,7 @@ export const menuData = {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "Sapora Set",
       price: 32.9,
       description:
@@ -658,7 +671,7 @@ export const menuData = {
       image: set4,
     },
     {
-      id: 5,
+      id: 6,
       title: "Fusiyon Set",
       price: 24.9,
       description:
@@ -824,20 +837,42 @@ export const menuData = {
   burgerler: [
     {
       id: 1,
+      title: "2 Nəfərlik Burger Seti",
+      price: 18.9,
+      description: "2 Toyuq Burger, 2 Kartof Free, 2 Nuggets, 2 Cola",
+      image: teoset,
+      availableTime: {
+        from: "12:00",
+        to: "17:00",
+      },
+    },
+    {
+      id: 2,
+      title: "4 Nəfərlik Burger Seti",
+      price: 36.9,
+      description: "4 Toyuq Burger, 4 Kartof Free, 4 Nuggets, 4 Cola",
+      image: fourset,
+      availableTime: {
+        from: "12:00",
+        to: "17:00",
+      },
+    },
+    {
+      id: 3,
       title: "Cheese Burger",
       description: "Mal əti kotleti, pendir və tərəvəzlər",
       price: 9.5,
       image: maletburger,
     },
     {
-      id: 2,
+      id: 4,
       title: "Toyuq Burger",
       description: "Xırtıldayan toyuq filesi, pendir və təzə tərəvəzlər",
       price: 6.5,
       image: defaultburger,
     },
     {
-      id: 3,
+      id: 5,
       title: "Hamburger",
       description:
         "Şirəli mal əti kotleti, pendir, təzə tərəvəzlər və xüsusi sous",
@@ -845,35 +880,35 @@ export const menuData = {
       image: defaultburger,
     },
     {
-      id: 4,
+      id: 6,
       title: "Chicken Cheese Burger",
       description: "Toyuq filesi, tərəvəzlər,pendir və xüsusi sous",
       price: 8,
       image: defaultburger,
     },
     {
-      id: 5,
+      id: 7,
       title: "Sapora Cheeseburger",
       description: "Xüsusi pendirli Sapora burgeri",
       price: 12,
       image: saporacizburger,
     },
     {
-      id: 6,
+      id: 8,
       title: "Sapora Toyuq Burger",
       description: "Saporanın məşhur toyuq burgeri",
       price: 10,
       image: defaultburger,
     },
     {
-      id: 7,
+      id: 9,
       title: "Big Fantastik Burger",
       description: "İkiqat ətli böyük burger",
       price: 12,
       image: defaultburger,
     },
     {
-      id: 8,
+      id: 10,
       title: "Mix Fast",
       description:
         "Fri kartof, soğan halqaları, mozzarella çubuqları və toyuq naqetsləri",
@@ -881,21 +916,21 @@ export const menuData = {
       image: defaultburger,
     },
     {
-      id: 9,
+      id: 11,
       title: "Pendirli Tost",
       description: "Əridilmiş pendir ilə hazırlanmış xırtıldayan tost",
       price: 3,
       image: defaultburger,
     },
     {
-      id: 10,
+      id: 12,
       title: "Sucuqlu Tost",
       description: "Sucuq və pendir ilə hazırlanmış isti tost",
       price: 5.9,
       image: defaultburger,
     },
     {
-      id: 11,
+      id: 13,
       title: "Sucuqlu Tost + Fries",
       description:
         "Sucuq və pendir ilə hazırlanmış isti tost və qızardılmış kartof fri",

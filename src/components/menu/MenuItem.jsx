@@ -11,6 +11,7 @@ const MenuItem = ({
   image,
   title,
   description,
+  availableTime,
   price,
   priceSmall,
   priceMedium,
@@ -115,7 +116,19 @@ const MenuItem = ({
             {translatedDescription}
           </p>
         )}
-
+        {availableTime && (
+          <div className="flex items-center gap-1.5 mt-2">
+            <span className="text-[#c9a46a] text-sm">🕐</span>
+            <span className="text-[#c9a46a] text-xs font-semibold">
+              {language === "az" &&
+                `Yalnız ${availableTime.from} – ${availableTime.to}`}
+              {language === "en" &&
+                `Only ${availableTime.from} – ${availableTime.to}`}
+              {language === "ru" &&
+                `Только ${availableTime.from} – ${availableTime.to}`}
+            </span>
+          </div>
+        )}
         {chooseCount > 0 && (
           <div className="mt-2">
             <span
