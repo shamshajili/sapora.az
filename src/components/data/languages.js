@@ -222,6 +222,10 @@ export const menuTranslations = {
       description:
         "Fresh salmon, sushi rice, nori seaweed, cucumber, avocado, and Sapora signature sauce.",
     },
+"Xırt-xırt badımcan salatı": {
+  title: "Crispy Eggplant Salad",
+  description: "Crispy fried eggplant, fresh vegetables, and signature sauce.",
+},
 
     "Katana Sushi Burger": {
       title: "Katana Sushi Burger",
@@ -244,8 +248,8 @@ export const menuTranslations = {
       title: "Tomato Soup",
       description: "Tomato, basil, garlic and special sauce",
     },
-    "Tomyun Şorbası": {
-      title: "Tomyun Soup",
+    "Tomyam Şorbası": {
+      title: "Tomyum Soup",
       description: "Tomyun, vegetables and special spices",
     },
     "Fetuçini Alfredo": {
@@ -463,7 +467,7 @@ export const menuTranslations = {
       description: "Chicken fillet, vegetables, egg and fried rice",
     },
 
-    "Ebili Fried Rice": {
+    "Ebi Fried Rice": {
       title: "Shrimp Fried Rice",
       description: "Shrimp, vegetables, egg and fried rice",
     },
@@ -788,7 +792,7 @@ export const menuTranslations = {
       description: "8 pcs",
     },
 
-    "Sedir Roll": {
+    "Cedar Roll": {
       title: "Cedar Roll",
       description: "8 pcs",
     },
@@ -1156,7 +1160,7 @@ export const menuTranslations = {
       title: "Томатный Суп",
       description: "Томаты, базилик, чеснок и фирменный соус",
     },
-    "Tomyun Şorbası": {
+    "Tomyam Şorbası": {
       title: "Суп Том Ям",
       description: "Том Ям, овощи и специальные специи",
     },
@@ -1348,7 +1352,7 @@ export const menuTranslations = {
       description: "Куриное филе, овощи, яйцо и жареный рис",
     },
 
-    "Ebili Fried Rice": {
+    "Ebi Fried Rice": {
       title: "Жареный Рис с Креветками",
       description: "Креветки, овощи, яйцо и жареный рис",
     },
@@ -1665,7 +1669,7 @@ export const menuTranslations = {
       description: "8 шт",
     },
 
-    "Sedir Roll": {
+    "Cedar Roll": {
       title: "Сидар Ролл",
       description: "8 шт",
     },
@@ -1709,7 +1713,10 @@ export const menuTranslations = {
       title: "Саке Хот",
       description: "10 шт",
     },
-
+"Xırt-xırt badımcan salatı": {
+  title: "Салат с хрустящими баклажанами",
+  description: "Хрустящие обжаренные баклажаны, свежие овощи и фирменный соус.",
+},
     "Çiken Hot": {
       title: "Чикен Хот",
       description: "10 шт",

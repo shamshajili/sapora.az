@@ -143,6 +143,7 @@ import sezarPizza from "../../assets/images/sezarPizza.jpeg";
 import yaponika from "../../assets/images/yaponika.jpeg";
 import teoset from "../../assets/images/teoset.jpeg";
 import fourset from "../../assets/images/fourset.png";
+import badimcan1 from "../../assets/images/badmcan.png";
 
 export const menuData = {
   breakfasts: [
@@ -369,8 +370,8 @@ export const menuData = {
     },
     {
       id: 4,
-      title: "Tomyun Şorbası",
-      description: "Tomyun, tərəvəzlər və xüsusi ədviyyatlar",
+      title: "Tomyam Şorbası",
+      description: "Tomyam, tərəvəzlər və xüsusi ədviyyatlar",
       price: 8,
       image: sorba5,
     },
@@ -413,14 +414,7 @@ export const menuData = {
       price: 10,
       image: chickkenmashroom,
     },
-    {
-      id: 6,
-      title: "Di Mare Pizza",
-      description:
-        "Karides, kalmar, ton, mozzarella pendiri və dəniz məhsulları",
-      price: 12,
-      image: dimare,
-    },
+
     {
       id: 7,
       title: "Tərəvəzli Pizza",
@@ -461,22 +455,29 @@ export const menuData = {
       price: 12,
       image: defaultsalap,
     },
+{
+  id: 4,
+  title: "Xırt-xırt badımcan salatı",
+  description: "Xırt-xırt qızardılmış badımcan, təzə tərəvəzlər və xüsusi sous.",
+  price: 8,
+  image: badimcan1,
+},
     {
-      id: 4,
+      id: 5,
       title: "Hariatiki Salatı",
       description: "Təzə tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
       price: 6,
       image: hariatiki,
     },
     {
-      id: 5,
+      id: 6,
       title: "Ton Balıqlı Salat",
       description: "Ton balığı, tərəvəzlər və xüsusi sous",
       price: 7.5,
       image: defaultsalap,
     },
     {
-      id: 6,
+      id: 7,
       title: "İsti Salat",
       description: "İsti tərəvəzlər və xüsusi sous ilə hazırlanmış salat",
       price: 11.9,
@@ -497,14 +498,6 @@ export const menuData = {
       title: "Toyuqlu Stroqanov",
       description: "Toyuq filesi, göbələk və qaymaqlı sous",
       price: 9.9,
-      image: defaultavropa,
-    },
-    {
-      id: 3,
-      title: "İspan Paelyası",
-      description:
-        "Dəniz məhsulları və düyü ilə hazırlanan ənənəvi ispan yeməyi",
-      price: 12,
       image: defaultavropa,
     },
     {
@@ -609,7 +602,7 @@ export const menuData = {
     },
     {
       id: 4,
-      title: "Ebili Fried Rice",
+      title: "Ebi Fried Rice",
       description: "Karides, tərəvəzlər, yumurta və qızardılmış düyü",
       price: 12,
       image: riceebi,
@@ -623,18 +616,6 @@ export const menuData = {
     },
   ],
   sushiSets: [
-    {
-      id: 1,
-      title: "Yaponika Susi Set + 2 Cola",
-      price: 21.9,
-      description:
-        "Philadelphia (8), Chicken Baket Roll (10), Kani Hot Roll (10)",
-      image: yaponika,
-      availableTime: {
-        from: "12:00",
-        to: "17:00",
-      },
-    },
     {
       id: 2,
       title: "Tokio Set",
@@ -669,14 +650,6 @@ export const menuData = {
       description:
         "Philadelphia Roll (8), Sapora Roll (8), California Roll (8), Alaska Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
       image: set4,
-    },
-    {
-      id: 6,
-      title: "Fusiyon Set",
-      price: 24.9,
-      description:
-        "Philadelphia Roll (8), Cips Roll (8), Kani Hot Roll (10), Chicken Hot Roll (10)",
-      image: fusiyon,
     },
   ],
 
@@ -749,7 +722,7 @@ export const menuData = {
 
     {
       id: 9,
-      title: "Sedir Roll",
+      title: "Cedar Roll",
       description: "8 ədəd",
       price: 8,
       image: defaultsusi,
@@ -836,28 +809,6 @@ export const menuData = {
   ],
   burgerler: [
     {
-      id: 1,
-      title: "2 Nəfərlik Burger Seti",
-      price: 18.9,
-      description: "2 Toyuq Burger, 2 Kartof Free, 2 Nuggets, 2 Cola",
-      image: teoset,
-      availableTime: {
-        from: "12:00",
-        to: "17:00",
-      },
-    },
-    {
-      id: 2,
-      title: "4 Nəfərlik Burger Seti",
-      price: 36.9,
-      description: "4 Toyuq Burger, 4 Kartof Free, 4 Nuggets, 4 Cola",
-      image: fourset,
-      availableTime: {
-        from: "12:00",
-        to: "17:00",
-      },
-    },
-    {
       id: 3,
       title: "Cheese Burger",
       description: "Mal əti kotleti, pendir və tərəvəzlər",
@@ -898,7 +849,7 @@ export const menuData = {
       title: "Sapora Toyuq Burger",
       description: "Saporanın məşhur toyuq burgeri",
       price: 10,
-      image: defaultburger,
+      image: saporacizburger,
     },
     {
       id: 9,
@@ -928,14 +879,6 @@ export const menuData = {
       description: "Sucuq və pendir ilə hazırlanmış isti tost",
       price: 5.9,
       image: defaultburger,
-    },
-    {
-      id: 13,
-      title: "Sucuqlu Tost + Fries",
-      description:
-        "Sucuq və pendir ilə hazırlanmış isti tost və qızardılmış kartof fri",
-      price: 7.9,
-      image: sucuklutost,
     },
   ],
   mixFast: [
